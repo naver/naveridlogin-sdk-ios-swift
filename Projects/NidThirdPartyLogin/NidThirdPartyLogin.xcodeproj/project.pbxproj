@@ -1,0 +1,1583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		046D2DB3C99347782F6C15F1 /* NidError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE70F4DDDFFA4DC72FFE7C54 /* NidError.swift */; };
+		04D2CE2A9A9B671E44D3A876 /* LoginRequestValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA323A06A63A2389895748B /* LoginRequestValue.swift */; };
+		06DEAD95F7EDC306E75C5072 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5238EC1C9FA76E792B6C4E /* Constant.swift */; };
+		07C749B051C05C8638D7FB3E /* SDKRootDIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD99B700D86DDE4AECA55CA /* SDKRootDIContainer.swift */; };
+		0F4E1C00808E9C8CC55481E5 /* URL+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2464508B119383CB9CE7A240 /* URL+.swift */; };
+		17F3A631CEEF6DE75F7C9B04 /* FetchToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA1AC6787F0B4D6FC84A9EE /* FetchToken.swift */; };
+		1990E077720BB2000452897E /* PerformLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C890EFD9C82BBF77E5457463 /* PerformLogin.swift */; };
+		1DBCF5C730AD28280BF54110 /* NidCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E1ADBE7ABDD9D9743F0C95E /* NidCore.framework */; };
+		1EFCB4EBD0077DF1AEC70026 /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D50EF2C4A208BC3D427D349 /* String+.swift */; };
+		20EE1DBAB86FF7AA06EEDBE6 /* DeleteAccessTokenResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACBEEF72C0ACE878DAE8399 /* DeleteAccessTokenResponse.swift */; };
+		239365EDA53C65373CDB2E09 /* ValidateAccessTokenRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AACDB1589CFDFE7D2DA6119 /* ValidateAccessTokenRequest.swift */; };
+		266ECB523AE7E6F3727A09AA /* AppAuthCodeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3C64F62499247FA0C8D44B /* AppAuthCodeRequest.swift */; };
+		2BD86471A38DEF688C6B561B /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F0B4011908B4DB1ACBDE19 /* Network.swift */; };
+		2BE048E652F3CD03C00317B8 /* WebLoginProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C6DD1EB5D6A1A39B5C548F /* WebLoginProcess.swift */; };
+		2CBB17382F8353AB76F01D14 /* AccessTokenVerificationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFEF41224AAED46506D3D47 /* AccessTokenVerificationRepository.swift */; };
+		2DA557F79921A17614298CE7 /* ResultCodeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3D91447B5B48073E3619E5 /* ResultCodeResponse.swift */; };
+		343979A2F09F6DC3B45D8C92 /* Array+.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4D747179523D2547A40C64 /* Array+.swift */; };
+		3509C1D26158106EA6D2F2F1 /* IssueAccessTokenResponse+Mapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0F70EE95BB309CC20BC578 /* IssueAccessTokenResponse+Mapping.swift */; };
+		3588E7CC51D182FED1D6C75B /* StorableItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6229BCE87E4A3981B8828C3E /* StorableItem.swift */; };
+		3872B4CB69D93CC4D53F58B0 /* NidCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E1ADBE7ABDD9D9743F0C95E /* NidCore.framework */; };
+		39ED92BB2BF57026AE9947A8 /* libUtils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5DA42389F3BAEBCAB1C2514 /* libUtils.a */; };
+		3AA05DD31404DB52B0987F74 /* UserProfileRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E538C571FE0A408C3E7D7D /* UserProfileRepository.swift */; };
+		3C7B0A6306AA2F8DD422B551 /* ResultResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B94654C7EACC42467BC47F /* ResultResponse.swift */; };
+		3E752576920C74D83AC16BD8 /* DisconnectAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49266479908652F899324108 /* DisconnectAccount.swift */; };
+		4102321A342D78DB817635BB /* OAuthDIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7741711FDE4B1280379CA4D6 /* OAuthDIContainer.swift */; };
+		43C979E72B200D223191227F /* SystemInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFFAEDF8C6F960EE767F67B /* SystemInfo.swift */; };
+		44FA5F5CA9E7AD286C164CE7 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD10B6A690D6FB7467BB73A3 /* Request.swift */; };
+		4822D94E554473A8998C006D /* KeychainStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F433B36A5FC1FBC14018FD /* KeychainStorage.swift */; };
+		49C13C8EDC72C4CBBD49FE72 /* FetchUserProfileResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC109FA6B3E1BDE367FD603 /* FetchUserProfileResponse.swift */; };
+		4D1F5B0F9630F98281EF362B /* TokenRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C794DA0297577E9D9574686 /* TokenRepository.swift */; };
+		4E520B0346A9649AE6C9AF95 /* PerformLogout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9366688A2B4F1F74AD61101 /* PerformLogout.swift */; };
+		4FC91DDD955551E2C41BB102 /* Output.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FF305C5441A667DB87ABBA /* Output.swift */; };
+		56D9B4C3DEDEAA48F48FA0A5 /* Dictionary+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4047A1BE953C82AA1D91BC37 /* Dictionary+.swift */; };
+		5784CEEA22C627D55849A473 /* ValidateAccessTokenResponse+Mapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = A277A9857F6FB75982B5957D /* ValidateAccessTokenResponse+Mapping.swift */; };
+		581744EAFD36DBCD15653E27 /* DefaultClientInfoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33579BFDEA63487A1346A82 /* DefaultClientInfoRepository.swift */; };
+		5B95426970C94F12CA03A3F9 /* PerformWebLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D3D5E216EDAD505DF9BFBF /* PerformWebLogin.swift */; };
+		5D1967E96CE721FE9557C47A /* HTTPHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED449177EA6EAC145327BDD9 /* HTTPHeader.swift */; };
+		60201CF0D1551107F370D1D0 /* UIDevice+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C6F0ECEB83A33277177E0D /* UIDevice+.swift */; };
+		618DE6E61239F30F5887D3ED /* DefaultuserStateRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A655504BBD9C8CF7428EAC /* DefaultuserStateRepository.swift */; };
+		620509CF5D8B0978F7FAA05D /* WebAuthorizationCodeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59763D099193E9307F00A7AE /* WebAuthorizationCodeRepository.swift */; };
+		66D50C11A7DC9772851FE801 /* AppAuthorizationCodeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1291517F5F00CF81F4812E /* AppAuthorizationCodeRepository.swift */; };
+		6BFC636EECE81836B2A2C6CE /* DeleteAccessTokenRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9541CB448A207344B65C8C28 /* DeleteAccessTokenRequest.swift */; };
+		6CBFA7A1A44683AA6F2E6239 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7873685C14F14CD7E0A20CD2 /* NetworkError.swift */; };
+		70191C052DDAA01706AA39CF /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155C67152E8776D273BBB940 /* Language.swift */; };
+		735A9B60BE051632360013B7 /* NaverAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2ED2925AA4B8B9415DDEF06 /* NaverAlertViewController.swift */; };
+		7C23178ED35BFA53A5013231 /* PerformAppLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E6EE9B8DBE6E7BF23789E9 /* PerformAppLogin.swift */; };
+		8132B51A1D7135988AFFC9A9 /* ClientInfoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56017591402D1C0FF9D6B36D /* ClientInfoRepository.swift */; };
+		84023DE08E31DC4AD0F09D0E /* PersistentStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DFA03B2771F744EE0C6FE8 /* PersistentStorage.swift */; };
+		85E70DB16352C42EE635CFFE /* DefaultLoginResultRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CFEA354C8CC7EE1A608D36 /* DefaultLoginResultRepository.swift */; };
+		86CF9EF44C5B25D1B4527162 /* PerformLoginUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29233D20DBA1D0A19CF4E17 /* PerformLoginUseCase.swift */; };
+		89AEDF436CF263D03EC87165 /* LoginResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8930118529EEE666B45BF4C /* LoginResult.swift */; };
+		8B83F033C8C23B12AE914220 /* libNidLogin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 960DECA437EDE86E20D7E543 /* libNidLogin.a */; };
+		8CFCEF291CCFCFD9A26BB265 /* VerifyAccessToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6840169DB60DEB59ABB7A948 /* VerifyAccessToken.swift */; };
+		90AFCFC0C772166D7318F1F8 /* AccessToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5A024980ACE36119DBB94B /* AccessToken.swift */; };
+		9176316353EAF3A88F5E675E /* AccessTokenWithRefreshTokenResponse+Mapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0F190ABAD11C885DA11534 /* AccessTokenWithRefreshTokenResponse+Mapping.swift */; };
+		94966D659130E15EBB131AD5 /* IssueAccessTokenRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C22893EAE82F1DD20FA47B /* IssueAccessTokenRequest.swift */; };
+		96188A05B614BC4608ECE083 /* CharacterSet+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEC52F6B4B5D5488BF08A47 /* CharacterSet+.swift */; };
+		9ADE637ABE5B45D8D95682FD /* HTTPHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B2A38B29A2BA5DC4616B3A /* HTTPHeaders.swift */; };
+		9AF8C71C2FCA7470A7C9017A /* URLGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E5FF2FDB0AA184390F21BC /* URLGenerator.swift */; };
+		9C278106CA30D4C54A29FFD1 /* DefaultOpenAPIRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9FDB6B0423CC5E8343B042 /* DefaultOpenAPIRepository.swift */; };
+		9C899C4E00715360D79CC779 /* DefaultStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1482BBAE6FCA6C2F7111020C /* DefaultStorage.swift */; };
+		9DB3AAEA31F8C4294722C005 /* DefaultTokenRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EBC6ADCB25932CD8DFDD6A /* DefaultTokenRepository.swift */; };
+		9FF9BC869B4FF2C8DB9D504C /* Data+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F3BC9276710603EC24F728 /* Data+.swift */; };
+		A1A431AE13AE8ADF09E4F778 /* libUtils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5DA42389F3BAEBCAB1C2514 /* libUtils.a */; };
+		A2500AA524F9A34AC41CD7A0 /* DefaultStateGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A0F80B37F8CF9AC6C251B7 /* DefaultStateGenerator.swift */; };
+		A3B9FE9FB5B6F836B7AA94EC /* NidLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7432D7F58BF3510932BE551 /* NidLogger.swift */; };
+		A5B063310C46D8C6E206B09F /* WebAuthCodeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EA51E8BEAE007AA282432E /* WebAuthCodeRequest.swift */; };
+		AEBCE76504D0893DC2EF2C98 /* RefreshToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEC8D80CFA0FB9276CC59D0 /* RefreshToken.swift */; };
+		AF7DB10DA109654FF6951F03 /* BundleDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA088829B6FFC3102FA3AA19 /* BundleDataSource.swift */; };
+		B87E780847DA1B2140801142 /* UpdateAccessTokenRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789ECA9F60BCCABB6AFB2B23 /* UpdateAccessTokenRequest.swift */; };
+		B8BD3F36615119F522254774 /* RequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E3407E0ED40636777234CB /* RequestFactory.swift */; };
+		BB3FC788F3606BCB1375B1B7 /* WebAuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1662ED3ED1E21962C34137C4 /* WebAuthenticationService.swift */; };
+		C981AD488F91251D0CF1A1EB /* FetchUserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC95BEDED203D03BDD76A9D /* FetchUserProfile.swift */; };
+		CD45278B4BF82BEB58BA13EF /* URLSessionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BBE8BF299BEEBE653EDAF1 /* URLSessionProtocol.swift */; };
+		CDE2DC4C68536EF324272FEF /* UserDefaultsStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304DB310BC9858320DD1F4AC /* UserDefaultsStorage.swift */; };
+		CFBF91DE061665423CDA0E8D /* libNetworkKit.a in Dependencies */ = {isa = PBXBuildFile; fileRef = D5173A79896E726C59C048D0 /* libNetworkKit.a */; };
+		D30CF761A5E508FEA6ED6EB8 /* MemoryStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435D2B4722C78208BE97F23E /* MemoryStorage.swift */; };
+		D4847A34FBAB61B3D0F5F59A /* LoginResultRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07FDBA7CE267D52AAB7D628 /* LoginResultRepository.swift */; };
+		D5EF25C0FC866E2A82A35DD3 /* libUtils.a in Dependencies */ = {isa = PBXBuildFile; fileRef = A5DA42389F3BAEBCAB1C2514 /* libUtils.a */; };
+		D7E042CD53F99F511FE5F8E9 /* DefaultAppAuthorizationCodeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EF8CF0E29F93ECA00EAAFD /* DefaultAppAuthorizationCodeRepository.swift */; };
+		D8702F0034874705F43EF4A9 /* libUtils.a in Dependencies */ = {isa = PBXBuildFile; fileRef = A5DA42389F3BAEBCAB1C2514 /* libUtils.a */; };
+		D882BEA7E7220331626F8664 /* UIApplication+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077A0AA8ECAB863B055BE9C7 /* UIApplication+.swift */; };
+		E0203CEE4F1E3F8ED02F2B17 /* DefaultWebAuthorizationCodeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC59B8219D23B0C5267323F /* DefaultWebAuthorizationCodeRepository.swift */; };
+		E63F92AA51C15037734CB74A /* AppLoginProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A19078FF96CE30E448D4BD /* AppLoginProcess.swift */; };
+		EB8834A2E742A01A3890002A /* NidOAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB8F4A200030D9AD169AEE1 /* NidOAuth.swift */; };
+		EF94B3EFC25D8DE2CC24F402 /* libNetworkKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5173A79896E726C59C048D0 /* libNetworkKit.a */; };
+		F0E4BA6CAAD5082C770F8151 /* LoginProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F312B634C1707DF1495DC9 /* LoginProcess.swift */; };
+		F100E0483A86D9C283619260 /* GrantType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9C7F79285E3D34ACBD997B /* GrantType.swift */; };
+		F1B63D2335A3C49ADAC62835 /* FetchUserProfileRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853CDCA2E13FC0134EEC64F4 /* FetchUserProfileRequest.swift */; };
+		F2683326D8BC1B8A1258A96B /* FetchClientInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D2EDC505F0609A3C11A9B2 /* FetchClientInfo.swift */; };
+		F5AA97F8495C6504CB6418FC /* PerformInitialSetUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960560F437BB4619E4656D72 /* PerformInitialSetUp.swift */; };
+		F7F90020DCA0DD55A027A348 /* ConfigKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877BD14652BE285BC2F18FE8 /* ConfigKeys.swift */; };
+		FC41BB77D6FCF71A043321DE /* LoginBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA870675571508218C25987 /* LoginBehavior.swift */; };
+		FE0789A570810BA155D71062 /* libNetworkKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5173A79896E726C59C048D0 /* libNetworkKit.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2087C3592D285B42B542E338 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD5683201FD594D32FC0487A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFA13896537A505E43346F72;
+			remoteInfo = NidCore;
+		};
+		28F9FBCD56597E2375F7C35B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD5683201FD594D32FC0487A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFA13896537A505E43346F72;
+			remoteInfo = NidCore;
+		};
+		6DB915539D1262FA59AA0E42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD5683201FD594D32FC0487A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E79C33886CF97C139E0C063;
+			remoteInfo = Utils;
+		};
+		96E24260C47E5DAF828FDBE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD5683201FD594D32FC0487A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E79C33886CF97C139E0C063;
+			remoteInfo = Utils;
+		};
+		CDA6FBDBDBE65025CC6875CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD5683201FD594D32FC0487A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E79C33886CF97C139E0C063;
+			remoteInfo = Utils;
+		};
+		D085BEA64E8CBF6B187FFEE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD5683201FD594D32FC0487A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF53E3E26B7C333C3DEDD5A7;
+			remoteInfo = NetworkKit;
+		};
+		D32DD1B13F3E7685D3C25E8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD5683201FD594D32FC0487A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF53E3E26B7C333C3DEDD5A7;
+			remoteInfo = NetworkKit;
+		};
+		D5F9CB701039F6769D96C45C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD5683201FD594D32FC0487A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32412244FF64C8AFE5F4DE40;
+			remoteInfo = NidLogin;
+		};
+		F79BEA1580984D8C70B0F6EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD5683201FD594D32FC0487A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF53E3E26B7C333C3DEDD5A7;
+			remoteInfo = NetworkKit;
+		};
+		F9B82C6B3323D4B117BAB9A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD5683201FD594D32FC0487A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E79C33886CF97C139E0C063;
+			remoteInfo = Utils;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0DFF60F15A4E96B2C6B2B798 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E98AB25B183B2FEEFBC50AE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C47811136062D164B760C9F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0A793A3EA62FD9475CF080D /* Dependencies */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstSubfolderSpec = 16;
+			files = (
+				D5EF25C0FC866E2A82A35DD3 /* libUtils.a in Dependencies */,
+			);
+			name = Dependencies;
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		A4F8C22D1BC57D5B40AD1A7F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8C617370BB0A24EE61A33BD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1ABA9E12AB47577FEF1A98A /* Dependencies */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstSubfolderSpec = 16;
+			files = (
+				CFBF91DE061665423CDA0E8D /* libNetworkKit.a in Dependencies */,
+				D8702F0034874705F43EF4A9 /* libUtils.a in Dependencies */,
+			);
+			name = Dependencies;
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		01BBE8BF299BEEBE653EDAF1 /* URLSessionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionProtocol.swift; sourceTree = "<group>"; };
+		01EF8CF0E29F93ECA00EAAFD /* DefaultAppAuthorizationCodeRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultAppAuthorizationCodeRepository.swift; sourceTree = "<group>"; };
+		03E538C571FE0A408C3E7D7D /* UserProfileRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileRepository.swift; sourceTree = "<group>"; };
+		06CFEA354C8CC7EE1A608D36 /* DefaultLoginResultRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultLoginResultRepository.swift; sourceTree = "<group>"; };
+		077A0AA8ECAB863B055BE9C7 /* UIApplication+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+.swift"; sourceTree = "<group>"; };
+		0BFEF41224AAED46506D3D47 /* AccessTokenVerificationRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessTokenVerificationRepository.swift; sourceTree = "<group>"; };
+		0F9FDB6B0423CC5E8343B042 /* DefaultOpenAPIRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultOpenAPIRepository.swift; sourceTree = "<group>"; };
+		1482BBAE6FCA6C2F7111020C /* DefaultStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultStorage.swift; sourceTree = "<group>"; };
+		155C67152E8776D273BBB940 /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
+		15E5FF2FDB0AA184390F21BC /* URLGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLGenerator.swift; sourceTree = "<group>"; };
+		1662ED3ED1E21962C34137C4 /* WebAuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebAuthenticationService.swift; sourceTree = "<group>"; };
+		19A655504BBD9C8CF7428EAC /* DefaultuserStateRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultuserStateRepository.swift; sourceTree = "<group>"; };
+		1BD0BA89CDCD2A3FFC9755DC /* NidThirdPartyLogin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "NidThirdPartyLogin-Info.plist"; sourceTree = "<group>"; };
+		22EFB023ABF44A643D9C54AA /* NidThirdPartyLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NidThirdPartyLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2464508B119383CB9CE7A240 /* URL+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+.swift"; sourceTree = "<group>"; };
+		2A5238EC1C9FA76E792B6C4E /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		2C794DA0297577E9D9574686 /* TokenRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenRepository.swift; sourceTree = "<group>"; };
+		2CB8F4A200030D9AD169AEE1 /* NidOAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NidOAuth.swift; sourceTree = "<group>"; };
+		2CC109FA6B3E1BDE367FD603 /* FetchUserProfileResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchUserProfileResponse.swift; sourceTree = "<group>"; };
+		2F9C7F79285E3D34ACBD997B /* GrantType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrantType.swift; sourceTree = "<group>"; };
+		304DB310BC9858320DD1F4AC /* UserDefaultsStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsStorage.swift; sourceTree = "<group>"; };
+		32A0F80B37F8CF9AC6C251B7 /* DefaultStateGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultStateGenerator.swift; sourceTree = "<group>"; };
+		32E3407E0ED40636777234CB /* RequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestFactory.swift; sourceTree = "<group>"; };
+		35F0B4011908B4DB1ACBDE19 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		35F433B36A5FC1FBC14018FD /* KeychainStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainStorage.swift; sourceTree = "<group>"; };
+		3AACDB1589CFDFE7D2DA6119 /* ValidateAccessTokenRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateAccessTokenRequest.swift; sourceTree = "<group>"; };
+		4047A1BE953C82AA1D91BC37 /* Dictionary+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+.swift"; sourceTree = "<group>"; };
+		435D2B4722C78208BE97F23E /* MemoryStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryStorage.swift; sourceTree = "<group>"; };
+		49266479908652F899324108 /* DisconnectAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisconnectAccount.swift; sourceTree = "<group>"; };
+		4E1ADBE7ABDD9D9743F0C95E /* NidCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NidCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52C6DD1EB5D6A1A39B5C548F /* WebLoginProcess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebLoginProcess.swift; sourceTree = "<group>"; };
+		53FDA086867BC5E494F2E14E /* NidCore-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "NidCore-Info.plist"; sourceTree = "<group>"; };
+		56017591402D1C0FF9D6B36D /* ClientInfoRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientInfoRepository.swift; sourceTree = "<group>"; };
+		58B2A38B29A2BA5DC4616B3A /* HTTPHeaders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPHeaders.swift; sourceTree = "<group>"; };
+		59763D099193E9307F00A7AE /* WebAuthorizationCodeRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebAuthorizationCodeRepository.swift; sourceTree = "<group>"; };
+		59C22893EAE82F1DD20FA47B /* IssueAccessTokenRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueAccessTokenRequest.swift; sourceTree = "<group>"; };
+		5B0F70EE95BB309CC20BC578 /* IssueAccessTokenResponse+Mapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IssueAccessTokenResponse+Mapping.swift"; sourceTree = "<group>"; };
+		5FC95BEDED203D03BDD76A9D /* FetchUserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchUserProfile.swift; sourceTree = "<group>"; };
+		6229BCE87E4A3981B8828C3E /* StorableItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorableItem.swift; sourceTree = "<group>"; };
+		65F312B634C1707DF1495DC9 /* LoginProcess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProcess.swift; sourceTree = "<group>"; };
+		66A19078FF96CE30E448D4BD /* AppLoginProcess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLoginProcess.swift; sourceTree = "<group>"; };
+		67EBC6ADCB25932CD8DFDD6A /* DefaultTokenRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTokenRepository.swift; sourceTree = "<group>"; };
+		6840169DB60DEB59ABB7A948 /* VerifyAccessToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyAccessToken.swift; sourceTree = "<group>"; };
+		6ACBEEF72C0ACE878DAE8399 /* DeleteAccessTokenResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteAccessTokenResponse.swift; sourceTree = "<group>"; };
+		6BA870675571508218C25987 /* LoginBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginBehavior.swift; sourceTree = "<group>"; };
+		6C0F190ABAD11C885DA11534 /* AccessTokenWithRefreshTokenResponse+Mapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AccessTokenWithRefreshTokenResponse+Mapping.swift"; sourceTree = "<group>"; };
+		6C3C64F62499247FA0C8D44B /* AppAuthCodeRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAuthCodeRequest.swift; sourceTree = "<group>"; };
+		6EEC8D80CFA0FB9276CC59D0 /* RefreshToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshToken.swift; sourceTree = "<group>"; };
+		73C6F0ECEB83A33277177E0D /* UIDevice+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+.swift"; sourceTree = "<group>"; };
+		76EA51E8BEAE007AA282432E /* WebAuthCodeRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebAuthCodeRequest.swift; sourceTree = "<group>"; };
+		7741711FDE4B1280379CA4D6 /* OAuthDIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuthDIContainer.swift; sourceTree = "<group>"; };
+		7873685C14F14CD7E0A20CD2 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		789ECA9F60BCCABB6AFB2B23 /* UpdateAccessTokenRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateAccessTokenRequest.swift; sourceTree = "<group>"; };
+		7B1291517F5F00CF81F4812E /* AppAuthorizationCodeRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAuthorizationCodeRepository.swift; sourceTree = "<group>"; };
+		7D50EF2C4A208BC3D427D349 /* String+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
+		853CDCA2E13FC0134EEC64F4 /* FetchUserProfileRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchUserProfileRequest.swift; sourceTree = "<group>"; };
+		86B94654C7EACC42467BC47F /* ResultResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultResponse.swift; sourceTree = "<group>"; };
+		877BD14652BE285BC2F18FE8 /* ConfigKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigKeys.swift; sourceTree = "<group>"; };
+		8B5A024980ACE36119DBB94B /* AccessToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessToken.swift; sourceTree = "<group>"; };
+		8BD99B700D86DDE4AECA55CA /* SDKRootDIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKRootDIContainer.swift; sourceTree = "<group>"; };
+		8DFFAEDF8C6F960EE767F67B /* SystemInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemInfo.swift; sourceTree = "<group>"; };
+		9541CB448A207344B65C8C28 /* DeleteAccessTokenRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteAccessTokenRequest.swift; sourceTree = "<group>"; };
+		960560F437BB4619E4656D72 /* PerformInitialSetUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformInitialSetUp.swift; sourceTree = "<group>"; };
+		960DECA437EDE86E20D7E543 /* libNidLogin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNidLogin.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DEC52F6B4B5D5488BF08A47 /* CharacterSet+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CharacterSet+.swift"; sourceTree = "<group>"; };
+		A277A9857F6FB75982B5957D /* ValidateAccessTokenResponse+Mapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ValidateAccessTokenResponse+Mapping.swift"; sourceTree = "<group>"; };
+		A29233D20DBA1D0A19CF4E17 /* PerformLoginUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformLoginUseCase.swift; sourceTree = "<group>"; };
+		A5DA42389F3BAEBCAB1C2514 /* libUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUtils.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9366688A2B4F1F74AD61101 /* PerformLogout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformLogout.swift; sourceTree = "<group>"; };
+		AA088829B6FFC3102FA3AA19 /* BundleDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleDataSource.swift; sourceTree = "<group>"; };
+		AEA323A06A63A2389895748B /* LoginRequestValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequestValue.swift; sourceTree = "<group>"; };
+		B2ED2925AA4B8B9415DDEF06 /* NaverAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaverAlertViewController.swift; sourceTree = "<group>"; };
+		B5DFA03B2771F744EE0C6FE8 /* PersistentStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentStorage.swift; sourceTree = "<group>"; };
+		BE3D91447B5B48073E3619E5 /* ResultCodeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCodeResponse.swift; sourceTree = "<group>"; };
+		C2D3D5E216EDAD505DF9BFBF /* PerformWebLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformWebLogin.swift; sourceTree = "<group>"; };
+		C2E6EE9B8DBE6E7BF23789E9 /* PerformAppLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformAppLogin.swift; sourceTree = "<group>"; };
+		C4D2EDC505F0609A3C11A9B2 /* FetchClientInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchClientInfo.swift; sourceTree = "<group>"; };
+		C7432D7F58BF3510932BE551 /* NidLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NidLogger.swift; sourceTree = "<group>"; };
+		C890EFD9C82BBF77E5457463 /* PerformLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformLogin.swift; sourceTree = "<group>"; };
+		CBA1AC6787F0B4D6FC84A9EE /* FetchToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchToken.swift; sourceTree = "<group>"; };
+		CBC59B8219D23B0C5267323F /* DefaultWebAuthorizationCodeRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultWebAuthorizationCodeRepository.swift; sourceTree = "<group>"; };
+		CD10B6A690D6FB7467BB73A3 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		D07FDBA7CE267D52AAB7D628 /* LoginResultRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResultRepository.swift; sourceTree = "<group>"; };
+		D0F3BC9276710603EC24F728 /* Data+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+.swift"; sourceTree = "<group>"; };
+		D5173A79896E726C59C048D0 /* libNetworkKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNetworkKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8930118529EEE666B45BF4C /* LoginResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResult.swift; sourceTree = "<group>"; };
+		ED449177EA6EAC145327BDD9 /* HTTPHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPHeader.swift; sourceTree = "<group>"; };
+		EE70F4DDDFFA4DC72FFE7C54 /* NidError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NidError.swift; sourceTree = "<group>"; };
+		F33579BFDEA63487A1346A82 /* DefaultClientInfoRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultClientInfoRepository.swift; sourceTree = "<group>"; };
+		F6FF305C5441A667DB87ABBA /* Output.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Output.swift; sourceTree = "<group>"; };
+		FF4D747179523D2547A40C64 /* Array+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		173E44734EB50917792DFB8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		558B841F1A9C59B86A375700 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF94B3EFC25D8DE2CC24F402 /* libNetworkKit.a in Frameworks */,
+				3872B4CB69D93CC4D53F58B0 /* NidCore.framework in Frameworks */,
+				8B83F033C8C23B12AE914220 /* libNidLogin.a in Frameworks */,
+				A1A431AE13AE8ADF09E4F778 /* libUtils.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B57E7656E8D18255B007FB69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE0789A570810BA155D71062 /* libNetworkKit.a in Frameworks */,
+				39ED92BB2BF57026AE9947A8 /* libUtils.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB5C0ADCA1742029A1807107 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DBCF5C730AD28280BF54110 /* NidCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDB63FA8A303BC8519E06AB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03275EADE26B60E6D72E3572 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				01EF8CF0E29F93ECA00EAAFD /* DefaultAppAuthorizationCodeRepository.swift */,
+				F33579BFDEA63487A1346A82 /* DefaultClientInfoRepository.swift */,
+				06CFEA354C8CC7EE1A608D36 /* DefaultLoginResultRepository.swift */,
+				0F9FDB6B0423CC5E8343B042 /* DefaultOpenAPIRepository.swift */,
+				67EBC6ADCB25932CD8DFDD6A /* DefaultTokenRepository.swift */,
+				19A655504BBD9C8CF7428EAC /* DefaultuserStateRepository.swift */,
+				CBC59B8219D23B0C5267323F /* DefaultWebAuthorizationCodeRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		1E76B6B563BA363AE77BFBAD /* Derived */ = {
+			isa = PBXGroup;
+			children = (
+				23544BF127B80340FE5D504F /* InfoPlists */,
+			);
+			path = Derived;
+			sourceTree = "<group>";
+		};
+		1F25A86B6655A59E69CB541D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9DEC52F6B4B5D5488BF08A47 /* CharacterSet+.swift */,
+				4047A1BE953C82AA1D91BC37 /* Dictionary+.swift */,
+				7D50EF2C4A208BC3D427D349 /* String+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		23544BF127B80340FE5D504F /* InfoPlists */ = {
+			isa = PBXGroup;
+			children = (
+				53FDA086867BC5E494F2E14E /* NidCore-Info.plist */,
+				1BD0BA89CDCD2A3FFC9755DC /* NidThirdPartyLogin-Info.plist */,
+			);
+			path = InfoPlists;
+			sourceTree = "<group>";
+		};
+		237F9C9B3E1ECD26CCF6176A /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				0BFEF41224AAED46506D3D47 /* AccessTokenVerificationRepository.swift */,
+				7B1291517F5F00CF81F4812E /* AppAuthorizationCodeRepository.swift */,
+				56017591402D1C0FF9D6B36D /* ClientInfoRepository.swift */,
+				D07FDBA7CE267D52AAB7D628 /* LoginResultRepository.swift */,
+				2C794DA0297577E9D9574686 /* TokenRepository.swift */,
+				03E538C571FE0A408C3E7D7D /* UserProfileRepository.swift */,
+				59763D099193E9307F00A7AE /* WebAuthorizationCodeRepository.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		27604B1FE4053428CCBC2CD6 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				AE2C2DDE20ABBF5B97A217A2 /* Infra */,
+				03275EADE26B60E6D72E3572 /* Repository */,
+				CE0EC1D4818FF2338918340A /* Requests */,
+				A019B3E04C8BF193C1397A95 /* Responses */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		37199C3ABDCA78192462703D /* DIContainer */ = {
+			isa = PBXGroup;
+			children = (
+				8BD99B700D86DDE4AECA55CA /* SDKRootDIContainer.swift */,
+			);
+			path = DIContainer;
+			sourceTree = "<group>";
+		};
+		3D5ADE1D4AC34F1A6185DC21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5173A79896E726C59C048D0 /* libNetworkKit.a */,
+				960DECA437EDE86E20D7E543 /* libNidLogin.a */,
+				A5DA42389F3BAEBCAB1C2514 /* libUtils.a */,
+				4E1ADBE7ABDD9D9743F0C95E /* NidCore.framework */,
+				22EFB023ABF44A643D9C54AA /* NidThirdPartyLogin.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		423BA2A1DECAFDA0976EDA86 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				66A19078FF96CE30E448D4BD /* AppLoginProcess.swift */,
+				AEA323A06A63A2389895748B /* LoginRequestValue.swift */,
+				52C6DD1EB5D6A1A39B5C548F /* WebLoginProcess.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		492CEE2ABF0AD98FFDFAA721 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				237F9C9B3E1ECD26CCF6176A /* Interfaces */,
+				B29CC3DF531D67F3830BE50B /* UseCases */,
+				7741711FDE4B1280379CA4D6 /* OAuthDIContainer.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		4BAEC84BAF4E6E5A17C1C7D4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FF4D747179523D2547A40C64 /* Array+.swift */,
+				D0F3BC9276710603EC24F728 /* Data+.swift */,
+				155C67152E8776D273BBB940 /* Language.swift */,
+				077A0AA8ECAB863B055BE9C7 /* UIApplication+.swift */,
+				73C6F0ECEB83A33277177E0D /* UIDevice+.swift */,
+				2464508B119383CB9CE7A240 /* URL+.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		52B61154C6563D193B85732E /* NetworkKit */ = {
+			isa = PBXGroup;
+			children = (
+				1F25A86B6655A59E69CB541D /* Extensions */,
+				ED449177EA6EAC145327BDD9 /* HTTPHeader.swift */,
+				58B2A38B29A2BA5DC4616B3A /* HTTPHeaders.swift */,
+				35F0B4011908B4DB1ACBDE19 /* Network.swift */,
+				7873685C14F14CD7E0A20CD2 /* NetworkError.swift */,
+				F6FF305C5441A667DB87ABBA /* Output.swift */,
+				CD10B6A690D6FB7467BB73A3 /* Request.swift */,
+				32E3407E0ED40636777234CB /* RequestFactory.swift */,
+				15E5FF2FDB0AA184390F21BC /* URLGenerator.swift */,
+				01BBE8BF299BEEBE653EDAF1 /* URLSessionProtocol.swift */,
+			);
+			path = NetworkKit;
+			sourceTree = "<group>";
+		};
+		546778C4D043B3494694EBCF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8B5A024980ACE36119DBB94B /* AccessToken.swift */,
+				D8930118529EEE666B45BF4C /* LoginResult.swift */,
+				6EEC8D80CFA0FB9276CC59D0 /* RefreshToken.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		58BC646F898F524766772F82 /* NidOAuth */ = {
+			isa = PBXGroup;
+			children = (
+				37199C3ABDCA78192462703D /* DIContainer */,
+				2CB8F4A200030D9AD169AEE1 /* NidOAuth.swift */,
+			);
+			path = NidOAuth;
+			sourceTree = "<group>";
+		};
+		6A38DBB1692B0CE16CE0D12D = {
+			isa = PBXGroup;
+			children = (
+				A7E6272C3AF3476AA2AC7B64 /* Project */,
+				3D5ADE1D4AC34F1A6185DC21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		961D85BE739F68C0B6AFE179 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				52B61154C6563D193B85732E /* NetworkKit */,
+				F6936BEE8A7594952629B791 /* NidCore */,
+				A802F81E0D7F9F06972A5058 /* NidLogin */,
+				58BC646F898F524766772F82 /* NidOAuth */,
+				4BAEC84BAF4E6E5A17C1C7D4 /* Utils */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		9EAC3B0CCAAA2E4CEA9A3E32 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				BE3D91447B5B48073E3619E5 /* ResultCodeResponse.swift */,
+				86B94654C7EACC42467BC47F /* ResultResponse.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		A019B3E04C8BF193C1397A95 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				9EAC3B0CCAAA2E4CEA9A3E32 /* Protocols */,
+				6C0F190ABAD11C885DA11534 /* AccessTokenWithRefreshTokenResponse+Mapping.swift */,
+				6ACBEEF72C0ACE878DAE8399 /* DeleteAccessTokenResponse.swift */,
+				2CC109FA6B3E1BDE367FD603 /* FetchUserProfileResponse.swift */,
+				5B0F70EE95BB309CC20BC578 /* IssueAccessTokenResponse+Mapping.swift */,
+				A277A9857F6FB75982B5957D /* ValidateAccessTokenResponse+Mapping.swift */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		A7E6272C3AF3476AA2AC7B64 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				1E76B6B563BA363AE77BFBAD /* Derived */,
+				961D85BE739F68C0B6AFE179 /* Sources */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
+		A802F81E0D7F9F06972A5058 /* NidLogin */ = {
+			isa = PBXGroup;
+			children = (
+				27604B1FE4053428CCBC2CD6 /* Data */,
+				492CEE2ABF0AD98FFDFAA721 /* Domain */,
+				B2ED2925AA4B8B9415DDEF06 /* NaverAlertViewController.swift */,
+			);
+			path = NidLogin;
+			sourceTree = "<group>";
+		};
+		AE2C2DDE20ABBF5B97A217A2 /* Infra */ = {
+			isa = PBXGroup;
+			children = (
+				E300A575BA645DC4BDCF0AA9 /* PersistentStorage */,
+				AA088829B6FFC3102FA3AA19 /* BundleDataSource.swift */,
+				32A0F80B37F8CF9AC6C251B7 /* DefaultStateGenerator.swift */,
+				8DFFAEDF8C6F960EE767F67B /* SystemInfo.swift */,
+				1662ED3ED1E21962C34137C4 /* WebAuthenticationService.swift */,
+			);
+			path = Infra;
+			sourceTree = "<group>";
+		};
+		B29CC3DF531D67F3830BE50B /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				FD3B6009B14982F3232A24DB /* Login */,
+				EB8A73F3E7FB0402623BEBC0 /* Logout */,
+				C4D2EDC505F0609A3C11A9B2 /* FetchClientInfo.swift */,
+				CBA1AC6787F0B4D6FC84A9EE /* FetchToken.swift */,
+				5FC95BEDED203D03BDD76A9D /* FetchUserProfile.swift */,
+				960560F437BB4619E4656D72 /* PerformInitialSetUp.swift */,
+				6840169DB60DEB59ABB7A948 /* VerifyAccessToken.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		CE0EC1D4818FF2338918340A /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				F222EE256F0BB8D337D431A9 /* NetworkRequest */,
+				DEFB7433C249ED0C392DA33A /* URLRequest */,
+				2F9C7F79285E3D34ACBD997B /* GrantType.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		DEFB7433C249ED0C392DA33A /* URLRequest */ = {
+			isa = PBXGroup;
+			children = (
+				6C3C64F62499247FA0C8D44B /* AppAuthCodeRequest.swift */,
+				76EA51E8BEAE007AA282432E /* WebAuthCodeRequest.swift */,
+			);
+			path = URLRequest;
+			sourceTree = "<group>";
+		};
+		E300A575BA645DC4BDCF0AA9 /* PersistentStorage */ = {
+			isa = PBXGroup;
+			children = (
+				1482BBAE6FCA6C2F7111020C /* DefaultStorage.swift */,
+				35F433B36A5FC1FBC14018FD /* KeychainStorage.swift */,
+				435D2B4722C78208BE97F23E /* MemoryStorage.swift */,
+				B5DFA03B2771F744EE0C6FE8 /* PersistentStorage.swift */,
+				6229BCE87E4A3981B8828C3E /* StorableItem.swift */,
+				304DB310BC9858320DD1F4AC /* UserDefaultsStorage.swift */,
+			);
+			path = PersistentStorage;
+			sourceTree = "<group>";
+		};
+		EB8A73F3E7FB0402623BEBC0 /* Logout */ = {
+			isa = PBXGroup;
+			children = (
+				49266479908652F899324108 /* DisconnectAccount.swift */,
+				A9366688A2B4F1F74AD61101 /* PerformLogout.swift */,
+			);
+			path = Logout;
+			sourceTree = "<group>";
+		};
+		F222EE256F0BB8D337D431A9 /* NetworkRequest */ = {
+			isa = PBXGroup;
+			children = (
+				9541CB448A207344B65C8C28 /* DeleteAccessTokenRequest.swift */,
+				853CDCA2E13FC0134EEC64F4 /* FetchUserProfileRequest.swift */,
+				59C22893EAE82F1DD20FA47B /* IssueAccessTokenRequest.swift */,
+				789ECA9F60BCCABB6AFB2B23 /* UpdateAccessTokenRequest.swift */,
+				3AACDB1589CFDFE7D2DA6119 /* ValidateAccessTokenRequest.swift */,
+			);
+			path = NetworkRequest;
+			sourceTree = "<group>";
+		};
+		F6936BEE8A7594952629B791 /* NidCore */ = {
+			isa = PBXGroup;
+			children = (
+				546778C4D043B3494694EBCF /* Models */,
+				877BD14652BE285BC2F18FE8 /* ConfigKeys.swift */,
+				2A5238EC1C9FA76E792B6C4E /* Constant.swift */,
+				6BA870675571508218C25987 /* LoginBehavior.swift */,
+				65F312B634C1707DF1495DC9 /* LoginProcess.swift */,
+				EE70F4DDDFFA4DC72FFE7C54 /* NidError.swift */,
+				C7432D7F58BF3510932BE551 /* NidLogger.swift */,
+			);
+			path = NidCore;
+			sourceTree = "<group>";
+		};
+		FD3B6009B14982F3232A24DB /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				423BA2A1DECAFDA0976EDA86 /* Models */,
+				C2E6EE9B8DBE6E7BF23789E9 /* PerformAppLogin.swift */,
+				C890EFD9C82BBF77E5457463 /* PerformLogin.swift */,
+				A29233D20DBA1D0A19CF4E17 /* PerformLoginUseCase.swift */,
+				C2D3D5E216EDAD505DF9BFBF /* PerformWebLogin.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E79C33886CF97C139E0C063 /* Utils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D186251320B4BAB23AF54AEE /* Build configuration list for PBXNativeTarget "Utils" */;
+			buildPhases = (
+				049CEA96A3FE1CF23017C922 /* Sources */,
+				B253ADB4F92916C18B1E2628 /* Resources */,
+				CDB63FA8A303BC8519E06AB0 /* Frameworks */,
+				6C47811136062D164B760C9F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD5747219FB9FCD37160FE05 /* PBXTargetDependency */,
+			);
+			name = Utils;
+			packageProductDependencies = (
+			);
+			productName = Utils;
+			productReference = A5DA42389F3BAEBCAB1C2514 /* libUtils.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		32412244FF64C8AFE5F4DE40 /* NidLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BC1A643C4266B29F5C54D53 /* Build configuration list for PBXNativeTarget "NidLogin" */;
+			buildPhases = (
+				C012B72F2B1F23F64D7366DB /* Sources */,
+				EDE221E0F222C1A6B50F663A /* Resources */,
+				CB5C0ADCA1742029A1807107 /* Frameworks */,
+				4E98AB25B183B2FEEFBC50AE /* Embed Frameworks */,
+				F1ABA9E12AB47577FEF1A98A /* Dependencies */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A51E679B711575081B6E93D0 /* PBXTargetDependency */,
+				B3C51FA8995E529CA81E3790 /* PBXTargetDependency */,
+				BC64FEFF65D7F9C67D98CCA0 /* PBXTargetDependency */,
+				4D771C083AE8DC4C92328EC9 /* PBXTargetDependency */,
+			);
+			name = NidLogin;
+			packageProductDependencies = (
+			);
+			productName = NidLogin;
+			productReference = 960DECA437EDE86E20D7E543 /* libNidLogin.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AFA13896537A505E43346F72 /* NidCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58D50245E7EB429D8572724A /* Build configuration list for PBXNativeTarget "NidCore" */;
+			buildPhases = (
+				DEFC3C0527F38E48D261BBA6 /* Sources */,
+				EE63066FB44709F43787737B /* Resources */,
+				B57E7656E8D18255B007FB69 /* Frameworks */,
+				0DFF60F15A4E96B2C6B2B798 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				718A36B16718B85D126A716E /* PBXTargetDependency */,
+				BBAF3A5A74B328C5E00625ED /* PBXTargetDependency */,
+				778DB40B01B7064EB10EB5EB /* PBXTargetDependency */,
+			);
+			name = NidCore;
+			packageProductDependencies = (
+			);
+			productName = NidCore;
+			productReference = 4E1ADBE7ABDD9D9743F0C95E /* NidCore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BF53E3E26B7C333C3DEDD5A7 /* NetworkKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 290DE7754E6B595AB6F699B3 /* Build configuration list for PBXNativeTarget "NetworkKit" */;
+			buildPhases = (
+				5D36F944656855FBD228837F /* Sources */,
+				83973A7EDBBEDB88692EF8E1 /* Resources */,
+				173E44734EB50917792DFB8D /* Frameworks */,
+				B8C617370BB0A24EE61A33BD /* Embed Frameworks */,
+				A0A793A3EA62FD9475CF080D /* Dependencies */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B00DA056A5F2CC5C2DF4F8C0 /* PBXTargetDependency */,
+				0FC6393046738AF8D42496F1 /* PBXTargetDependency */,
+			);
+			name = NetworkKit;
+			packageProductDependencies = (
+			);
+			productName = NetworkKit;
+			productReference = D5173A79896E726C59C048D0 /* libNetworkKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F1483A233DACE3AE5913FDC2 /* NidThirdPartyLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0FE1704AD83B8A2C3A047CF /* Build configuration list for PBXNativeTarget "NidThirdPartyLogin" */;
+			buildPhases = (
+				985DF89D3F75B9638B3E0DE2 /* Sources */,
+				34370EABF1AE1A6885342BE1 /* Resources */,
+				558B841F1A9C59B86A375700 /* Frameworks */,
+				A4F8C22D1BC57D5B40AD1A7F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FBF0722FB134E573E57F380 /* PBXTargetDependency */,
+				EA32D88491E155F2B948C4BA /* PBXTargetDependency */,
+				C0A99B3112534A0ECBAD39C6 /* PBXTargetDependency */,
+				C0AB1987EB789B5BF77D473C /* PBXTargetDependency */,
+			);
+			name = NidThirdPartyLogin;
+			packageProductDependencies = (
+			);
+			productName = NidThirdPartyLogin;
+			productReference = 22EFB023ABF44A643D9C54AA /* NidThirdPartyLogin.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD5683201FD594D32FC0487A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = 70BF0CE87FE2CE4A29450A5D /* Build configuration list for PBXProject "NidThirdPartyLogin" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 6A38DBB1692B0CE16CE0D12D;
+			packageReferences = (
+			);
+			productRefGroup = 3D5ADE1D4AC34F1A6185DC21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF53E3E26B7C333C3DEDD5A7 /* NetworkKit */,
+				AFA13896537A505E43346F72 /* NidCore */,
+				32412244FF64C8AFE5F4DE40 /* NidLogin */,
+				F1483A233DACE3AE5913FDC2 /* NidThirdPartyLogin */,
+				1E79C33886CF97C139E0C063 /* Utils */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34370EABF1AE1A6885342BE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83973A7EDBBEDB88692EF8E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B253ADB4F92916C18B1E2628 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE221E0F222C1A6B50F663A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE63066FB44709F43787737B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		049CEA96A3FE1CF23017C922 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				343979A2F09F6DC3B45D8C92 /* Array+.swift in Sources */,
+				9FF9BC869B4FF2C8DB9D504C /* Data+.swift in Sources */,
+				70191C052DDAA01706AA39CF /* Language.swift in Sources */,
+				D882BEA7E7220331626F8664 /* UIApplication+.swift in Sources */,
+				60201CF0D1551107F370D1D0 /* UIDevice+.swift in Sources */,
+				0F4E1C00808E9C8CC55481E5 /* URL+.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D36F944656855FBD228837F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96188A05B614BC4608ECE083 /* CharacterSet+.swift in Sources */,
+				56D9B4C3DEDEAA48F48FA0A5 /* Dictionary+.swift in Sources */,
+				1EFCB4EBD0077DF1AEC70026 /* String+.swift in Sources */,
+				5D1967E96CE721FE9557C47A /* HTTPHeader.swift in Sources */,
+				9ADE637ABE5B45D8D95682FD /* HTTPHeaders.swift in Sources */,
+				2BD86471A38DEF688C6B561B /* Network.swift in Sources */,
+				6CBFA7A1A44683AA6F2E6239 /* NetworkError.swift in Sources */,
+				4FC91DDD955551E2C41BB102 /* Output.swift in Sources */,
+				44FA5F5CA9E7AD286C164CE7 /* Request.swift in Sources */,
+				B8BD3F36615119F522254774 /* RequestFactory.swift in Sources */,
+				9AF8C71C2FCA7470A7C9017A /* URLGenerator.swift in Sources */,
+				CD45278B4BF82BEB58BA13EF /* URLSessionProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		985DF89D3F75B9638B3E0DE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07C749B051C05C8638D7FB3E /* SDKRootDIContainer.swift in Sources */,
+				EB8834A2E742A01A3890002A /* NidOAuth.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C012B72F2B1F23F64D7366DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF7DB10DA109654FF6951F03 /* BundleDataSource.swift in Sources */,
+				A2500AA524F9A34AC41CD7A0 /* DefaultStateGenerator.swift in Sources */,
+				9C899C4E00715360D79CC779 /* DefaultStorage.swift in Sources */,
+				4822D94E554473A8998C006D /* KeychainStorage.swift in Sources */,
+				D30CF761A5E508FEA6ED6EB8 /* MemoryStorage.swift in Sources */,
+				84023DE08E31DC4AD0F09D0E /* PersistentStorage.swift in Sources */,
+				3588E7CC51D182FED1D6C75B /* StorableItem.swift in Sources */,
+				CDE2DC4C68536EF324272FEF /* UserDefaultsStorage.swift in Sources */,
+				43C979E72B200D223191227F /* SystemInfo.swift in Sources */,
+				BB3FC788F3606BCB1375B1B7 /* WebAuthenticationService.swift in Sources */,
+				D7E042CD53F99F511FE5F8E9 /* DefaultAppAuthorizationCodeRepository.swift in Sources */,
+				581744EAFD36DBCD15653E27 /* DefaultClientInfoRepository.swift in Sources */,
+				85E70DB16352C42EE635CFFE /* DefaultLoginResultRepository.swift in Sources */,
+				9C278106CA30D4C54A29FFD1 /* DefaultOpenAPIRepository.swift in Sources */,
+				9DB3AAEA31F8C4294722C005 /* DefaultTokenRepository.swift in Sources */,
+				E0203CEE4F1E3F8ED02F2B17 /* DefaultWebAuthorizationCodeRepository.swift in Sources */,
+				618DE6E61239F30F5887D3ED /* DefaultuserStateRepository.swift in Sources */,
+				F100E0483A86D9C283619260 /* GrantType.swift in Sources */,
+				6BFC636EECE81836B2A2C6CE /* DeleteAccessTokenRequest.swift in Sources */,
+				F1B63D2335A3C49ADAC62835 /* FetchUserProfileRequest.swift in Sources */,
+				94966D659130E15EBB131AD5 /* IssueAccessTokenRequest.swift in Sources */,
+				B87E780847DA1B2140801142 /* UpdateAccessTokenRequest.swift in Sources */,
+				239365EDA53C65373CDB2E09 /* ValidateAccessTokenRequest.swift in Sources */,
+				266ECB523AE7E6F3727A09AA /* AppAuthCodeRequest.swift in Sources */,
+				A5B063310C46D8C6E206B09F /* WebAuthCodeRequest.swift in Sources */,
+				9176316353EAF3A88F5E675E /* AccessTokenWithRefreshTokenResponse+Mapping.swift in Sources */,
+				20EE1DBAB86FF7AA06EEDBE6 /* DeleteAccessTokenResponse.swift in Sources */,
+				49C13C8EDC72C4CBBD49FE72 /* FetchUserProfileResponse.swift in Sources */,
+				3509C1D26158106EA6D2F2F1 /* IssueAccessTokenResponse+Mapping.swift in Sources */,
+				2DA557F79921A17614298CE7 /* ResultCodeResponse.swift in Sources */,
+				3C7B0A6306AA2F8DD422B551 /* ResultResponse.swift in Sources */,
+				5784CEEA22C627D55849A473 /* ValidateAccessTokenResponse+Mapping.swift in Sources */,
+				2CBB17382F8353AB76F01D14 /* AccessTokenVerificationRepository.swift in Sources */,
+				66D50C11A7DC9772851FE801 /* AppAuthorizationCodeRepository.swift in Sources */,
+				8132B51A1D7135988AFFC9A9 /* ClientInfoRepository.swift in Sources */,
+				D4847A34FBAB61B3D0F5F59A /* LoginResultRepository.swift in Sources */,
+				4D1F5B0F9630F98281EF362B /* TokenRepository.swift in Sources */,
+				3AA05DD31404DB52B0987F74 /* UserProfileRepository.swift in Sources */,
+				620509CF5D8B0978F7FAA05D /* WebAuthorizationCodeRepository.swift in Sources */,
+				4102321A342D78DB817635BB /* OAuthDIContainer.swift in Sources */,
+				F2683326D8BC1B8A1258A96B /* FetchClientInfo.swift in Sources */,
+				17F3A631CEEF6DE75F7C9B04 /* FetchToken.swift in Sources */,
+				C981AD488F91251D0CF1A1EB /* FetchUserProfile.swift in Sources */,
+				E63F92AA51C15037734CB74A /* AppLoginProcess.swift in Sources */,
+				04D2CE2A9A9B671E44D3A876 /* LoginRequestValue.swift in Sources */,
+				2BE048E652F3CD03C00317B8 /* WebLoginProcess.swift in Sources */,
+				7C23178ED35BFA53A5013231 /* PerformAppLogin.swift in Sources */,
+				1990E077720BB2000452897E /* PerformLogin.swift in Sources */,
+				86CF9EF44C5B25D1B4527162 /* PerformLoginUseCase.swift in Sources */,
+				5B95426970C94F12CA03A3F9 /* PerformWebLogin.swift in Sources */,
+				3E752576920C74D83AC16BD8 /* DisconnectAccount.swift in Sources */,
+				4E520B0346A9649AE6C9AF95 /* PerformLogout.swift in Sources */,
+				F5AA97F8495C6504CB6418FC /* PerformInitialSetUp.swift in Sources */,
+				8CFCEF291CCFCFD9A26BB265 /* VerifyAccessToken.swift in Sources */,
+				735A9B60BE051632360013B7 /* NaverAlertViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEFC3C0527F38E48D261BBA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7F90020DCA0DD55A027A348 /* ConfigKeys.swift in Sources */,
+				06DEAD95F7EDC306E75C5072 /* Constant.swift in Sources */,
+				FC41BB77D6FCF71A043321DE /* LoginBehavior.swift in Sources */,
+				F0E4BA6CAAD5082C770F8151 /* LoginProcess.swift in Sources */,
+				90AFCFC0C772166D7318F1F8 /* AccessToken.swift in Sources */,
+				89AEDF436CF263D03EC87165 /* LoginResult.swift in Sources */,
+				AEBCE76504D0893DC2EF2C98 /* RefreshToken.swift in Sources */,
+				046D2DB3C99347782F6C15F1 /* NidError.swift in Sources */,
+				A3B9FE9FB5B6F836B7AA94EC /* NidLogger.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0FC6393046738AF8D42496F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Utils;
+			target = 1E79C33886CF97C139E0C063 /* Utils */;
+			targetProxy = 6DB915539D1262FA59AA0E42 /* PBXContainerItemProxy */;
+		};
+		2FBF0722FB134E573E57F380 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NetworkKit;
+			target = BF53E3E26B7C333C3DEDD5A7 /* NetworkKit */;
+			targetProxy = D085BEA64E8CBF6B187FFEE4 /* PBXContainerItemProxy */;
+		};
+		4D771C083AE8DC4C92328EC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Utils;
+			target = 1E79C33886CF97C139E0C063 /* Utils */;
+			targetProxy = CDA6FBDBDBE65025CC6875CC /* PBXContainerItemProxy */;
+		};
+		718A36B16718B85D126A716E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 8D4591C548CEB9F58DF4D688 /* SwiftLintBuildToolPlugin */;
+		};
+		778DB40B01B7064EB10EB5EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Utils;
+			target = 1E79C33886CF97C139E0C063 /* Utils */;
+			targetProxy = 96E24260C47E5DAF828FDBE4 /* PBXContainerItemProxy */;
+		};
+		A51E679B711575081B6E93D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 11ECA1C92DBF672275EA0685 /* SwiftLintBuildToolPlugin */;
+		};
+		B00DA056A5F2CC5C2DF4F8C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 86375BAA30D1EB5B4725B624 /* SwiftLintBuildToolPlugin */;
+		};
+		B3C51FA8995E529CA81E3790 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NetworkKit;
+			target = BF53E3E26B7C333C3DEDD5A7 /* NetworkKit */;
+			targetProxy = F79BEA1580984D8C70B0F6EB /* PBXContainerItemProxy */;
+		};
+		BBAF3A5A74B328C5E00625ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NetworkKit;
+			target = BF53E3E26B7C333C3DEDD5A7 /* NetworkKit */;
+			targetProxy = D32DD1B13F3E7685D3C25E8E /* PBXContainerItemProxy */;
+		};
+		BC64FEFF65D7F9C67D98CCA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NidCore;
+			target = AFA13896537A505E43346F72 /* NidCore */;
+			targetProxy = 28F9FBCD56597E2375F7C35B /* PBXContainerItemProxy */;
+		};
+		BD5747219FB9FCD37160FE05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 9243BF5F42318854279FC1E9 /* SwiftLintBuildToolPlugin */;
+		};
+		C0A99B3112534A0ECBAD39C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NidLogin;
+			target = 32412244FF64C8AFE5F4DE40 /* NidLogin */;
+			targetProxy = D5F9CB701039F6769D96C45C /* PBXContainerItemProxy */;
+		};
+		C0AB1987EB789B5BF77D473C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Utils;
+			target = 1E79C33886CF97C139E0C063 /* Utils */;
+			targetProxy = F9B82C6B3323D4B117BAB9A2 /* PBXContainerItemProxy */;
+		};
+		EA32D88491E155F2B948C4BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NidCore;
+			target = AFA13896537A505E43346F72 /* NidCore */;
+			targetProxy = 2087C3592D285B42B542E338 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		256199CA5002384C66EE329A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.memberplatform.thirdpartylogin.nidlogin;
+				PRODUCT_NAME = NidLogin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+			};
+			name = Debug;
+		};
+		43DA86BFC95FDD4C588E2EE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.memberplatform.thirdpartylogin.utils;
+				PRODUCT_NAME = Utils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+			};
+			name = Debug;
+		};
+		58434AA2425385869A99EDB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		628EA3C1E2D100BCFF1BDF6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Derived/InfoPlists/NidCore-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.memberplatform.thirdpartylogin.nidcore;
+				PRODUCT_NAME = NidCore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6D0520B8FC4682C788DA4750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Derived/InfoPlists/NidThirdPartyLogin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.memberplatform.thirdpartylogin.dev;
+				PRODUCT_NAME = NidThirdPartyLogin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7BCB34F58E751A3A5C01E84E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F74A7F07DC9221554E3935A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Derived/InfoPlists/NidCore-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.memberplatform.thirdpartylogin.nidcore;
+				PRODUCT_NAME = NidCore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8CBC24E1647BC64A53E1DB61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.memberplatform.thirdpartylogin.networkkit;
+				PRODUCT_NAME = NetworkKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+			};
+			name = Release;
+		};
+		910C0277B68202D2306D1A45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.memberplatform.thirdpartylogin.utils;
+				PRODUCT_NAME = Utils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+			};
+			name = Release;
+		};
+		9ADC085CB993756EB7D18E0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.memberplatform.thirdpartylogin.nidlogin;
+				PRODUCT_NAME = NidLogin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+			};
+			name = Release;
+		};
+		CE4456A29BF88C91BB12A9C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.memberplatform.thirdpartylogin.networkkit;
+				PRODUCT_NAME = NetworkKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+			};
+			name = Debug;
+		};
+		D2249030BA684C1720CBA04D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Derived/InfoPlists/NidThirdPartyLogin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.memberplatform.thirdpartylogin.dev;
+				PRODUCT_NAME = NidThirdPartyLogin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BC1A643C4266B29F5C54D53 /* Build configuration list for PBXNativeTarget "NidLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				256199CA5002384C66EE329A /* Debug */,
+				9ADC085CB993756EB7D18E0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		290DE7754E6B595AB6F699B3 /* Build configuration list for PBXNativeTarget "NetworkKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE4456A29BF88C91BB12A9C9 /* Debug */,
+				8CBC24E1647BC64A53E1DB61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58D50245E7EB429D8572724A /* Build configuration list for PBXNativeTarget "NidCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				628EA3C1E2D100BCFF1BDF6D /* Debug */,
+				7F74A7F07DC9221554E3935A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70BF0CE87FE2CE4A29450A5D /* Build configuration list for PBXProject "NidThirdPartyLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58434AA2425385869A99EDB6 /* Debug */,
+				7BCB34F58E751A3A5C01E84E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D186251320B4BAB23AF54AEE /* Build configuration list for PBXNativeTarget "Utils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43DA86BFC95FDD4C588E2EE9 /* Debug */,
+				910C0277B68202D2306D1A45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0FE1704AD83B8A2C3A047CF /* Build configuration list for PBXNativeTarget "NidThirdPartyLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2249030BA684C1720CBA04D /* Debug */,
+				6D0520B8FC4682C788DA4750 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		11ECA1C92DBF672275EA0685 /* SwiftLintBuildToolPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "plugin:SwiftLintBuildToolPlugin";
+		};
+		86375BAA30D1EB5B4725B624 /* SwiftLintBuildToolPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "plugin:SwiftLintBuildToolPlugin";
+		};
+		8D4591C548CEB9F58DF4D688 /* SwiftLintBuildToolPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "plugin:SwiftLintBuildToolPlugin";
+		};
+		9243BF5F42318854279FC1E9 /* SwiftLintBuildToolPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "plugin:SwiftLintBuildToolPlugin";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BD5683201FD594D32FC0487A /* Project object */;
+}

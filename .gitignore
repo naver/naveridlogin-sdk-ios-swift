@@ -1,0 +1,28 @@
+.DS_Store
+Scripts/*
+archives/*
+
+# XCode
+xcuserdata/
+*.xcuserstate
+*.xcuserdatad/
+*xcworkspace/xcuserdata/
+build/
+DerivedData/
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+/*.gcno
+
+#SPM
+**/Package.resolved
+**/.package.resolved
+
+#Tuist
+Tuist/*
+# **/Derived/Sources/*
+**/.tuist-generated
+Project.swift
+Workspace.swift
+

@@ -1,0 +1,52 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/user/Library/Developer/Xcode/DerivedData/NidThirdPartyLogin-brfffvwrymabejdhvkszocdmegxi/Build/Intermediates.noindex/ArchiveIntermediates/NidThirdPartyLogin/InstallationBuildProductsLocation/Library/Frameworks/NidThirdPartyLogin.framework/NidThirdPartyLogin'
+relocations:
+  - { offset: 0x58DF1, size: 0x8, addend: 0x0, symName: _NidThirdPartyLoginVersionString, symObjAddr: 0x0, symBinAddr: 0x34E10, symSize: 0x0 }
+  - { offset: 0x58E26, size: 0x8, addend: 0x0, symName: _NidThirdPartyLoginVersionNumber, symObjAddr: 0x40, symBinAddr: 0x34E50, symSize: 0x0 }
+  - { offset: 0x59039, size: 0x8, addend: 0x0, symName: '_$s18NidThirdPartyLogin18SDKRootDIContainerCMa', symObjAddr: 0x618, symBinAddr: 0x4618, symSize: 0x20 }
+  - { offset: 0x5904D, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x638, symBinAddr: 0x4638, symSize: 0x40 }
+  - { offset: 0x59061, size: 0x8, addend: 0x0, symName: '_$sSo12NSURLSessionCMa', symObjAddr: 0x6B4, symBinAddr: 0x46B4, symSize: 0x3C }
+  - { offset: 0x59075, size: 0x8, addend: 0x0, symName: '_$s10NetworkKit0A0_pWOb', symObjAddr: 0x6F0, symBinAddr: 0x46F0, symSize: 0x18 }
+  - { offset: 0x5908A, size: 0x8, addend: 0x0, symName: '_$s18NidThirdPartyLogin18SDKRootDIContainerC24webAuthenticationService0aD003WebhI0_pvg', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xF0 }
+  - { offset: 0x59134, size: 0x8, addend: 0x0, symName: '_$s18NidThirdPartyLogin18SDKRootDIContainerC7network10NetworkKit0H0_pvg', symObjAddr: 0xF0, symBinAddr: 0x40F0, symSize: 0x130 }
+  - { offset: 0x591B3, size: 0x8, addend: 0x0, symName: '_$s18NidThirdPartyLogin18SDKRootDIContainerC12localStorage0aD0010PersistentH0_pvg', symObjAddr: 0x220, symBinAddr: 0x4220, symSize: 0x170 }
+  - { offset: 0x5927F, size: 0x8, addend: 0x0, symName: '_$s18NidThirdPartyLogin18SDKRootDIContainerC16bundleDataSource0aD006BundlehI0_pvg', symObjAddr: 0x390, symBinAddr: 0x4390, symSize: 0xF0 }
+  - { offset: 0x592FC, size: 0x8, addend: 0x0, symName: '_$s18NidThirdPartyLogin18SDKRootDIContainerC09makeOAuthF00aD00hF0CyF', symObjAddr: 0x480, symBinAddr: 0x4480, symSize: 0x13C }
+  - { offset: 0x5938E, size: 0x8, addend: 0x0, symName: '_$s18NidThirdPartyLogin18SDKRootDIContainerCfD', symObjAddr: 0x5BC, symBinAddr: 0x45BC, symSize: 0x5C }
+  - { offset: 0x594A7, size: 0x8, addend: 0x0, symName: '_$s18NidThirdPartyLogin0A5OAuthC6sharedACvpZ', symObjAddr: 0x1A10, symBinAddr: 0x4AD70, symSize: 0x0 }
+  - { offset: 0x596BB, size: 0x8, addend: 0x0, symName: '_$s18NidThirdPartyLogin0A5OAuthC6shared_WZ', symObjAddr: 0x0, symBinAddr: 0x47D4, symSize: 0x3C }
+  - { offset: 0x59761, size: 0x8, addend: 0x0, symName: '_$s18NidThirdPartyLogin0A5OAuthC6Config33_9A7D17F62104D527A8A5AF1B6ACEE79DLLVWOs', symObjAddr: 0x4E0, symBinAddr: 0x4CB4, symSize: 0x54 }
+  - { offset: 0x597FB, size: 0x8, addend: 0x0, symName: '_$s18NidThirdPartyLogin0A5OAuthC12shouldUseApp33_9A7D17F62104D527A8A5AF1B6ACEE79DLLSbyF', symObjAddr: 0xE7C, symBinAddr: 0x5650, symSize: 0x338 }
+  - { offset: 0x59930, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSS_Tg5', symObjAddr: 0x11B4, symBinAddr: 0x5988, symSize: 0x64 }
+  - { offset: 0x5995D, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSS_Tg5', symObjAddr: 0x1218, symBinAddr: 0x59EC, symSize: 0xE0 }
+  - { offset: 0x599E0, size: 0x8, addend: 0x0, symName: '_$s18NidThirdPartyLogin0A5OAuthC20currentModuleVerison33_9A7D17F62104D527A8A5AF1B6ACEE79DLLSSyFTf4d_n', symObjAddr: 0x12F8, symBinAddr: 0x5ACC, symSize: 0x16C }
+  - { offset: 0x59A36, size: 0x8, addend: 0x0, symName: '_$s18NidThirdPartyLogin0A5OAuthC6Config33_9A7D17F62104D527A8A5AF1B6ACEE79DLLVSgWOe', symObjAddr: 0x14A4, symBinAddr: 0x5C38, symSize: 0x50 }
+  - { offset: 0x59A4A, size: 0x8, addend: 0x0, symName: '_$s18NidThirdPartyLogin0A5OAuthCMU', symObjAddr: 0x14F4, symBinAddr: 0x5C88, symSize: 0x8 }
+  - { offset: 0x59A5E, size: 0x8, addend: 0x0, symName: '_$s18NidThirdPartyLogin0A5OAuthCMa', symObjAddr: 0x14FC, symBinAddr: 0x5C90, symSize: 0x3C }
+  - { offset: 0x59A72, size: 0x8, addend: 0x0, symName: '_$s18NidThirdPartyLogin0A5OAuthCMr', symObjAddr: 0x1538, symBinAddr: 0x5CCC, symSize: 0x9C }
+  - { offset: 0x59A86, size: 0x8, addend: 0x0, symName: '_$s18NidThirdPartyLogin0A5OAuthC6Config33_9A7D17F62104D527A8A5AF1B6ACEE79DLLVwCP', symObjAddr: 0x1670, symBinAddr: 0x5E04, symSize: 0x30 }
+  - { offset: 0x59A9A, size: 0x8, addend: 0x0, symName: '_$s18NidThirdPartyLogin0A5OAuthC6Config33_9A7D17F62104D527A8A5AF1B6ACEE79DLLVwxx', symObjAddr: 0x16A0, symBinAddr: 0x5E34, symSize: 0x38 }
+  - { offset: 0x59AAE, size: 0x8, addend: 0x0, symName: '_$s18NidThirdPartyLogin0A5OAuthC6Config33_9A7D17F62104D527A8A5AF1B6ACEE79DLLVwcp', symObjAddr: 0x16D8, symBinAddr: 0x5E6C, symSize: 0x64 }
+  - { offset: 0x59AC2, size: 0x8, addend: 0x0, symName: '_$s18NidThirdPartyLogin0A5OAuthC6Config33_9A7D17F62104D527A8A5AF1B6ACEE79DLLVwca', symObjAddr: 0x173C, symBinAddr: 0x5ED0, symSize: 0xAC }
+  - { offset: 0x59AD6, size: 0x8, addend: 0x0, symName: ___swift_memcpy64_8, symObjAddr: 0x17E8, symBinAddr: 0x5F7C, symSize: 0x14 }
+  - { offset: 0x59AEA, size: 0x8, addend: 0x0, symName: '_$s18NidThirdPartyLogin0A5OAuthC6Config33_9A7D17F62104D527A8A5AF1B6ACEE79DLLVwta', symObjAddr: 0x17FC, symBinAddr: 0x5F90, symSize: 0x64 }
+  - { offset: 0x59AFE, size: 0x8, addend: 0x0, symName: '_$s18NidThirdPartyLogin0A5OAuthC6Config33_9A7D17F62104D527A8A5AF1B6ACEE79DLLVwet', symObjAddr: 0x1860, symBinAddr: 0x5FF4, symSize: 0x48 }
+  - { offset: 0x59B12, size: 0x8, addend: 0x0, symName: '_$s18NidThirdPartyLogin0A5OAuthC6Config33_9A7D17F62104D527A8A5AF1B6ACEE79DLLVwst', symObjAddr: 0x18A8, symBinAddr: 0x603C, symSize: 0x50 }
+  - { offset: 0x59B26, size: 0x8, addend: 0x0, symName: '_$s18NidThirdPartyLogin0A5OAuthC6Config33_9A7D17F62104D527A8A5AF1B6ACEE79DLLVMa', symObjAddr: 0x18F8, symBinAddr: 0x608C, symSize: 0x10 }
+  - { offset: 0x59B3A, size: 0x8, addend: 0x0, symName: '_$sypWOc', symObjAddr: 0x1908, symBinAddr: 0x609C, symSize: 0x3C }
+  - { offset: 0x59B4E, size: 0x8, addend: 0x0, symName: '_$s18NidThirdPartyLogin0A5OAuthC6Config33_9A7D17F62104D527A8A5AF1B6ACEE79DLLVSgWOy', symObjAddr: 0x1984, symBinAddr: 0x6118, symSize: 0x50 }
+  - { offset: 0x59B8E, size: 0x8, addend: 0x0, symName: '_$s18NidThirdPartyLogin0A5OAuthC6sharedACvgZ', symObjAddr: 0x3C, symBinAddr: 0x4810, symSize: 0x40 }
+  - { offset: 0x59C22, size: 0x8, addend: 0x0, symName: '_$s18NidThirdPartyLogin0A5OAuthC6config33_9A7D17F62104D527A8A5AF1B6ACEE79DLLAC6ConfigAELLVvg', symObjAddr: 0x7C, symBinAddr: 0x4850, symSize: 0x29C }
+  - { offset: 0x59DA2, size: 0x8, addend: 0x0, symName: '_$s18NidThirdPartyLogin0A5OAuthCACyc33_9A7D17F62104D527A8A5AF1B6ACEE79DLlfc', symObjAddr: 0x318, symBinAddr: 0x4AEC, symSize: 0x1BC }
+  - { offset: 0x59E79, size: 0x8, addend: 0x0, symName: '_$s18NidThirdPartyLogin0A5OAuthC03setD8Behavioryy0A4Core0dG0OF', symObjAddr: 0x5BC, symBinAddr: 0x4D90, symSize: 0xBC }
+  - { offset: 0x59EFB, size: 0x8, addend: 0x0, symName: '_$s18NidThirdPartyLogin0A5OAuthC10initializeyyF', symObjAddr: 0x678, symBinAddr: 0x4E4C, symSize: 0x3C }
+  - { offset: 0x59F6B, size: 0x8, addend: 0x0, symName: '_$s18NidThirdPartyLogin0A5OAuthC07requestD08callbackyys6ResultOy0A4Core0dH0VAH0A5ErrorOGc_tF', symObjAddr: 0x6B4, symBinAddr: 0x4E88, symSize: 0x23C }
+  - { offset: 0x5A024, size: 0x8, addend: 0x0, symName: '_$s18NidThirdPartyLogin0A5OAuthC9handleURLySb10Foundation0G0VF', symObjAddr: 0x8F0, symBinAddr: 0x50C4, symSize: 0x2C }
+  - { offset: 0x5A059, size: 0x8, addend: 0x0, symName: '_$s18NidThirdPartyLogin0A5OAuthC6logoutyyF', symObjAddr: 0x91C, symBinAddr: 0x50F0, symSize: 0x68 }
+  - { offset: 0x5A09E, size: 0x8, addend: 0x0, symName: '_$s18NidThirdPartyLogin0A5OAuthC10disconnect8callbackyys6ResultOyyt0A4Core0A5ErrorOGc_tF', symObjAddr: 0x984, symBinAddr: 0x5158, symSize: 0x160 }
+  - { offset: 0x5A0F7, size: 0x8, addend: 0x0, symName: '_$s18NidThirdPartyLogin0A5OAuthC17verifyAccessToken_8callbackySS_ys6ResultOySb0A4Core0A5ErrorOGctF', symObjAddr: 0xD30, symBinAddr: 0x5504, symSize: 0x28 }
+  - { offset: 0x5A148, size: 0x8, addend: 0x0, symName: '_$s18NidThirdPartyLogin0A5OAuthC14getUserProfile11accessToken8callbackySS_ys6ResultOySDyS2SG0A4Core0A5ErrorOGctF', symObjAddr: 0xD58, symBinAddr: 0x552C, symSize: 0x28 }
+  - { offset: 0x5A18D, size: 0x8, addend: 0x0, symName: '_$s18NidThirdPartyLogin0A5OAuthCfd', symObjAddr: 0xD80, symBinAddr: 0x5554, symSize: 0xD8 }
+  - { offset: 0x5A1B2, size: 0x8, addend: 0x0, symName: '_$s18NidThirdPartyLogin0A5OAuthCfD', symObjAddr: 0xE58, symBinAddr: 0x562C, symSize: 0x24 }
+...

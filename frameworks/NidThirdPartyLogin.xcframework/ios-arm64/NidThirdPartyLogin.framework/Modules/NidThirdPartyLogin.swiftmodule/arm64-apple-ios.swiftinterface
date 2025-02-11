@@ -1,0 +1,31 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name NidThirdPartyLogin
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+@_exported import NidCore
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers public class NidOAuth {
+  public typealias LoginResultCompletion = (Swift.Result<NidCore.LoginResult, NidCore.NidError>) -> Swift.Void
+  public static let shared: NidThirdPartyLogin.NidOAuth
+  public var accessToken: NidCore.AccessToken? {
+    get
+  }
+  public var refreshToken: NidCore.RefreshToken? {
+    get
+  }
+  public func setLoginBehavior(_ behavior: NidCore.LoginBehavior)
+  public func initialize()
+  public func requestLogin(callback: @escaping NidThirdPartyLogin.NidOAuth.LoginResultCompletion)
+  public func handleURL(_ url: Foundation.URL) -> Swift.Bool
+  public func logout()
+  public func disconnect(callback: @escaping (Swift.Result<Swift.Void, NidCore.NidError>) -> Swift.Void)
+  public func repromptPermissions(callback: @escaping NidThirdPartyLogin.NidOAuth.LoginResultCompletion)
+  public func reauthenticate(callback: @escaping NidThirdPartyLogin.NidOAuth.LoginResultCompletion)
+  public func verifyAccessToken(_ accessToken: Swift.String, callback: @escaping (Swift.Result<Swift.Bool, NidCore.NidError>) -> Swift.Void)
+  public func getUserProfile(accessToken: Swift.String, callback: @escaping (Swift.Result<[Swift.String : Swift.String], NidCore.NidError>) -> Swift.Void)
+  @objc deinit
+}

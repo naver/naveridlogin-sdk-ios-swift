@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:Projects"
+      name = "Projects">
+      <FileRef
+         location = "group:NidThirdPartyLogin/NidThirdPartyLogin.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:NidThirdPartyLoginSample/NidThirdPartyLoginSample.xcodeproj">
+      </FileRef>
+   </Group>
+</Workspace>

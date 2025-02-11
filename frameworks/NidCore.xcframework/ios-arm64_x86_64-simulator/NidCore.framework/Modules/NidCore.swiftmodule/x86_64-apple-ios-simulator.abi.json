@@ -1,0 +1,3366 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "NidCore",
+    "printedName": "NidCore",
+    "children": [
+      {
+        "kind": "TypeDecl",
+        "name": "ConfigBundleKeys",
+        "printedName": "ConfigBundleKeys",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "clientId",
+            "printedName": "clientId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7NidCore16ConfigBundleKeysV8clientIdSSvpZ",
+            "mangledName": "$s7NidCore16ConfigBundleKeysV8clientIdSSvpZ",
+            "moduleName": "NidCore",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7NidCore16ConfigBundleKeysV8clientIdSSvgZ",
+                "mangledName": "$s7NidCore16ConfigBundleKeysV8clientIdSSvgZ",
+                "moduleName": "NidCore",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "clientSecret",
+            "printedName": "clientSecret",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7NidCore16ConfigBundleKeysV12clientSecretSSvpZ",
+            "mangledName": "$s7NidCore16ConfigBundleKeysV12clientSecretSSvpZ",
+            "moduleName": "NidCore",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7NidCore16ConfigBundleKeysV12clientSecretSSvgZ",
+                "mangledName": "$s7NidCore16ConfigBundleKeysV12clientSecretSSvgZ",
+                "moduleName": "NidCore",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "appName",
+            "printedName": "appName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7NidCore16ConfigBundleKeysV7appNameSSvpZ",
+            "mangledName": "$s7NidCore16ConfigBundleKeysV7appNameSSvpZ",
+            "moduleName": "NidCore",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7NidCore16ConfigBundleKeysV7appNameSSvgZ",
+                "mangledName": "$s7NidCore16ConfigBundleKeysV7appNameSSvgZ",
+                "moduleName": "NidCore",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "urlScheme",
+            "printedName": "urlScheme",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7NidCore16ConfigBundleKeysV9urlSchemeSSvpZ",
+            "mangledName": "$s7NidCore16ConfigBundleKeysV9urlSchemeSSvpZ",
+            "moduleName": "NidCore",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7NidCore16ConfigBundleKeysV9urlSchemeSSvgZ",
+                "mangledName": "$s7NidCore16ConfigBundleKeysV9urlSchemeSSvgZ",
+                "moduleName": "NidCore",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7NidCore16ConfigBundleKeysV",
+        "mangledName": "$s7NidCore16ConfigBundleKeysV",
+        "moduleName": "NidCore",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NidCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Constant",
+        "printedName": "Constant",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "naverAppThirdLoginScheme",
+            "printedName": "naverAppThirdLoginScheme",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7NidCore8ConstantV24naverAppThirdLoginSchemeSSvpZ",
+            "mangledName": "$s7NidCore8ConstantV24naverAppThirdLoginSchemeSSvpZ",
+            "moduleName": "NidCore",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7NidCore8ConstantV24naverAppThirdLoginSchemeSSvgZ",
+                "mangledName": "$s7NidCore8ConstantV24naverAppThirdLoginSchemeSSvgZ",
+                "moduleName": "NidCore",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "naverAppLoginVersion",
+            "printedName": "naverAppLoginVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7NidCore8ConstantV20naverAppLoginVersionSSvpZ",
+            "mangledName": "$s7NidCore8ConstantV20naverAppLoginVersionSSvpZ",
+            "moduleName": "NidCore",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7NidCore8ConstantV20naverAppLoginVersionSSvgZ",
+                "mangledName": "$s7NidCore8ConstantV20naverAppLoginVersionSSvgZ",
+                "moduleName": "NidCore",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "naverAppAuthCodeRequestURLString",
+            "printedName": "naverAppAuthCodeRequestURLString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7NidCore8ConstantV32naverAppAuthCodeRequestURLStringSSvpZ",
+            "mangledName": "$s7NidCore8ConstantV32naverAppAuthCodeRequestURLStringSSvpZ",
+            "moduleName": "NidCore",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7NidCore8ConstantV32naverAppAuthCodeRequestURLStringSSvgZ",
+                "mangledName": "$s7NidCore8ConstantV32naverAppAuthCodeRequestURLStringSSvgZ",
+                "moduleName": "NidCore",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7NidCore8ConstantV32naverAppAuthCodeRequestURLStringSSvsZ",
+                "mangledName": "$s7NidCore8ConstantV32naverAppAuthCodeRequestURLStringSSvsZ",
+                "moduleName": "NidCore",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7NidCore8ConstantV32naverAppAuthCodeRequestURLStringSSvMZ",
+                "mangledName": "$s7NidCore8ConstantV32naverAppAuthCodeRequestURLStringSSvMZ",
+                "moduleName": "NidCore",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "naverAppIncomingURLPage",
+            "printedName": "naverAppIncomingURLPage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7NidCore8ConstantV23naverAppIncomingURLPageSSvpZ",
+            "mangledName": "$s7NidCore8ConstantV23naverAppIncomingURLPageSSvpZ",
+            "moduleName": "NidCore",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7NidCore8ConstantV23naverAppIncomingURLPageSSvgZ",
+                "mangledName": "$s7NidCore8ConstantV23naverAppIncomingURLPageSSvgZ",
+                "moduleName": "NidCore",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "nidOAuth20BaseURL",
+            "printedName": "nidOAuth20BaseURL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7NidCore8ConstantV17nidOAuth20BaseURL10Foundation0G0VvpZ",
+            "mangledName": "$s7NidCore8ConstantV17nidOAuth20BaseURL10Foundation0G0VvpZ",
+            "moduleName": "NidCore",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7NidCore8ConstantV17nidOAuth20BaseURL10Foundation0G0VvgZ",
+                "mangledName": "$s7NidCore8ConstantV17nidOAuth20BaseURL10Foundation0G0VvgZ",
+                "moduleName": "NidCore",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "nidOpenAPIBaseURL",
+            "printedName": "nidOpenAPIBaseURL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7NidCore8ConstantV17nidOpenAPIBaseURL10Foundation0G0VvpZ",
+            "mangledName": "$s7NidCore8ConstantV17nidOpenAPIBaseURL10Foundation0G0VvpZ",
+            "moduleName": "NidCore",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7NidCore8ConstantV17nidOpenAPIBaseURL10Foundation0G0VvgZ",
+                "mangledName": "$s7NidCore8ConstantV17nidOpenAPIBaseURL10Foundation0G0VvgZ",
+                "moduleName": "NidCore",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "nidOAuth20Path",
+            "printedName": "nidOAuth20Path",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7NidCore8ConstantV14nidOAuth20PathSSvpZ",
+            "mangledName": "$s7NidCore8ConstantV14nidOAuth20PathSSvpZ",
+            "moduleName": "NidCore",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7NidCore8ConstantV14nidOAuth20PathSSvgZ",
+                "mangledName": "$s7NidCore8ConstantV14nidOAuth20PathSSvgZ",
+                "moduleName": "NidCore",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "keychainServiceName",
+            "printedName": "keychainServiceName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7NidCore8ConstantV19keychainServiceNameSSvpZ",
+            "mangledName": "$s7NidCore8ConstantV19keychainServiceNameSSvpZ",
+            "moduleName": "NidCore",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7NidCore8ConstantV19keychainServiceNameSSvgZ",
+                "mangledName": "$s7NidCore8ConstantV19keychainServiceNameSSvgZ",
+                "moduleName": "NidCore",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7NidCore8ConstantV",
+        "mangledName": "$s7NidCore8ConstantV",
+        "moduleName": "NidCore",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LoginBehavior",
+        "printedName": "LoginBehavior",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "app",
+            "printedName": "app",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NidCore.LoginBehavior.Type) -> NidCore.LoginBehavior",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LoginBehavior",
+                    "printedName": "NidCore.LoginBehavior",
+                    "usr": "s:7NidCore13LoginBehaviorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NidCore.LoginBehavior.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LoginBehavior",
+                        "printedName": "NidCore.LoginBehavior",
+                        "usr": "s:7NidCore13LoginBehaviorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7NidCore13LoginBehaviorO3appyA2CmF",
+            "mangledName": "$s7NidCore13LoginBehaviorO3appyA2CmF",
+            "moduleName": "NidCore"
+          },
+          {
+            "kind": "Var",
+            "name": "inAppBrowser",
+            "printedName": "inAppBrowser",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NidCore.LoginBehavior.Type) -> NidCore.LoginBehavior",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LoginBehavior",
+                    "printedName": "NidCore.LoginBehavior",
+                    "usr": "s:7NidCore13LoginBehaviorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NidCore.LoginBehavior.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LoginBehavior",
+                        "printedName": "NidCore.LoginBehavior",
+                        "usr": "s:7NidCore13LoginBehaviorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7NidCore13LoginBehaviorO12inAppBrowseryA2CmF",
+            "mangledName": "$s7NidCore13LoginBehaviorO12inAppBrowseryA2CmF",
+            "moduleName": "NidCore"
+          },
+          {
+            "kind": "Var",
+            "name": "appPreferredWithInAppBrowserFallback",
+            "printedName": "appPreferredWithInAppBrowserFallback",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NidCore.LoginBehavior.Type) -> NidCore.LoginBehavior",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LoginBehavior",
+                    "printedName": "NidCore.LoginBehavior",
+                    "usr": "s:7NidCore13LoginBehaviorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NidCore.LoginBehavior.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LoginBehavior",
+                        "printedName": "NidCore.LoginBehavior",
+                        "usr": "s:7NidCore13LoginBehaviorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7NidCore13LoginBehaviorO36appPreferredWithInAppBrowserFallbackyA2CmF",
+            "mangledName": "$s7NidCore13LoginBehaviorO36appPreferredWithInAppBrowserFallbackyA2CmF",
+            "moduleName": "NidCore"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NidCore.LoginBehavior?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LoginBehavior",
+                    "printedName": "NidCore.LoginBehavior",
+                    "usr": "s:7NidCore13LoginBehaviorO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7NidCore13LoginBehaviorO8rawValueACSgSS_tcfc",
+            "mangledName": "$s7NidCore13LoginBehaviorO8rawValueACSgSS_tcfc",
+            "moduleName": "NidCore",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7NidCore13LoginBehaviorO8rawValueSSvp",
+            "mangledName": "$s7NidCore13LoginBehaviorO8rawValueSSvp",
+            "moduleName": "NidCore",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7NidCore13LoginBehaviorO8rawValueSSvg",
+                "mangledName": "$s7NidCore13LoginBehaviorO8rawValueSSvg",
+                "moduleName": "NidCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[NidCore.LoginBehavior]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LoginBehavior",
+                    "printedName": "NidCore.LoginBehavior",
+                    "usr": "s:7NidCore13LoginBehaviorO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7NidCore13LoginBehaviorO8allCasesSayACGvpZ",
+            "mangledName": "$s7NidCore13LoginBehaviorO8allCasesSayACGvpZ",
+            "moduleName": "NidCore",
+            "static": true,
+            "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[NidCore.LoginBehavior]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LoginBehavior",
+                        "printedName": "NidCore.LoginBehavior",
+                        "usr": "s:7NidCore13LoginBehaviorO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7NidCore13LoginBehaviorO8allCasesSayACGvgZ",
+                "mangledName": "$s7NidCore13LoginBehaviorO8allCasesSayACGvgZ",
+                "moduleName": "NidCore",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:7NidCore13LoginBehaviorO",
+        "mangledName": "$s7NidCore13LoginBehaviorO",
+        "moduleName": "NidCore",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[NidCore.LoginBehavior]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LoginBehavior",
+                        "printedName": "NidCore.LoginBehavior",
+                        "usr": "s:7NidCore13LoginBehaviorO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LoginProcess",
+        "printedName": "LoginProcess",
+        "declKind": "Protocol",
+        "usr": "s:7NidCore12LoginProcessP",
+        "mangledName": "$s7NidCore12LoginProcessP",
+        "moduleName": "NidCore",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NidCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AccessToken",
+        "printedName": "AccessToken",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "tokenString",
+            "printedName": "tokenString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7NidCore11AccessTokenV11tokenStringSSvp",
+            "mangledName": "$s7NidCore11AccessTokenV11tokenStringSSvp",
+            "moduleName": "NidCore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7NidCore11AccessTokenV11tokenStringSSvg",
+                "mangledName": "$s7NidCore11AccessTokenV11tokenStringSSvg",
+                "moduleName": "NidCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "expiresAt",
+            "printedName": "expiresAt",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7NidCore11AccessTokenV9expiresAt10Foundation4DateVvp",
+            "mangledName": "$s7NidCore11AccessTokenV9expiresAt10Foundation4DateVvp",
+            "moduleName": "NidCore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7NidCore11AccessTokenV9expiresAt10Foundation4DateVvg",
+                "mangledName": "$s7NidCore11AccessTokenV9expiresAt10Foundation4DateVvg",
+                "moduleName": "NidCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isExpired",
+            "printedName": "isExpired",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7NidCore11AccessTokenV9isExpiredSbvp",
+            "mangledName": "$s7NidCore11AccessTokenV9isExpiredSbvp",
+            "moduleName": "NidCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7NidCore11AccessTokenV9isExpiredSbvg",
+                "mangledName": "$s7NidCore11AccessTokenV9isExpiredSbvg",
+                "moduleName": "NidCore",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(expiresIn:tokenString:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AccessToken",
+                "printedName": "NidCore.AccessToken",
+                "usr": "s:7NidCore11AccessTokenV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7NidCore11AccessTokenV9expiresIn11tokenStringACSi_SStcfc",
+            "mangledName": "$s7NidCore11AccessTokenV9expiresIn11tokenStringACSi_SStcfc",
+            "moduleName": "NidCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(expiresAt:tokenString:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AccessToken",
+                "printedName": "NidCore.AccessToken",
+                "usr": "s:7NidCore11AccessTokenV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7NidCore11AccessTokenV9expiresAt11tokenStringAC10Foundation4DateV_SStcfc",
+            "mangledName": "$s7NidCore11AccessTokenV9expiresAt11tokenStringAC10Foundation4DateV_SStcfc",
+            "moduleName": "NidCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AccessToken",
+                "printedName": "NidCore.AccessToken",
+                "usr": "s:7NidCore11AccessTokenV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7NidCore11AccessTokenV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s7NidCore11AccessTokenV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "NidCore",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7NidCore11AccessTokenV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s7NidCore11AccessTokenV6encode2toys7Encoder_p_tKF",
+            "moduleName": "NidCore",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7NidCore11AccessTokenV",
+        "mangledName": "$s7NidCore11AccessTokenV",
+        "moduleName": "NidCore",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NidCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LoginResult",
+        "printedName": "LoginResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "accessToken",
+            "printedName": "accessToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AccessToken",
+                "printedName": "NidCore.AccessToken",
+                "usr": "s:7NidCore11AccessTokenV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7NidCore11LoginResultV11accessTokenAA06AccessF0Vvp",
+            "mangledName": "$s7NidCore11LoginResultV11accessTokenAA06AccessF0Vvp",
+            "moduleName": "NidCore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AccessToken",
+                    "printedName": "NidCore.AccessToken",
+                    "usr": "s:7NidCore11AccessTokenV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7NidCore11LoginResultV11accessTokenAA06AccessF0Vvg",
+                "mangledName": "$s7NidCore11LoginResultV11accessTokenAA06AccessF0Vvg",
+                "moduleName": "NidCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "refreshToken",
+            "printedName": "refreshToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RefreshToken",
+                "printedName": "NidCore.RefreshToken",
+                "usr": "s:7NidCore12RefreshTokenV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7NidCore11LoginResultV12refreshTokenAA07RefreshF0Vvp",
+            "mangledName": "$s7NidCore11LoginResultV12refreshTokenAA07RefreshF0Vvp",
+            "moduleName": "NidCore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RefreshToken",
+                    "printedName": "NidCore.RefreshToken",
+                    "usr": "s:7NidCore12RefreshTokenV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7NidCore11LoginResultV12refreshTokenAA07RefreshF0Vvg",
+                "mangledName": "$s7NidCore11LoginResultV12refreshTokenAA07RefreshF0Vvg",
+                "moduleName": "NidCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(accessToken:refreshToken:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LoginResult",
+                "printedName": "NidCore.LoginResult",
+                "usr": "s:7NidCore11LoginResultV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AccessToken",
+                "printedName": "NidCore.AccessToken",
+                "usr": "s:7NidCore11AccessTokenV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RefreshToken",
+                "printedName": "NidCore.RefreshToken",
+                "usr": "s:7NidCore12RefreshTokenV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7NidCore11LoginResultV11accessToken07refreshF0AcA06AccessF0V_AA07RefreshF0Vtcfc",
+            "mangledName": "$s7NidCore11LoginResultV11accessToken07refreshF0AcA06AccessF0V_AA07RefreshF0Vtcfc",
+            "moduleName": "NidCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7NidCore11LoginResultV",
+        "mangledName": "$s7NidCore11LoginResultV",
+        "moduleName": "NidCore",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NidCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RefreshToken",
+        "printedName": "RefreshToken",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "tokenString",
+            "printedName": "tokenString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7NidCore12RefreshTokenV11tokenStringSSvp",
+            "mangledName": "$s7NidCore12RefreshTokenV11tokenStringSSvp",
+            "moduleName": "NidCore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7NidCore12RefreshTokenV11tokenStringSSvg",
+                "mangledName": "$s7NidCore12RefreshTokenV11tokenStringSSvg",
+                "moduleName": "NidCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(tokenString:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RefreshToken",
+                "printedName": "NidCore.RefreshToken",
+                "usr": "s:7NidCore12RefreshTokenV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7NidCore12RefreshTokenV11tokenStringACSS_tcfc",
+            "mangledName": "$s7NidCore12RefreshTokenV11tokenStringACSS_tcfc",
+            "moduleName": "NidCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RefreshToken",
+                "printedName": "NidCore.RefreshToken",
+                "usr": "s:7NidCore12RefreshTokenV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7NidCore12RefreshTokenV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s7NidCore12RefreshTokenV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "NidCore",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7NidCore12RefreshTokenV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s7NidCore12RefreshTokenV6encode2toys7Encoder_p_tKF",
+            "moduleName": "NidCore",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7NidCore12RefreshTokenV",
+        "mangledName": "$s7NidCore12RefreshTokenV",
+        "moduleName": "NidCore",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NidCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NidError",
+        "printedName": "NidError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "clientError",
+            "printedName": "clientError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NidCore.NidError.Type) -> (NidCore.NidError.ClientErrorDetail) -> NidCore.NidError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(NidCore.NidError.ClientErrorDetail) -> NidCore.NidError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NidError",
+                        "printedName": "NidCore.NidError",
+                        "usr": "s:7NidCore0A5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ClientErrorDetail",
+                        "printedName": "NidCore.NidError.ClientErrorDetail",
+                        "usr": "s:7NidCore0A5ErrorO06ClientC6DetailO"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NidCore.NidError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NidError",
+                        "printedName": "NidCore.NidError",
+                        "usr": "s:7NidCore0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7NidCore0A5ErrorO06clientC0yA2C06ClientC6DetailOcACmF",
+            "mangledName": "$s7NidCore0A5ErrorO06clientC0yA2C06ClientC6DetailOcACmF",
+            "moduleName": "NidCore"
+          },
+          {
+            "kind": "Var",
+            "name": "serverError",
+            "printedName": "serverError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NidCore.NidError.Type) -> (NidCore.NidError.ServerErrorDetail) -> NidCore.NidError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(NidCore.NidError.ServerErrorDetail) -> NidCore.NidError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NidError",
+                        "printedName": "NidCore.NidError",
+                        "usr": "s:7NidCore0A5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ServerErrorDetail",
+                        "printedName": "NidCore.NidError.ServerErrorDetail",
+                        "usr": "s:7NidCore0A5ErrorO06ServerC6DetailO"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NidCore.NidError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NidError",
+                        "printedName": "NidCore.NidError",
+                        "usr": "s:7NidCore0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7NidCore0A5ErrorO06serverC0yA2C06ServerC6DetailOcACmF",
+            "mangledName": "$s7NidCore0A5ErrorO06serverC0yA2C06ServerC6DetailOcACmF",
+            "moduleName": "NidCore"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "ClientErrorDetail",
+            "printedName": "ClientErrorDetail",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "initalizeNotCalled",
+                "printedName": "initalizeNotCalled",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(NidCore.NidError.ClientErrorDetail.Type) -> NidCore.NidError.ClientErrorDetail",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ClientErrorDetail",
+                        "printedName": "NidCore.NidError.ClientErrorDetail",
+                        "usr": "s:7NidCore0A5ErrorO06ClientC6DetailO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "NidCore.NidError.ClientErrorDetail.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ClientErrorDetail",
+                            "printedName": "NidCore.NidError.ClientErrorDetail",
+                            "usr": "s:7NidCore0A5ErrorO06ClientC6DetailO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7NidCore0A5ErrorO06ClientC6DetailO18initalizeNotCalledyA2EmF",
+                "mangledName": "$s7NidCore0A5ErrorO06ClientC6DetailO18initalizeNotCalledyA2EmF",
+                "moduleName": "NidCore"
+              },
+              {
+                "kind": "Var",
+                "name": "missingClientConfiguration",
+                "printedName": "missingClientConfiguration",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(NidCore.NidError.ClientErrorDetail.Type) -> (Swift.String) -> NidCore.NidError.ClientErrorDetail",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String) -> NidCore.NidError.ClientErrorDetail",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ClientErrorDetail",
+                            "printedName": "NidCore.NidError.ClientErrorDetail",
+                            "usr": "s:7NidCore0A5ErrorO06ClientC6DetailO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(key: Swift.String)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "NidCore.NidError.ClientErrorDetail.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ClientErrorDetail",
+                            "printedName": "NidCore.NidError.ClientErrorDetail",
+                            "usr": "s:7NidCore0A5ErrorO06ClientC6DetailO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7NidCore0A5ErrorO06ClientC6DetailO07missingD13ConfigurationyAESS_tcAEmF",
+                "mangledName": "$s7NidCore0A5ErrorO06ClientC6DetailO07missingD13ConfigurationyAESS_tcAEmF",
+                "moduleName": "NidCore"
+              },
+              {
+                "kind": "Var",
+                "name": "invalidClientConfigurationFormat",
+                "printedName": "invalidClientConfigurationFormat",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(NidCore.NidError.ClientErrorDetail.Type) -> NidCore.NidError.ClientErrorDetail",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ClientErrorDetail",
+                        "printedName": "NidCore.NidError.ClientErrorDetail",
+                        "usr": "s:7NidCore0A5ErrorO06ClientC6DetailO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "NidCore.NidError.ClientErrorDetail.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ClientErrorDetail",
+                            "printedName": "NidCore.NidError.ClientErrorDetail",
+                            "usr": "s:7NidCore0A5ErrorO06ClientC6DetailO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7NidCore0A5ErrorO06ClientC6DetailO07invalidD19ConfigurationFormatyA2EmF",
+                "mangledName": "$s7NidCore0A5ErrorO06ClientC6DetailO07invalidD19ConfigurationFormatyA2EmF",
+                "moduleName": "NidCore"
+              },
+              {
+                "kind": "Var",
+                "name": "canceledByUser",
+                "printedName": "canceledByUser",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(NidCore.NidError.ClientErrorDetail.Type) -> NidCore.NidError.ClientErrorDetail",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ClientErrorDetail",
+                        "printedName": "NidCore.NidError.ClientErrorDetail",
+                        "usr": "s:7NidCore0A5ErrorO06ClientC6DetailO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "NidCore.NidError.ClientErrorDetail.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ClientErrorDetail",
+                            "printedName": "NidCore.NidError.ClientErrorDetail",
+                            "usr": "s:7NidCore0A5ErrorO06ClientC6DetailO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7NidCore0A5ErrorO06ClientC6DetailO14canceledByUseryA2EmF",
+                "mangledName": "$s7NidCore0A5ErrorO06ClientC6DetailO14canceledByUseryA2EmF",
+                "moduleName": "NidCore"
+              },
+              {
+                "kind": "Var",
+                "name": "unsupportedResponseType",
+                "printedName": "unsupportedResponseType",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(NidCore.NidError.ClientErrorDetail.Type) -> NidCore.NidError.ClientErrorDetail",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ClientErrorDetail",
+                        "printedName": "NidCore.NidError.ClientErrorDetail",
+                        "usr": "s:7NidCore0A5ErrorO06ClientC6DetailO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "NidCore.NidError.ClientErrorDetail.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ClientErrorDetail",
+                            "printedName": "NidCore.NidError.ClientErrorDetail",
+                            "usr": "s:7NidCore0A5ErrorO06ClientC6DetailO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7NidCore0A5ErrorO06ClientC6DetailO23unsupportedResponseTypeyA2EmF",
+                "mangledName": "$s7NidCore0A5ErrorO06ClientC6DetailO23unsupportedResponseTypeyA2EmF",
+                "moduleName": "NidCore"
+              },
+              {
+                "kind": "Var",
+                "name": "naverAppNotInstalled",
+                "printedName": "naverAppNotInstalled",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(NidCore.NidError.ClientErrorDetail.Type) -> NidCore.NidError.ClientErrorDetail",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ClientErrorDetail",
+                        "printedName": "NidCore.NidError.ClientErrorDetail",
+                        "usr": "s:7NidCore0A5ErrorO06ClientC6DetailO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "NidCore.NidError.ClientErrorDetail.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ClientErrorDetail",
+                            "printedName": "NidCore.NidError.ClientErrorDetail",
+                            "usr": "s:7NidCore0A5ErrorO06ClientC6DetailO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7NidCore0A5ErrorO06ClientC6DetailO20naverAppNotInstalledyA2EmF",
+                "mangledName": "$s7NidCore0A5ErrorO06ClientC6DetailO20naverAppNotInstalledyA2EmF",
+                "moduleName": "NidCore"
+              },
+              {
+                "kind": "Var",
+                "name": "errorDescription",
+                "printedName": "errorDescription",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7NidCore0A5ErrorO06ClientC6DetailO16errorDescriptionSSSgvp",
+                "mangledName": "$s7NidCore0A5ErrorO06ClientC6DetailO16errorDescriptionSSSgvp",
+                "moduleName": "NidCore",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7NidCore0A5ErrorO06ClientC6DetailO16errorDescriptionSSSgvg",
+                    "mangledName": "$s7NidCore0A5ErrorO06ClientC6DetailO16errorDescriptionSSSgvg",
+                    "moduleName": "NidCore",
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:7NidCore0A5ErrorO06ClientC6DetailO",
+            "mangledName": "$s7NidCore0A5ErrorO06ClientC6DetailO",
+            "moduleName": "NidCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "ServerErrorDetail",
+            "printedName": "ServerErrorDetail",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "invalidState",
+                "printedName": "invalidState",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(NidCore.NidError.ServerErrorDetail.Type) -> (Swift.String, Swift.String?) -> NidCore.NidError.ServerErrorDetail",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String, Swift.String?) -> NidCore.NidError.ServerErrorDetail",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ServerErrorDetail",
+                            "printedName": "NidCore.NidError.ServerErrorDetail",
+                            "usr": "s:7NidCore0A5ErrorO06ServerC6DetailO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(expected: Swift.String, actual: Swift.String?)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "Swift.String?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "String",
+                                    "printedName": "Swift.String",
+                                    "usr": "s:SS"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "NidCore.NidError.ServerErrorDetail.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ServerErrorDetail",
+                            "printedName": "NidCore.NidError.ServerErrorDetail",
+                            "usr": "s:7NidCore0A5ErrorO06ServerC6DetailO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7NidCore0A5ErrorO06ServerC6DetailO12invalidStateyAESS_SSSgtcAEmF",
+                "mangledName": "$s7NidCore0A5ErrorO06ServerC6DetailO12invalidStateyAESS_SSSgtcAEmF",
+                "moduleName": "NidCore"
+              },
+              {
+                "kind": "Var",
+                "name": "invalidURLResponse",
+                "printedName": "invalidURLResponse",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(NidCore.NidError.ServerErrorDetail.Type) -> (Foundation.URL) -> NidCore.NidError.ServerErrorDetail",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Foundation.URL) -> NidCore.NidError.ServerErrorDetail",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ServerErrorDetail",
+                            "printedName": "NidCore.NidError.ServerErrorDetail",
+                            "usr": "s:7NidCore0A5ErrorO06ServerC6DetailO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URL",
+                            "printedName": "Foundation.URL",
+                            "usr": "s:10Foundation3URLV"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "NidCore.NidError.ServerErrorDetail.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ServerErrorDetail",
+                            "printedName": "NidCore.NidError.ServerErrorDetail",
+                            "usr": "s:7NidCore0A5ErrorO06ServerC6DetailO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7NidCore0A5ErrorO06ServerC6DetailO18invalidURLResponseyAE10Foundation3URLVcAEmF",
+                "mangledName": "$s7NidCore0A5ErrorO06ServerC6DetailO18invalidURLResponseyAE10Foundation3URLVcAEmF",
+                "moduleName": "NidCore"
+              },
+              {
+                "kind": "Var",
+                "name": "invalidResponseFormat",
+                "printedName": "invalidResponseFormat",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(NidCore.NidError.ServerErrorDetail.Type) -> NidCore.NidError.ServerErrorDetail",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ServerErrorDetail",
+                        "printedName": "NidCore.NidError.ServerErrorDetail",
+                        "usr": "s:7NidCore0A5ErrorO06ServerC6DetailO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "NidCore.NidError.ServerErrorDetail.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ServerErrorDetail",
+                            "printedName": "NidCore.NidError.ServerErrorDetail",
+                            "usr": "s:7NidCore0A5ErrorO06ServerC6DetailO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7NidCore0A5ErrorO06ServerC6DetailO21invalidResponseFormatyA2EmF",
+                "mangledName": "$s7NidCore0A5ErrorO06ServerC6DetailO21invalidResponseFormatyA2EmF",
+                "moduleName": "NidCore"
+              },
+              {
+                "kind": "Var",
+                "name": "networkError",
+                "printedName": "networkError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(NidCore.NidError.ServerErrorDetail.Type) -> ((any Swift.Error)?) -> NidCore.NidError.ServerErrorDetail",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "((any Swift.Error)?) -> NidCore.NidError.ServerErrorDetail",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ServerErrorDetail",
+                            "printedName": "NidCore.NidError.ServerErrorDetail",
+                            "usr": "s:7NidCore0A5ErrorO06ServerC6DetailO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "(any Swift.Error)?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Error",
+                                "printedName": "any Swift.Error",
+                                "usr": "s:s5ErrorP"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "NidCore.NidError.ServerErrorDetail.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ServerErrorDetail",
+                            "printedName": "NidCore.NidError.ServerErrorDetail",
+                            "usr": "s:7NidCore0A5ErrorO06ServerC6DetailO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7NidCore0A5ErrorO06ServerC6DetailO07networkC0yAEs0C0_pSgcAEmF",
+                "mangledName": "$s7NidCore0A5ErrorO06ServerC6DetailO07networkC0yAEs0C0_pSgcAEmF",
+                "moduleName": "NidCore",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "webAuthenticationInternalError",
+                "printedName": "webAuthenticationInternalError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(NidCore.NidError.ServerErrorDetail.Type) -> ((any Swift.Error)?) -> NidCore.NidError.ServerErrorDetail",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "((any Swift.Error)?) -> NidCore.NidError.ServerErrorDetail",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ServerErrorDetail",
+                            "printedName": "NidCore.NidError.ServerErrorDetail",
+                            "usr": "s:7NidCore0A5ErrorO06ServerC6DetailO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "(any Swift.Error)?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Error",
+                                "printedName": "any Swift.Error",
+                                "usr": "s:s5ErrorP"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "NidCore.NidError.ServerErrorDetail.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ServerErrorDetail",
+                            "printedName": "NidCore.NidError.ServerErrorDetail",
+                            "usr": "s:7NidCore0A5ErrorO06ServerC6DetailO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7NidCore0A5ErrorO06ServerC6DetailO025webAuthenticationInternalC0yAEs0C0_pSgcAEmF",
+                "mangledName": "$s7NidCore0A5ErrorO06ServerC6DetailO025webAuthenticationInternalC0yAEs0C0_pSgcAEmF",
+                "moduleName": "NidCore"
+              },
+              {
+                "kind": "Var",
+                "name": "authError",
+                "printedName": "authError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(NidCore.NidError.ServerErrorDetail.Type) -> (Swift.String, Swift.String?) -> NidCore.NidError.ServerErrorDetail",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String, Swift.String?) -> NidCore.NidError.ServerErrorDetail",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ServerErrorDetail",
+                            "printedName": "NidCore.NidError.ServerErrorDetail",
+                            "usr": "s:7NidCore0A5ErrorO06ServerC6DetailO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(errorCode: Swift.String, errorDescription: Swift.String?)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "Swift.String?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "String",
+                                    "printedName": "Swift.String",
+                                    "usr": "s:SS"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "NidCore.NidError.ServerErrorDetail.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ServerErrorDetail",
+                            "printedName": "NidCore.NidError.ServerErrorDetail",
+                            "usr": "s:7NidCore0A5ErrorO06ServerC6DetailO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:7NidCore0A5ErrorO06ServerC6DetailO04authC0yAESS_SSSgtcAEmF",
+                "mangledName": "$s7NidCore0A5ErrorO06ServerC6DetailO04authC0yAESS_SSSgtcAEmF",
+                "moduleName": "NidCore"
+              },
+              {
+                "kind": "Var",
+                "name": "errorDescription",
+                "printedName": "errorDescription",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7NidCore0A5ErrorO06ServerC6DetailO16errorDescriptionSSSgvp",
+                "mangledName": "$s7NidCore0A5ErrorO06ServerC6DetailO16errorDescriptionSSSgvp",
+                "moduleName": "NidCore",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7NidCore0A5ErrorO06ServerC6DetailO16errorDescriptionSSSgvg",
+                    "mangledName": "$s7NidCore0A5ErrorO06ServerC6DetailO16errorDescriptionSSSgvg",
+                    "moduleName": "NidCore",
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:7NidCore0A5ErrorO06ServerC6DetailO",
+            "mangledName": "$s7NidCore0A5ErrorO06ServerC6DetailO",
+            "moduleName": "NidCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7NidCore0A5ErrorO11descriptionSSvp",
+            "mangledName": "$s7NidCore0A5ErrorO11descriptionSSvp",
+            "moduleName": "NidCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7NidCore0A5ErrorO11descriptionSSvg",
+                "mangledName": "$s7NidCore0A5ErrorO11descriptionSSvg",
+                "moduleName": "NidCore",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7NidCore0A5ErrorO16errorDescriptionSSSgvp",
+            "mangledName": "$s7NidCore0A5ErrorO16errorDescriptionSSSgvp",
+            "moduleName": "NidCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7NidCore0A5ErrorO16errorDescriptionSSSgvg",
+                "mangledName": "$s7NidCore0A5ErrorO16errorDescriptionSSSgvg",
+                "moduleName": "NidCore",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:7NidCore0A5ErrorO",
+        "mangledName": "$s7NidCore0A5ErrorO",
+        "moduleName": "NidCore",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NidCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "NidCore"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LogLevel",
+        "printedName": "LogLevel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "debug",
+            "printedName": "debug",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NidCore.LogLevel.Type) -> NidCore.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "NidCore.LogLevel",
+                    "usr": "s:7NidCore8LogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NidCore.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "NidCore.LogLevel",
+                        "usr": "s:7NidCore8LogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7NidCore8LogLevelO5debugyA2CmF",
+            "mangledName": "$s7NidCore8LogLevelO5debugyA2CmF",
+            "moduleName": "NidCore"
+          },
+          {
+            "kind": "Var",
+            "name": "info",
+            "printedName": "info",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NidCore.LogLevel.Type) -> NidCore.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "NidCore.LogLevel",
+                    "usr": "s:7NidCore8LogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NidCore.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "NidCore.LogLevel",
+                        "usr": "s:7NidCore8LogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7NidCore8LogLevelO4infoyA2CmF",
+            "mangledName": "$s7NidCore8LogLevelO4infoyA2CmF",
+            "moduleName": "NidCore"
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NidCore.LogLevel.Type) -> NidCore.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "NidCore.LogLevel",
+                    "usr": "s:7NidCore8LogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NidCore.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "NidCore.LogLevel",
+                        "usr": "s:7NidCore8LogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7NidCore8LogLevelO5erroryA2CmF",
+            "mangledName": "$s7NidCore8LogLevelO5erroryA2CmF",
+            "moduleName": "NidCore"
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7NidCore8LogLevelO11descriptionSSvp",
+            "mangledName": "$s7NidCore8LogLevelO11descriptionSSvp",
+            "moduleName": "NidCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7NidCore8LogLevelO11descriptionSSvg",
+                "mangledName": "$s7NidCore8LogLevelO11descriptionSSvg",
+                "moduleName": "NidCore",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NidCore.LogLevel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "NidCore.LogLevel",
+                    "usr": "s:7NidCore8LogLevelO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7NidCore8LogLevelO8rawValueACSgSi_tcfc",
+            "mangledName": "$s7NidCore8LogLevelO8rawValueACSgSi_tcfc",
+            "moduleName": "NidCore",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7NidCore8LogLevelO8rawValueSivp",
+            "mangledName": "$s7NidCore8LogLevelO8rawValueSivp",
+            "moduleName": "NidCore",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7NidCore8LogLevelO8rawValueSivg",
+                "mangledName": "$s7NidCore8LogLevelO8rawValueSivg",
+                "moduleName": "NidCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:7NidCore8LogLevelO",
+        "mangledName": "$s7NidCore8LogLevelO",
+        "moduleName": "NidCore",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NidLogger",
+        "printedName": "NidLogger",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "log",
+            "printedName": "log(_:level:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LogLevel",
+                "printedName": "NidCore.LogLevel",
+                "hasDefaultArg": true,
+                "usr": "s:7NidCore8LogLevelO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7NidCore0A6LoggerC3log_5levelySS_AA8LogLevelOtFZ",
+            "mangledName": "$s7NidCore0A6LoggerC3log_5levelySS_AA8LogLevelOtFZ",
+            "moduleName": "NidCore",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "log",
+            "printedName": "log(_:level:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LogLevel",
+                "printedName": "NidCore.LogLevel",
+                "hasDefaultArg": true,
+                "usr": "s:7NidCore8LogLevelO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7NidCore0A6LoggerC3log_5levelys5Error_p_AA8LogLevelOtFZ",
+            "mangledName": "$s7NidCore0A6LoggerC3log_5levelys5Error_p_AA8LogLevelOtFZ",
+            "moduleName": "NidCore",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fatalError",
+            "printedName": "fatalError(_:file:line:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Never",
+                "printedName": "Swift.Never",
+                "usr": "s:s5NeverO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StaticString",
+                "printedName": "Swift.StaticString",
+                "hasDefaultArg": true,
+                "usr": "s:s12StaticStringV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "hasDefaultArg": true,
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7NidCore0A6LoggerC10fatalError_4file4lines5NeverOSS_s12StaticStringVSutFZ",
+            "mangledName": "$s7NidCore0A6LoggerC10fatalError_4file4lines5NeverOSS_s12StaticStringVSutFZ",
+            "moduleName": "NidCore",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fatalError",
+            "printedName": "fatalError(_:file:line:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Never",
+                "printedName": "Swift.Never",
+                "usr": "s:s5NeverO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StaticString",
+                "printedName": "Swift.StaticString",
+                "hasDefaultArg": true,
+                "usr": "s:s12StaticStringV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "hasDefaultArg": true,
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7NidCore0A6LoggerC10fatalError_4file4lines5NeverOs0E0_p_s12StaticStringVSutFZ",
+            "mangledName": "$s7NidCore0A6LoggerC10fatalError_4file4lines5NeverOs0E0_p_s12StaticStringVSutFZ",
+            "moduleName": "NidCore",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7NidCore0A6LoggerC",
+        "mangledName": "$s7NidCore0A6LoggerC",
+        "moduleName": "NidCore",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/user\/Desktop\/WorkSpaces\/3rdparty-login-github\/Projects\/NidThirdPartyLogin\/Sources\/NidCore\/ConfigKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 157,
+      "length": 13,
+      "value": "\"NidClientID\""
+    },
+    {
+      "filePath": "\/Users\/user\/Desktop\/WorkSpaces\/3rdparty-login-github\/Projects\/NidThirdPartyLogin\/Sources\/NidCore\/ConfigKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 208,
+      "length": 17,
+      "value": "\"NidClientSecret\""
+    },
+    {
+      "filePath": "\/Users\/user\/Desktop\/WorkSpaces\/3rdparty-login-github\/Projects\/NidThirdPartyLogin\/Sources\/NidCore\/ConfigKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 258,
+      "length": 12,
+      "value": "\"NidAppName\""
+    },
+    {
+      "filePath": "\/Users\/user\/Desktop\/WorkSpaces\/3rdparty-login-github\/Projects\/NidThirdPartyLogin\/Sources\/NidCore\/ConfigKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 305,
+      "length": 14,
+      "value": "\"NidUrlScheme\""
+    },
+    {
+      "filePath": "\/Users\/user\/Desktop\/WorkSpaces\/3rdparty-login-github\/Projects\/NidThirdPartyLogin\/Sources\/NidCore\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 182,
+      "length": 23,
+      "value": "\"naversearchthirdlogin\""
+    },
+    {
+      "filePath": "\/Users\/user\/Desktop\/WorkSpaces\/3rdparty-login-github\/Projects\/NidThirdPartyLogin\/Sources\/NidCore\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 263,
+      "length": 3,
+      "value": "\"2\""
+    },
+    {
+      "filePath": "\/Users\/user\/Desktop\/WorkSpaces\/3rdparty-login-github\/Projects\/NidThirdPartyLogin\/Sources\/NidCore\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 324,
+      "length": 56,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/user\/Desktop\/WorkSpaces\/3rdparty-login-github\/Projects\/NidThirdPartyLogin\/Sources\/NidCore\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 361,
+      "length": 1,
+      "value": "\":\/\/thirdPartyLogin\""
+    },
+    {
+      "filePath": "\/Users\/user\/Desktop\/WorkSpaces\/3rdparty-login-github\/Projects\/NidThirdPartyLogin\/Sources\/NidCore\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 429,
+      "length": 23,
+      "value": "\"thirdPartyLoginResult\""
+    },
+    {
+      "filePath": "\/Users\/user\/Desktop\/WorkSpaces\/3rdparty-login-github\/Projects\/NidThirdPartyLogin\/Sources\/NidCore\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 507,
+      "length": 33,
+      "value": "\"https:\/\/nid.naver.com\/oauth2.0\/\""
+    },
+    {
+      "filePath": "\/Users\/user\/Desktop\/WorkSpaces\/3rdparty-login-github\/Projects\/NidThirdPartyLogin\/Sources\/NidCore\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 597,
+      "length": 35,
+      "value": "\"https:\/\/openapi.naver.com\/v1\/nid\/\""
+    },
+    {
+      "filePath": "\/Users\/user\/Desktop\/WorkSpaces\/3rdparty-login-github\/Projects\/NidThirdPartyLogin\/Sources\/NidCore\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 674,
+      "length": 11,
+      "value": "\"authorize\""
+    },
+    {
+      "filePath": "\/Users\/user\/Desktop\/WorkSpaces\/3rdparty-login-github\/Projects\/NidThirdPartyLogin\/Sources\/NidCore\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 730,
+      "length": 88,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/user\/Desktop\/WorkSpaces\/3rdparty-login-github\/Projects\/NidThirdPartyLogin\/Sources\/NidCore\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 782,
+      "length": 1,
+      "value": "\".nidthirdpartylogin.keychainservice\""
+    },
+    {
+      "filePath": "\/Users\/user\/Desktop\/WorkSpaces\/3rdparty-login-github\/Projects\/NidThirdPartyLogin\/Sources\/NidCore\/LoginBehavior.swift",
+      "kind": "StringLiteral",
+      "offset": 160,
+      "length": 11,
+      "value": "\"Naver App\""
+    },
+    {
+      "filePath": "\/Users\/user\/Desktop\/WorkSpaces\/3rdparty-login-github\/Projects\/NidThirdPartyLogin\/Sources\/NidCore\/LoginBehavior.swift",
+      "kind": "StringLiteral",
+      "offset": 196,
+      "length": 16,
+      "value": "\"In App Browser\""
+    },
+    {
+      "filePath": "\/Users\/user\/Desktop\/WorkSpaces\/3rdparty-login-github\/Projects\/NidThirdPartyLogin\/Sources\/NidCore\/LoginBehavior.swift",
+      "kind": "StringLiteral",
+      "offset": 261,
+      "length": 15,
+      "value": "\"App Preferred\""
+    },
+    {
+      "filePath": "\/Users\/user\/Desktop\/WorkSpaces\/3rdparty-login-github\/Projects\/NidThirdPartyLogin\/Sources\/NidCore\/NidLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 239,
+      "length": 4,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/user\/Desktop\/WorkSpaces\/3rdparty-login-github\/Projects\/NidThirdPartyLogin\/Sources\/NidCore\/NidLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 245,
+      "length": 5,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/user\/Desktop\/WorkSpaces\/3rdparty-login-github\/Projects\/NidThirdPartyLogin\/Sources\/NidCore\/NidLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 2007,
+      "length": 20,
+      "value": "\"NidThirdPartyLogin\""
+    }
+  ]
+}

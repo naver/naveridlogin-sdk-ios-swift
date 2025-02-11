@@ -1,0 +1,914 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		003850C67CFA4497330BE8E7 /* TuistBundle+TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A6F66FB5B364F97353B6E7 /* TuistBundle+TestApp.swift */; };
+		139C6DE098A3FD4772AFE4A6 /* TuistAssets+TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA7C0A5FED937D57597CDE3 /* TuistAssets+TestApp.swift */; };
+		17383BB05E3101DF08BB2B1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F5B4CE42406F7998CA4767B /* Assets.xcassets */; };
+		1C23D1B576E89184C4FDBB15 /* AccessTokenVerificationRepositoryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8AF5C1876A69C0238319AD /* AccessTokenVerificationRepositoryTest.swift */; };
+		1FF3B6929F06C3AF638F6022 /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62ED880BF863AC1DA599A7D1 /* DetailTableViewCell.swift */; };
+		24FAD54E8C22989102B3FF26 /* NidThirdPartyLogin.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 53A98E250188940E00A2571C /* NidThirdPartyLogin.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2AC5EFCB67F0A849FC5DDB60 /* NidLoggerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F09EADDFF559A643B14FD9 /* NidLoggerTest.swift */; };
+		3018F36B26DF7DF6FCDD0D5D /* NidError+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F7F569BB528D3E9BA2E6D0 /* NidError+.swift */; };
+		38BFBBC9A381524427ECE678 /* NidCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0BF378006C834AAE647FB646 /* NidCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		436438F92A72D0D124BCBEFB /* SegmentedControlCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395403AD1BC24DDE283D9049 /* SegmentedControlCellTableViewCell.swift */; };
+		489DD308A67E866A2DE551FB /* PercentEncodingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD2614B962A459DF277F28F /* PercentEncodingTest.swift */; };
+		531A3102CD4620D6D3AC30D9 /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DEACE798CD7D06CACDA2F5 /* SectionHeaderView.swift */; };
+		53B83691E91F18A2DAC047AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CBB0A0EBF458964426B460 /* SceneDelegate.swift */; };
+		58D9B27C1DCD8C64697D3268 /* DefaultNetworkTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3B9FF545BE0718C39ADCAA /* DefaultNetworkTest.swift */; };
+		671375378F0341C73C6E25A0 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABFA9EFE4F2521D43911B87 /* MainViewModel.swift */; };
+		699E51698FDB9D37E719B7D0 /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB64D599CBFA25481EC4E7FA /* UIViewController+.swift */; };
+		6A189AE8E502C2EF2D1D9A0A /* TokenRepositoryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66005E8DDE86CCA94779F38 /* TokenRepositoryTest.swift */; };
+		703FCCCF97CFB9B2CDD157D2 /* NidCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0BF378006C834AAE647FB646 /* NidCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		73A786BACA0D880FD2577018 /* StateVerificationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B724A61F5A5DEF436F47F2 /* StateVerificationTest.swift */; };
+		79308AFC4B455147241AA571 /* TestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991EDFA2CCF6D3A2F15A963D /* TestHelper.swift */; };
+		79C5EBAFCBF0491C35835B59 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48AA664285737A03E08D4BE /* HeaderView.swift */; };
+		80BCF847CE43B2D069062185 /* HTTPHeadersTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327B69971955DC870AC5F9F7 /* HTTPHeadersTest.swift */; };
+		86DFCE04CB8B0DFCD1E3B20F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F5B4CE42406F7998CA4767B /* Assets.xcassets */; };
+		95881707DA1ED150541A71FF /* AccessTokenTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD51A2A73746471B9AD859A6 /* AccessTokenTest.swift */; };
+		A02F91DD5837479D54B38355 /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF090A11DFE39AB748045EF2 /* TitleTableViewCell.swift */; };
+		A7C213900D89033B0B732276 /* NidThirdPartyLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A98E250188940E00A2571C /* NidThirdPartyLogin.framework */; };
+		B177558F9AF9D0539747DE24 /* LoginRepositoryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C128A47B3EC766958CCC51 /* LoginRepositoryTest.swift */; };
+		B26536A1FB0466EB690B1B20 /* TuistBundle+NidThirdPartyLoginSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5622E9C93B7D397AE42453C4 /* TuistBundle+NidThirdPartyLoginSample.swift */; };
+		BA177EF5F461C95E4EA35917 /* TokenRepositoryKeychainErrorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801C7A0CED58989BB3C3E685 /* TokenRepositoryKeychainErrorTest.swift */; };
+		BD20DEA000A67A6371D4EECF /* RequestFactoryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E44730736B313D4028C421D /* RequestFactoryTest.swift */; };
+		BE51C23434F3BAC2DA7732C0 /* TuistAssets+NidThirdPartyLoginSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9336418852D2F27B7A805330 /* TuistAssets+NidThirdPartyLoginSample.swift */; };
+		C161B880DF6420B21F8AF96E /* MockURLSessionDataTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBF8458E0E78E190BE27637 /* MockURLSessionDataTask.swift */; };
+		C4F79E3F23196E9F68D614F3 /* ConfigTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1C9DA6E99324D80F6F8A33 /* ConfigTest.swift */; };
+		C7C942B9943C2D3E8F697D4E /* NidThirdPartyLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A98E250188940E00A2571C /* NidThirdPartyLogin.framework */; };
+		D0D674C4E738AE611232CB61 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD5B42ED695D85FE1C75207 /* MainViewController.swift */; };
+		D2437C4B5106EE3E0D45CF89 /* TuistAssets+NidThirdPartyLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3383A9C3A1E4E0C418863C7C /* TuistAssets+NidThirdPartyLoginTests.swift */; };
+		D69A7B17A785237B8C7E6956 /* DefaultButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74FF2968AAB6C6B9155E84F /* DefaultButton.swift */; };
+		D849F883B166C66DA5ADD210 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD38CA2DB1B9FE60FE7506F /* AppDelegate.swift */; };
+		D8BA08D9B8AA21E894A6214D /* WebAuthCodeRepositoryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADF3D2F56B75112E7FF48B2 /* WebAuthCodeRepositoryTest.swift */; };
+		D91C5D3FC2C8FC4552BC58A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB33600EB97EBCCF7E1DE11 /* AppDelegate.swift */; };
+		E06B41B2A0AA90CC8DB84440 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3964539DC31B3A2E5E41CD /* MainView.swift */; };
+		E2A4824BB61ADA2B6D57CDA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F5B4CE42406F7998CA4767B /* Assets.xcassets */; };
+		E54FC4077616BB72D92D9B3F /* MockClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3537191142CFA14A4D765769 /* MockClasses.swift */; };
+		E818E82CFC2A7132C572ED14 /* AppAuthCodeRepositoryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0C811A2DF6B95CA02C786B /* AppAuthCodeRepositoryTest.swift */; };
+		E9F81B6A15C16271B9960DAB /* NidThirdPartyLogin.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 53A98E250188940E00A2571C /* NidThirdPartyLogin.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EC9627D25A56566002DAC0F5 /* KeychainServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4559E2AAB2B9D902CD11A15 /* KeychainServiceTest.swift */; };
+		FC05BEB9B2811BABA1AC77B1 /* NidThirdPartyLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A98E250188940E00A2571C /* NidThirdPartyLogin.framework */; };
+		FCD91659D676BD0C0058F69D /* TuistBundle+NidThirdPartyLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBD45F7502C7173E48A0D9D /* TuistBundle+NidThirdPartyLoginTests.swift */; };
+		FD43D536C0101C742CDC2AAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAE42A06E279F06ED46D9AE /* SceneDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F95D4B8FF2953702B893E9EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 926886CBCCFE2B1F108C5EA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A22A5A4BF45FDAD1CD76BCC;
+			remoteInfo = TestApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		19D5E0475ABE58C94715E85F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				703FCCCF97CFB9B2CDD157D2 /* NidCore.framework in Embed Frameworks */,
+				24FAD54E8C22989102B3FF26 /* NidThirdPartyLogin.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		220515C1210FAE1C0D412649 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD5A605CDDBCDB391B5B273 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				38BFBBC9A381524427ECE678 /* NidCore.framework in Embed Frameworks */,
+				E9F81B6A15C16271B9960DAB /* NidThirdPartyLogin.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		060F1EFBBF137C8F64C41BD9 /* NidThirdPartyLoginTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "NidThirdPartyLoginTests-Info.plist"; sourceTree = "<group>"; };
+		0BF378006C834AAE647FB646 /* NidCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NidCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17A0887BC67E402474E4C027 /* NidThirdPartyLoginSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "NidThirdPartyLoginSample-Info.plist"; sourceTree = "<group>"; };
+		1ADF3D2F56B75112E7FF48B2 /* WebAuthCodeRepositoryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebAuthCodeRepositoryTest.swift; sourceTree = "<group>"; };
+		1F5B4CE42406F7998CA4767B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2DD38CA2DB1B9FE60FE7506F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		327B69971955DC870AC5F9F7 /* HTTPHeadersTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPHeadersTest.swift; sourceTree = "<group>"; };
+		3383A9C3A1E4E0C418863C7C /* TuistAssets+NidThirdPartyLoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+NidThirdPartyLoginTests.swift"; sourceTree = "<group>"; };
+		3537191142CFA14A4D765769 /* MockClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockClasses.swift; sourceTree = "<group>"; };
+		395403AD1BC24DDE283D9049 /* SegmentedControlCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControlCellTableViewCell.swift; sourceTree = "<group>"; };
+		39F7F569BB528D3E9BA2E6D0 /* NidError+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NidError+.swift"; sourceTree = "<group>"; };
+		3A0C811A2DF6B95CA02C786B /* AppAuthCodeRepositoryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAuthCodeRepositoryTest.swift; sourceTree = "<group>"; };
+		44A6F66FB5B364F97353B6E7 /* TuistBundle+TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+TestApp.swift"; sourceTree = "<group>"; };
+		44BDE1921B3C632C3ACAE1BA /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		44C128A47B3EC766958CCC51 /* LoginRepositoryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRepositoryTest.swift; sourceTree = "<group>"; };
+		53A98E250188940E00A2571C /* NidThirdPartyLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NidThirdPartyLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5622E9C93B7D397AE42453C4 /* TuistBundle+NidThirdPartyLoginSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+NidThirdPartyLoginSample.swift"; sourceTree = "<group>"; };
+		62ED880BF863AC1DA599A7D1 /* DetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
+		6BB33600EB97EBCCF7E1DE11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C3964539DC31B3A2E5E41CD /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		6CD5B42ED695D85FE1C75207 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		6E8AF5C1876A69C0238319AD /* AccessTokenVerificationRepositoryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessTokenVerificationRepositoryTest.swift; sourceTree = "<group>"; };
+		801C7A0CED58989BB3C3E685 /* TokenRepositoryKeychainErrorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenRepositoryKeychainErrorTest.swift; sourceTree = "<group>"; };
+		91CBB0A0EBF458964426B460 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		92B724A61F5A5DEF436F47F2 /* StateVerificationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateVerificationTest.swift; sourceTree = "<group>"; };
+		9336418852D2F27B7A805330 /* TuistAssets+NidThirdPartyLoginSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+NidThirdPartyLoginSample.swift"; sourceTree = "<group>"; };
+		991EDFA2CCF6D3A2F15A963D /* TestHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHelper.swift; sourceTree = "<group>"; };
+		9ABFA9EFE4F2521D43911B87 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		9DBD45F7502C7173E48A0D9D /* TuistBundle+NidThirdPartyLoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+NidThirdPartyLoginTests.swift"; sourceTree = "<group>"; };
+		9E44730736B313D4028C421D /* RequestFactoryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestFactoryTest.swift; sourceTree = "<group>"; };
+		B3F09EADDFF559A643B14FD9 /* NidLoggerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NidLoggerTest.swift; sourceTree = "<group>"; };
+		B4559E2AAB2B9D902CD11A15 /* KeychainServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainServiceTest.swift; sourceTree = "<group>"; };
+		B74FF2968AAB6C6B9155E84F /* DefaultButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultButton.swift; sourceTree = "<group>"; };
+		BB1C9DA6E99324D80F6F8A33 /* ConfigTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigTest.swift; sourceTree = "<group>"; };
+		BCC95F373C38C6563444FFD3 /* TestApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "TestApp-Info.plist"; sourceTree = "<group>"; };
+		BD950A08721F66B29DECA910 /* NidThirdPartyLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NidThirdPartyLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C66005E8DDE86CCA94779F38 /* TokenRepositoryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenRepositoryTest.swift; sourceTree = "<group>"; };
+		C7DEACE798CD7D06CACDA2F5 /* SectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderView.swift; sourceTree = "<group>"; };
+		CDA7832FF3DE8860F80AA802 /* NidThirdPartyLoginSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NidThirdPartyLoginSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDAE42A06E279F06ED46D9AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D286B208DEECDC617010AE54 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		D48AA664285737A03E08D4BE /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		DBA7C0A5FED937D57597CDE3 /* TuistAssets+TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+TestApp.swift"; sourceTree = "<group>"; };
+		DBBF8458E0E78E190BE27637 /* MockURLSessionDataTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLSessionDataTask.swift; sourceTree = "<group>"; };
+		DCD2614B962A459DF277F28F /* PercentEncodingTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentEncodingTest.swift; sourceTree = "<group>"; };
+		DF7D170B097DA5BE5A680D48 /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB64D599CBFA25481EC4E7FA /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
+		FB3B9FF545BE0718C39ADCAA /* DefaultNetworkTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultNetworkTest.swift; sourceTree = "<group>"; };
+		FD51A2A73746471B9AD859A6 /* AccessTokenTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessTokenTest.swift; sourceTree = "<group>"; };
+		FF090A11DFE39AB748045EF2 /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A562C24BCF4F538ACF0E65E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7C942B9943C2D3E8F697D4E /* NidThirdPartyLogin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3980ED43DA5115CFD766F31E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7C213900D89033B0B732276 /* NidThirdPartyLogin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D5659631A8215804D2A002B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC05BEB9B2811BABA1AC77B1 /* NidThirdPartyLogin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		070FB259CEABFBA8DD796642 /* TestApp */ = {
+			isa = PBXGroup;
+			children = (
+				2DD38CA2DB1B9FE60FE7506F /* AppDelegate.swift */,
+				91CBB0A0EBF458964426B460 /* SceneDelegate.swift */,
+			);
+			path = TestApp;
+			sourceTree = "<group>";
+		};
+		1B96C0DE958BA43CD2FCC60C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B5E3E98A4DFFEE44BCACB48C /* Cells */,
+				B74FF2968AAB6C6B9155E84F /* DefaultButton.swift */,
+				D48AA664285737A03E08D4BE /* HeaderView.swift */,
+				6C3964539DC31B3A2E5E41CD /* MainView.swift */,
+				C7DEACE798CD7D06CACDA2F5 /* SectionHeaderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		32436171C9F8E20CB93B03EC /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9C2199EB0FE145D1B8D1B4AC /* Helpers */,
+				4C58805E3CACE79606DA3CA9 /* NetworkKit */,
+				7BABF0E586CE9773C3D8A9A4 /* NidCore */,
+				F41B1396EC0C6955512F117C /* Repositories */,
+				BB1C9DA6E99324D80F6F8A33 /* ConfigTest.swift */,
+				B4559E2AAB2B9D902CD11A15 /* KeychainServiceTest.swift */,
+				DCD2614B962A459DF277F28F /* PercentEncodingTest.swift */,
+				92B724A61F5A5DEF436F47F2 /* StateVerificationTest.swift */,
+				801C7A0CED58989BB3C3E685 /* TokenRepositoryKeychainErrorTest.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		45E1D0CE2528C562267F510E /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E36260A0436B5D70C726A4DF /* Toast */,
+				1B96C0DE958BA43CD2FCC60C /* Views */,
+				6BB33600EB97EBCCF7E1DE11 /* AppDelegate.swift */,
+				6CD5B42ED695D85FE1C75207 /* MainViewController.swift */,
+				9ABFA9EFE4F2521D43911B87 /* MainViewModel.swift */,
+				CDAE42A06E279F06ED46D9AE /* SceneDelegate.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		4C58805E3CACE79606DA3CA9 /* NetworkKit */ = {
+			isa = PBXGroup;
+			children = (
+				FB3B9FF545BE0718C39ADCAA /* DefaultNetworkTest.swift */,
+				327B69971955DC870AC5F9F7 /* HTTPHeadersTest.swift */,
+				DBBF8458E0E78E190BE27637 /* MockURLSessionDataTask.swift */,
+				9E44730736B313D4028C421D /* RequestFactoryTest.swift */,
+			);
+			path = NetworkKit;
+			sourceTree = "<group>";
+		};
+		6A879CB6743B3D7ABF3CDBCF /* InfoPlists */ = {
+			isa = PBXGroup;
+			children = (
+				17A0887BC67E402474E4C027 /* NidThirdPartyLoginSample-Info.plist */,
+				060F1EFBBF137C8F64C41BD9 /* NidThirdPartyLoginTests-Info.plist */,
+				BCC95F373C38C6563444FFD3 /* TestApp-Info.plist */,
+			);
+			path = InfoPlists;
+			sourceTree = "<group>";
+		};
+		76BA8F7109E2FF7207D51923 /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				44BDE1921B3C632C3ACAE1BA /* Debug.xcconfig */,
+				D286B208DEECDC617010AE54 /* Release.xcconfig */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		7BABF0E586CE9773C3D8A9A4 /* NidCore */ = {
+			isa = PBXGroup;
+			children = (
+				FD51A2A73746471B9AD859A6 /* AccessTokenTest.swift */,
+				B3F09EADDFF559A643B14FD9 /* NidLoggerTest.swift */,
+			);
+			path = NidCore;
+			sourceTree = "<group>";
+		};
+		8EF921FA991FAC62E1422F34 /* Derived */ = {
+			isa = PBXGroup;
+			children = (
+				6A879CB6743B3D7ABF3CDBCF /* InfoPlists */,
+				FAB68191675E33ED6753C03B /* Sources */,
+			);
+			path = Derived;
+			sourceTree = "<group>";
+		};
+		9C2199EB0FE145D1B8D1B4AC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3537191142CFA14A4D765769 /* MockClasses.swift */,
+				39F7F569BB528D3E9BA2E6D0 /* NidError+.swift */,
+				991EDFA2CCF6D3A2F15A963D /* TestHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A34FD17E754BAF71F529CFFD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1F5B4CE42406F7998CA4767B /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A502AC0B12E77807D47D0462 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BF378006C834AAE647FB646 /* NidCore.framework */,
+				53A98E250188940E00A2571C /* NidThirdPartyLogin.framework */,
+				CDA7832FF3DE8860F80AA802 /* NidThirdPartyLoginSample.app */,
+				BD950A08721F66B29DECA910 /* NidThirdPartyLoginTests.xctest */,
+				DF7D170B097DA5BE5A680D48 /* TestApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2BA22822CAFA64AF017307A /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				76BA8F7109E2FF7207D51923 /* Configs */,
+				8EF921FA991FAC62E1422F34 /* Derived */,
+				A34FD17E754BAF71F529CFFD /* Resources */,
+				45E1D0CE2528C562267F510E /* Sources */,
+				070FB259CEABFBA8DD796642 /* TestApp */,
+				32436171C9F8E20CB93B03EC /* Tests */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
+		B5E3E98A4DFFEE44BCACB48C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				62ED880BF863AC1DA599A7D1 /* DetailTableViewCell.swift */,
+				395403AD1BC24DDE283D9049 /* SegmentedControlCellTableViewCell.swift */,
+				FF090A11DFE39AB748045EF2 /* TitleTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		BA3F9BFB5F080CD1A9519901 = {
+			isa = PBXGroup;
+			children = (
+				B2BA22822CAFA64AF017307A /* Project */,
+				A502AC0B12E77807D47D0462 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E36260A0436B5D70C726A4DF /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				EB64D599CBFA25481EC4E7FA /* UIViewController+.swift */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		F41B1396EC0C6955512F117C /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				6E8AF5C1876A69C0238319AD /* AccessTokenVerificationRepositoryTest.swift */,
+				3A0C811A2DF6B95CA02C786B /* AppAuthCodeRepositoryTest.swift */,
+				44C128A47B3EC766958CCC51 /* LoginRepositoryTest.swift */,
+				C66005E8DDE86CCA94779F38 /* TokenRepositoryTest.swift */,
+				1ADF3D2F56B75112E7FF48B2 /* WebAuthCodeRepositoryTest.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		FAB68191675E33ED6753C03B /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				9336418852D2F27B7A805330 /* TuistAssets+NidThirdPartyLoginSample.swift */,
+				3383A9C3A1E4E0C418863C7C /* TuistAssets+NidThirdPartyLoginTests.swift */,
+				DBA7C0A5FED937D57597CDE3 /* TuistAssets+TestApp.swift */,
+				5622E9C93B7D397AE42453C4 /* TuistBundle+NidThirdPartyLoginSample.swift */,
+				9DBD45F7502C7173E48A0D9D /* TuistBundle+NidThirdPartyLoginTests.swift */,
+				44A6F66FB5B364F97353B6E7 /* TuistBundle+TestApp.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34ACBC0EC064563B9775F714 /* NidThirdPartyLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D93E18B251FC1E9F8A926DC1 /* Build configuration list for PBXNativeTarget "NidThirdPartyLoginTests" */;
+			buildPhases = (
+				65E646FB12279566257427CC /* Sources */,
+				D9D60A0B4385EF42843D1B0C /* Resources */,
+				9D5659631A8215804D2A002B /* Frameworks */,
+				220515C1210FAE1C0D412649 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF9DD2049CF65AB24B13584C /* PBXTargetDependency */,
+			);
+			name = NidThirdPartyLoginTests;
+			packageProductDependencies = (
+			);
+			productName = NidThirdPartyLoginTests;
+			productReference = BD950A08721F66B29DECA910 /* NidThirdPartyLoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7A22A5A4BF45FDAD1CD76BCC /* TestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B691EB2230EBF19D3F18A37 /* Build configuration list for PBXNativeTarget "TestApp" */;
+			buildPhases = (
+				A7895ED354D2E051A7586165 /* Sources */,
+				CD178F29B3516787E6214C38 /* Resources */,
+				3980ED43DA5115CFD766F31E /* Frameworks */,
+				CCD5A605CDDBCDB391B5B273 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestApp;
+			packageProductDependencies = (
+			);
+			productName = TestApp;
+			productReference = DF7D170B097DA5BE5A680D48 /* TestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		971CA0E756C1A0FA08261E16 /* NidThirdPartyLoginSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F2176A43EB6B102A7D98229 /* Build configuration list for PBXNativeTarget "NidThirdPartyLoginSample" */;
+			buildPhases = (
+				280B5D60A421BBBDDE6EF001 /* Sources */,
+				917EAD8F5FBA0DB66721D013 /* Resources */,
+				2A562C24BCF4F538ACF0E65E /* Frameworks */,
+				19D5E0475ABE58C94715E85F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NidThirdPartyLoginSample;
+			packageProductDependencies = (
+			);
+			productName = NidThirdPartyLoginSample;
+			productReference = CDA7832FF3DE8860F80AA802 /* NidThirdPartyLoginSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		926886CBCCFE2B1F108C5EA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				TargetAttributes = {
+					34ACBC0EC064563B9775F714 = {
+						TestTargetID = 7A22A5A4BF45FDAD1CD76BCC;
+					};
+				};
+			};
+			buildConfigurationList = 733FDC76DE49C62B0D782199 /* Build configuration list for PBXProject "NidThirdPartyLoginSample" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = BA3F9BFB5F080CD1A9519901;
+			productRefGroup = A502AC0B12E77807D47D0462 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				971CA0E756C1A0FA08261E16 /* NidThirdPartyLoginSample */,
+				34ACBC0EC064563B9775F714 /* NidThirdPartyLoginTests */,
+				7A22A5A4BF45FDAD1CD76BCC /* TestApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		917EAD8F5FBA0DB66721D013 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2A4824BB61ADA2B6D57CDA8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD178F29B3516787E6214C38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86DFCE04CB8B0DFCD1E3B20F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D60A0B4385EF42843D1B0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17383BB05E3101DF08BB2B1F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		280B5D60A421BBBDDE6EF001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE51C23434F3BAC2DA7732C0 /* TuistAssets+NidThirdPartyLoginSample.swift in Sources */,
+				B26536A1FB0466EB690B1B20 /* TuistBundle+NidThirdPartyLoginSample.swift in Sources */,
+				D91C5D3FC2C8FC4552BC58A3 /* AppDelegate.swift in Sources */,
+				D0D674C4E738AE611232CB61 /* MainViewController.swift in Sources */,
+				671375378F0341C73C6E25A0 /* MainViewModel.swift in Sources */,
+				FD43D536C0101C742CDC2AAB /* SceneDelegate.swift in Sources */,
+				699E51698FDB9D37E719B7D0 /* UIViewController+.swift in Sources */,
+				1FF3B6929F06C3AF638F6022 /* DetailTableViewCell.swift in Sources */,
+				436438F92A72D0D124BCBEFB /* SegmentedControlCellTableViewCell.swift in Sources */,
+				A02F91DD5837479D54B38355 /* TitleTableViewCell.swift in Sources */,
+				D69A7B17A785237B8C7E6956 /* DefaultButton.swift in Sources */,
+				79C5EBAFCBF0491C35835B59 /* HeaderView.swift in Sources */,
+				E06B41B2A0AA90CC8DB84440 /* MainView.swift in Sources */,
+				531A3102CD4620D6D3AC30D9 /* SectionHeaderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65E646FB12279566257427CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2437C4B5106EE3E0D45CF89 /* TuistAssets+NidThirdPartyLoginTests.swift in Sources */,
+				FCD91659D676BD0C0058F69D /* TuistBundle+NidThirdPartyLoginTests.swift in Sources */,
+				C4F79E3F23196E9F68D614F3 /* ConfigTest.swift in Sources */,
+				E54FC4077616BB72D92D9B3F /* MockClasses.swift in Sources */,
+				3018F36B26DF7DF6FCDD0D5D /* NidError+.swift in Sources */,
+				79308AFC4B455147241AA571 /* TestHelper.swift in Sources */,
+				EC9627D25A56566002DAC0F5 /* KeychainServiceTest.swift in Sources */,
+				58D9B27C1DCD8C64697D3268 /* DefaultNetworkTest.swift in Sources */,
+				80BCF847CE43B2D069062185 /* HTTPHeadersTest.swift in Sources */,
+				C161B880DF6420B21F8AF96E /* MockURLSessionDataTask.swift in Sources */,
+				BD20DEA000A67A6371D4EECF /* RequestFactoryTest.swift in Sources */,
+				95881707DA1ED150541A71FF /* AccessTokenTest.swift in Sources */,
+				2AC5EFCB67F0A849FC5DDB60 /* NidLoggerTest.swift in Sources */,
+				489DD308A67E866A2DE551FB /* PercentEncodingTest.swift in Sources */,
+				1C23D1B576E89184C4FDBB15 /* AccessTokenVerificationRepositoryTest.swift in Sources */,
+				E818E82CFC2A7132C572ED14 /* AppAuthCodeRepositoryTest.swift in Sources */,
+				B177558F9AF9D0539747DE24 /* LoginRepositoryTest.swift in Sources */,
+				6A189AE8E502C2EF2D1D9A0A /* TokenRepositoryTest.swift in Sources */,
+				D8BA08D9B8AA21E894A6214D /* WebAuthCodeRepositoryTest.swift in Sources */,
+				73A786BACA0D880FD2577018 /* StateVerificationTest.swift in Sources */,
+				BA177EF5F461C95E4EA35917 /* TokenRepositoryKeychainErrorTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7895ED354D2E051A7586165 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				139C6DE098A3FD4772AFE4A6 /* TuistAssets+TestApp.swift in Sources */,
+				003850C67CFA4497330BE8E7 /* TuistBundle+TestApp.swift in Sources */,
+				D849F883B166C66DA5ADD210 /* AppDelegate.swift in Sources */,
+				53B83691E91F18A2DAC047AA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF9DD2049CF65AB24B13584C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TestApp;
+			target = 7A22A5A4BF45FDAD1CD76BCC /* TestApp */;
+			targetProxy = F95D4B8FF2953702B893E9EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2B6F3B904EDA96D5E3B1CE66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U6VV7FMD97;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/TestApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.memberplatform.thirdpartylogin.test.app;
+				PRODUCT_NAME = TestApp;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		512B81B210F46AA6512375DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		70A2E4CCC9A9852F94B010BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44BDE1921B3C632C3ACAE1BA /* Debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = U6VV7FMD97;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/NidThirdPartyLoginSample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.navercorp.memberplatform.thirdpartyloginsample.${BUDNLE_ID_SUFFIX}";
+				PRODUCT_NAME = NidThirdPartyLoginSample;
+				PROVISIONING_PROFILE_SPECIFIER = "ThirdPartyLoginSample Dev PP";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		97B860A9FB0D026269076254 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U6VV7FMD97;
+				INFOPLIST_FILE = "Derived/InfoPlists/NidThirdPartyLoginTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.memberplatform.thirdpartylogin.nidloginunittest;
+				PRODUCT_NAME = NidThirdPartyLoginTests;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TestApp";
+				TEST_TARGET_NAME = TestApp;
+			};
+			name = Debug;
+		};
+		9D162150A5D77D255D40276B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6B3112213FE56A4E992EDA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U6VV7FMD97;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/TestApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.memberplatform.thirdpartylogin.test.app;
+				PRODUCT_NAME = TestApp;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BAC4A98DBC1BF5EA2652F875 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D286B208DEECDC617010AE54 /* Release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = U6VV7FMD97;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/NidThirdPartyLoginSample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.navercorp.memberplatform.thirdpartyloginsample.${BUDNLE_ID_SUFFIX}";
+				PRODUCT_NAME = NidThirdPartyLoginSample;
+				PROVISIONING_PROFILE_SPECIFIER = "memberplatform thirdpartyloginsample Ent InHouse P";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB7FFC51484612C889BB530D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U6VV7FMD97;
+				INFOPLIST_FILE = "Derived/InfoPlists/NidThirdPartyLoginTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.memberplatform.thirdpartylogin.nidloginunittest;
+				PRODUCT_NAME = NidThirdPartyLoginTests;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TestApp";
+				TEST_TARGET_NAME = TestApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F2176A43EB6B102A7D98229 /* Build configuration list for PBXNativeTarget "NidThirdPartyLoginSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70A2E4CCC9A9852F94B010BD /* Debug */,
+				BAC4A98DBC1BF5EA2652F875 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B691EB2230EBF19D3F18A37 /* Build configuration list for PBXNativeTarget "TestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B6F3B904EDA96D5E3B1CE66 /* Debug */,
+				A6B3112213FE56A4E992EDA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		733FDC76DE49C62B0D782199 /* Build configuration list for PBXProject "NidThirdPartyLoginSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				512B81B210F46AA6512375DD /* Debug */,
+				9D162150A5D77D255D40276B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D93E18B251FC1E9F8A926DC1 /* Build configuration list for PBXNativeTarget "NidThirdPartyLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97B860A9FB0D026269076254 /* Debug */,
+				FB7FFC51484612C889BB530D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 926886CBCCFE2B1F108C5EA3 /* Project object */;
+}

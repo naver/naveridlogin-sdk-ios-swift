@@ -1,0 +1,726 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "NidThirdPartyLogin",
+    "printedName": "NidThirdPartyLogin",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NidThirdPartyLogin",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NidLogin",
+        "printedName": "NidLogin",
+        "declKind": "Import",
+        "moduleName": "NidThirdPartyLogin",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetworkKit",
+        "printedName": "NetworkKit",
+        "declKind": "Import",
+        "moduleName": "NidThirdPartyLogin",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NidThirdPartyLogin",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Utils",
+        "printedName": "Utils",
+        "declKind": "Import",
+        "moduleName": "NidThirdPartyLogin",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NidLogin",
+        "printedName": "NidLogin",
+        "declKind": "Import",
+        "moduleName": "NidThirdPartyLogin",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NidCore",
+        "printedName": "NidCore",
+        "declKind": "Import",
+        "moduleName": "NidThirdPartyLogin",
+        "declAttributes": [
+          "Exported"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NidOAuth",
+        "printedName": "NidOAuth",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NidOAuth",
+                "printedName": "NidThirdPartyLogin.NidOAuth",
+                "usr": "s:18NidThirdPartyLogin0A5OAuthC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18NidThirdPartyLogin0A5OAuthC6sharedACvpZ",
+            "mangledName": "$s18NidThirdPartyLogin0A5OAuthC6sharedACvpZ",
+            "moduleName": "NidThirdPartyLogin",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NidOAuth",
+                    "printedName": "NidThirdPartyLogin.NidOAuth",
+                    "usr": "s:18NidThirdPartyLogin0A5OAuthC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18NidThirdPartyLogin0A5OAuthC6sharedACvgZ",
+                "mangledName": "$s18NidThirdPartyLogin0A5OAuthC6sharedACvgZ",
+                "moduleName": "NidThirdPartyLogin",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "accessToken",
+            "printedName": "accessToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NidCore.AccessToken?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AccessToken",
+                    "printedName": "NidCore.AccessToken",
+                    "usr": "s:7NidCore11AccessTokenV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18NidThirdPartyLogin0A5OAuthC11accessToken0A4Core06AccessG0VSgvp",
+            "mangledName": "$s18NidThirdPartyLogin0A5OAuthC11accessToken0A4Core06AccessG0VSgvp",
+            "moduleName": "NidThirdPartyLogin",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "NidCore.AccessToken?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AccessToken",
+                        "printedName": "NidCore.AccessToken",
+                        "usr": "s:7NidCore11AccessTokenV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18NidThirdPartyLogin0A5OAuthC11accessToken0A4Core06AccessG0VSgvg",
+                "mangledName": "$s18NidThirdPartyLogin0A5OAuthC11accessToken0A4Core06AccessG0VSgvg",
+                "moduleName": "NidThirdPartyLogin",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "refreshToken",
+            "printedName": "refreshToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NidCore.RefreshToken?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RefreshToken",
+                    "printedName": "NidCore.RefreshToken",
+                    "usr": "s:7NidCore12RefreshTokenV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18NidThirdPartyLogin0A5OAuthC12refreshToken0A4Core07RefreshG0VSgvp",
+            "mangledName": "$s18NidThirdPartyLogin0A5OAuthC12refreshToken0A4Core07RefreshG0VSgvp",
+            "moduleName": "NidThirdPartyLogin",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "NidCore.RefreshToken?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RefreshToken",
+                        "printedName": "NidCore.RefreshToken",
+                        "usr": "s:7NidCore12RefreshTokenV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18NidThirdPartyLogin0A5OAuthC12refreshToken0A4Core07RefreshG0VSgvg",
+                "mangledName": "$s18NidThirdPartyLogin0A5OAuthC12refreshToken0A4Core07RefreshG0VSgvg",
+                "moduleName": "NidThirdPartyLogin",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setLoginBehavior",
+            "printedName": "setLoginBehavior(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LoginBehavior",
+                "printedName": "NidCore.LoginBehavior",
+                "usr": "s:7NidCore13LoginBehaviorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18NidThirdPartyLogin0A5OAuthC03setD8Behavioryy0A4Core0dG0OF",
+            "mangledName": "$s18NidThirdPartyLogin0A5OAuthC03setD8Behavioryy0A4Core0dG0OF",
+            "moduleName": "NidThirdPartyLogin",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18NidThirdPartyLogin0A5OAuthC10initializeyyF",
+            "mangledName": "$s18NidThirdPartyLogin0A5OAuthC10initializeyyF",
+            "moduleName": "NidThirdPartyLogin",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "requestLogin",
+            "printedName": "requestLogin(callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<NidCore.LoginResult, NidCore.NidError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<NidCore.LoginResult, NidCore.NidError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LoginResult",
+                        "printedName": "NidCore.LoginResult",
+                        "usr": "s:7NidCore11LoginResultV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NidError",
+                        "printedName": "NidCore.NidError",
+                        "usr": "s:7NidCore0A5ErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18NidThirdPartyLogin0A5OAuthC07requestD08callbackyys6ResultOy0A4Core0dH0VAH0A5ErrorOGc_tF",
+            "mangledName": "$s18NidThirdPartyLogin0A5OAuthC07requestD08callbackyys6ResultOy0A4Core0dH0VAH0A5ErrorOGc_tF",
+            "moduleName": "NidThirdPartyLogin",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handleURL",
+            "printedName": "handleURL(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18NidThirdPartyLogin0A5OAuthC9handleURLySb10Foundation0G0VF",
+            "mangledName": "$s18NidThirdPartyLogin0A5OAuthC9handleURLySb10Foundation0G0VF",
+            "moduleName": "NidThirdPartyLogin",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logout",
+            "printedName": "logout()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18NidThirdPartyLogin0A5OAuthC6logoutyyF",
+            "mangledName": "$s18NidThirdPartyLogin0A5OAuthC6logoutyyF",
+            "moduleName": "NidThirdPartyLogin",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disconnect",
+            "printedName": "disconnect(callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<(), NidCore.NidError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<(), NidCore.NidError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NidError",
+                        "printedName": "NidCore.NidError",
+                        "usr": "s:7NidCore0A5ErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18NidThirdPartyLogin0A5OAuthC10disconnect8callbackyys6ResultOyyt0A4Core0A5ErrorOGc_tF",
+            "mangledName": "$s18NidThirdPartyLogin0A5OAuthC10disconnect8callbackyys6ResultOyyt0A4Core0A5ErrorOGc_tF",
+            "moduleName": "NidThirdPartyLogin",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "repromptPermissions",
+            "printedName": "repromptPermissions(callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<NidCore.LoginResult, NidCore.NidError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<NidCore.LoginResult, NidCore.NidError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LoginResult",
+                        "printedName": "NidCore.LoginResult",
+                        "usr": "s:7NidCore11LoginResultV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NidError",
+                        "printedName": "NidCore.NidError",
+                        "usr": "s:7NidCore0A5ErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18NidThirdPartyLogin0A5OAuthC19repromptPermissions8callbackyys6ResultOy0A4Core0dI0VAH0A5ErrorOGc_tF",
+            "mangledName": "$s18NidThirdPartyLogin0A5OAuthC19repromptPermissions8callbackyys6ResultOy0A4Core0dI0VAH0A5ErrorOGc_tF",
+            "moduleName": "NidThirdPartyLogin",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reauthenticate",
+            "printedName": "reauthenticate(callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<NidCore.LoginResult, NidCore.NidError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<NidCore.LoginResult, NidCore.NidError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LoginResult",
+                        "printedName": "NidCore.LoginResult",
+                        "usr": "s:7NidCore11LoginResultV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NidError",
+                        "printedName": "NidCore.NidError",
+                        "usr": "s:7NidCore0A5ErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18NidThirdPartyLogin0A5OAuthC14reauthenticate8callbackyys6ResultOy0A4Core0dH0VAH0A5ErrorOGc_tF",
+            "mangledName": "$s18NidThirdPartyLogin0A5OAuthC14reauthenticate8callbackyys6ResultOy0A4Core0dH0VAH0A5ErrorOGc_tF",
+            "moduleName": "NidThirdPartyLogin",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "verifyAccessToken",
+            "printedName": "verifyAccessToken(_:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Swift.Bool, NidCore.NidError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Swift.Bool, NidCore.NidError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NidError",
+                        "printedName": "NidCore.NidError",
+                        "usr": "s:7NidCore0A5ErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18NidThirdPartyLogin0A5OAuthC17verifyAccessToken_8callbackySS_ys6ResultOySb0A4Core0A5ErrorOGctF",
+            "mangledName": "$s18NidThirdPartyLogin0A5OAuthC17verifyAccessToken_8callbackySS_ys6ResultOySb0A4Core0A5ErrorOGctF",
+            "moduleName": "NidThirdPartyLogin",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getUserProfile",
+            "printedName": "getUserProfile(accessToken:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<[Swift.String : Swift.String], NidCore.NidError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<[Swift.String : Swift.String], NidCore.NidError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NidError",
+                        "printedName": "NidCore.NidError",
+                        "usr": "s:7NidCore0A5ErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18NidThirdPartyLogin0A5OAuthC14getUserProfile11accessToken8callbackySS_ys6ResultOySDyS2SG0A4Core0A5ErrorOGctF",
+            "mangledName": "$s18NidThirdPartyLogin0A5OAuthC14getUserProfile11accessToken8callbackySS_ys6ResultOySDyS2SG0A4Core0A5ErrorOGctF",
+            "moduleName": "NidThirdPartyLogin",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:18NidThirdPartyLogin0A5OAuthC",
+        "mangledName": "$s18NidThirdPartyLogin0A5OAuthC",
+        "moduleName": "NidThirdPartyLogin",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/user\/Desktop\/WorkSpaces\/3rdparty-login-github\/Projects\/NidThirdPartyLogin\/Sources\/NidOAuth\/NidOAuth.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1126,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}
