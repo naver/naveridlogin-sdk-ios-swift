@@ -99,7 +99,7 @@ public class NidOAuth {
     }
 
     /// NidOAuth를 초기화합니다.
-    /// `NidOAuth`를 사용하기 전에, `SceneDelegate`의 `didfinishlaunchingWithOptions`에서 호출해야 합니다.
+    /// `NidOAuth`를 사용하기 전에, `AppDelegate`의 `didfinishlaunchingWithOptions`에서 호출해야 합니다.
     ///
     public func initialize() {
         performInitialSetUp.prepare()
