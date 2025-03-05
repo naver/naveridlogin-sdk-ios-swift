@@ -9,7 +9,7 @@
 import Foundation
 import NetworkKit
 
-class MockURLSessionDataTask: URLSessionDataTask {
+class MockURLSessionDataTask: URLSessionDataTask, @unchecked Sendable {
     var resumeDidCall: () -> Void = {}
 
     override func resume() {
