@@ -26,21 +26,18 @@ public struct LoginRequestValue {
     let urlScheme: String
     let appName: String
     let authType: AuthType
-    let moduleVersion: String
 
     public init(
         clientId: String,
         clientSecret: String,
         urlScheme: String,
         appName: String,
-        authType: AuthType = .default,
-        moduleVersion: String
+        authType: AuthType = .default
     ) {
         self.clientId = clientId
         self.clientSecret = clientSecret
         self.urlScheme = urlScheme
         self.appName = appName
         self.authType = authType
-        self.moduleVersion = moduleVersion
     }
 }

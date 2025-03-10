@@ -115,7 +115,6 @@ struct MockWebAuthCodeRepo: WebAuthorizationCodeRepository {
         urlScheme: String,
         state: String,
         authType: AuthType,
-        moduleVersion: String,
         callback: @escaping (Result<(authCode: String, state: String), NidError>) -> Void
     ) {
         return
@@ -146,8 +145,7 @@ extension TokenRepositoryTest {
                 clientId: "mockClientID",
                 clientSecret: "mockClientSecret",
                 urlScheme: "mockUrlScheme",
-                appName: "MyMockAppName",
-                moduleVersion: "1.0.0"
+                appName: "MyMockAppName"
             ), callback: { result in
                 switch result {
                 case .success(let loginResult):
@@ -186,8 +184,7 @@ extension TokenRepositoryTest {
                 clientId: "mockClientID",
                 clientSecret: "mockClientSecret",
                 urlScheme: "mockUrlScheme",
-                appName: "mockAppName",
-                moduleVersion: "1.0.0"
+                appName: "mockAppName"
             ),
             callback: { result in
                 switch result {

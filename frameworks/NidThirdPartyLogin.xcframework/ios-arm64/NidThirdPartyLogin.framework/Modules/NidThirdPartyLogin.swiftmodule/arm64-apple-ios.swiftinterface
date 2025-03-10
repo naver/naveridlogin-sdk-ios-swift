@@ -2,12 +2,30 @@
 // swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
 // swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name NidThirdPartyLogin
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import Foundation
 @_exported import NidCore
 import Swift
 import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+@_inheritsConvenienceInitializers @objc public class NidThirdPartyLoginResources : ObjectiveC.NSObject {
+  @objc public class var bundle: Foundation.Bundle {
+    @objc get
+  }
+  @objc override dynamic public init()
+  @objc deinit
+}
+public enum NidThirdPartyLoginInfo : Swift.Sendable {
+  public static let cfBundleDevelopmentRegion: Swift.String
+  public static let cfBundleExecutable: Swift.String
+  public static let cfBundleIdentifier: Swift.String
+  public static let cfBundleInfoDictionaryVersion: Swift.String
+  public static let cfBundleName: Swift.String
+  public static let cfBundlePackageType: Swift.String
+  public static let cfBundleShortVersionString: Swift.String
+  public static let cfBundleVersion: Swift.String
+}
 @_hasMissingDesignatedInitializers public class NidOAuth {
   public typealias LoginResultCompletion = (Swift.Result<NidCore.LoginResult, NidCore.NidError>) -> Swift.Void
   public static let shared: NidThirdPartyLogin.NidOAuth

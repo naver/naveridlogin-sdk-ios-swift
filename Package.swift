@@ -3,6 +3,7 @@ import PackageDescription
 
 let package = Package(
     name: "NidThirdPartyLogin",
+    defaultLocalization: "ko",
     platforms: [.iOS(.v13)],
     products: [
         .library(
@@ -16,7 +17,8 @@ let package = Package(
             dependencies: [
                 "NidLogin"
             ],
-            path: "Projects/NidThirdPartyLogin/Sources/NidOAuth"
+            path: "Projects/NidThirdPartyLogin/Sources/NidOAuth",
+            resources: [.process("Resources")]
         ),
         .target(
             name: "NidLogin",

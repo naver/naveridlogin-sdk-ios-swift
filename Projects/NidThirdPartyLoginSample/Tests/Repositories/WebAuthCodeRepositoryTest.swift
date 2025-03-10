@@ -38,7 +38,7 @@ struct WebAuthCodeRepositoryTest {
     @Test func userCancellationTest() async throws {
         let mockWebAuthCodeRepository = MockWebAuthCodeRepository()
         mockWebAuthCodeRepository.result = .userCancelled
-        let authCodeRepo = DefaultWebAuthorizationCodeRepository(authenticationService: mockWebAuthCodeRepository)
+        let authCodeRepo = DefaultWebAuthorizationCodeRepository(authenticationService: mockWebAuthCodeRepository, systemInfo: SystemInfo(mainEntryModel: MockWebAuthCodeRepository.self))
 
         await withCheckedContinuation { continuation in
             authCodeRepo.requestAuthCode(
@@ -47,7 +47,6 @@ struct WebAuthCodeRepositoryTest {
                 urlScheme: "myapp://",
                 state: "randomstate",
                 authType: .default,
-                moduleVersion: "1.0.0",
                 callback: { result in
                     switch result {
                     case .failure(let error):
@@ -69,7 +68,6 @@ struct WebAuthCodeRepositoryTest {
                 urlScheme: "myapp://",
                 state: "randomstate",
                 authType: .default,
-                moduleVersion: "1.0.0",
                 callback: { result in
                     switch result {
                     case .failure(let error):
@@ -90,7 +88,7 @@ struct WebAuthCodeRepositoryTest {
         let mockWebAuthCodeRepository = MockWebAuthCodeRepository()
         let expectedState = "abcde"
         mockWebAuthCodeRepository.result = .invalidState(state: expectedState)
-        let authCodeRepo = DefaultWebAuthorizationCodeRepository(authenticationService: mockWebAuthCodeRepository)
+        let authCodeRepo = DefaultWebAuthorizationCodeRepository(authenticationService: mockWebAuthCodeRepository, systemInfo: SystemInfo(mainEntryModel: MockWebAuthCodeRepository.self))
 
         await withCheckedContinuation { continuation in
             authCodeRepo.requestAuthCode(
@@ -99,7 +97,6 @@ struct WebAuthCodeRepositoryTest {
                 urlScheme: "myapp://",
                 state: expectedState,
                 authType: .reprompt,
-                moduleVersion: "1.0.0",
                 callback: { result in
                     switch result {
                     case .failure(let error):
@@ -121,7 +118,6 @@ struct WebAuthCodeRepositoryTest {
                 urlScheme: "myapp://",
                 state: "",
                 authType: .reprompt,
-                moduleVersion: "1.0.0",
                 callback: { result in
                     switch result {
                     case .failure(let error):
@@ -139,7 +135,7 @@ struct WebAuthCodeRepositoryTest {
     @Test func asWebAuthInternalErrorTest() async throws {
         let mockWebAuthCodeRepository = MockWebAuthCodeRepository()
         mockWebAuthCodeRepository.result = .generalError
-        let authCodeRepo = DefaultWebAuthorizationCodeRepository(authenticationService: mockWebAuthCodeRepository)
+        let authCodeRepo = DefaultWebAuthorizationCodeRepository(authenticationService: mockWebAuthCodeRepository, systemInfo: SystemInfo(mainEntryModel: MockWebAuthCodeRepository.self))
 
         await withCheckedContinuation { continuation in
             authCodeRepo.requestAuthCode(
@@ -148,7 +144,6 @@ struct WebAuthCodeRepositoryTest {
                 urlScheme: "myapp://",
                 state: "abcde",
                 authType: .reauthenticate,
-                moduleVersion: "1.0.0",
                 callback: { result in
                     switch result {
                     case .failure(let error):

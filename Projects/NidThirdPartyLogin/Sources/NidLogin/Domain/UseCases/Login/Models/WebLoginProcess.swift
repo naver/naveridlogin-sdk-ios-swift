@@ -14,5 +14,4 @@ struct WebLoginProcess: LoginProcess {
     let urlScheme: String
     let state: String
     let authType: AuthType
-    let moduleVersion: String
 }

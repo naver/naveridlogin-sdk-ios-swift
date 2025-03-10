@@ -3225,140 +3225,140 @@
     {
       "filePath": "\/Users\/user\/Desktop\/WorkSpaces\/3rdparty-login-github\/Projects\/NidThirdPartyLogin\/Sources\/NidCore\/ConfigKeys.swift",
       "kind": "StringLiteral",
-      "offset": 157,
+      "offset": 192,
       "length": 13,
       "value": "\"NidClientID\""
     },
     {
       "filePath": "\/Users\/user\/Desktop\/WorkSpaces\/3rdparty-login-github\/Projects\/NidThirdPartyLogin\/Sources\/NidCore\/ConfigKeys.swift",
       "kind": "StringLiteral",
-      "offset": 208,
+      "offset": 243,
       "length": 17,
       "value": "\"NidClientSecret\""
     },
     {
       "filePath": "\/Users\/user\/Desktop\/WorkSpaces\/3rdparty-login-github\/Projects\/NidThirdPartyLogin\/Sources\/NidCore\/ConfigKeys.swift",
       "kind": "StringLiteral",
-      "offset": 258,
+      "offset": 293,
       "length": 12,
       "value": "\"NidAppName\""
     },
     {
       "filePath": "\/Users\/user\/Desktop\/WorkSpaces\/3rdparty-login-github\/Projects\/NidThirdPartyLogin\/Sources\/NidCore\/ConfigKeys.swift",
       "kind": "StringLiteral",
-      "offset": 305,
+      "offset": 340,
       "length": 14,
       "value": "\"NidUrlScheme\""
     },
     {
       "filePath": "\/Users\/user\/Desktop\/WorkSpaces\/3rdparty-login-github\/Projects\/NidThirdPartyLogin\/Sources\/NidCore\/Constant.swift",
       "kind": "StringLiteral",
-      "offset": 182,
+      "offset": 217,
       "length": 23,
       "value": "\"naversearchthirdlogin\""
     },
     {
       "filePath": "\/Users\/user\/Desktop\/WorkSpaces\/3rdparty-login-github\/Projects\/NidThirdPartyLogin\/Sources\/NidCore\/Constant.swift",
       "kind": "StringLiteral",
-      "offset": 263,
+      "offset": 298,
       "length": 3,
       "value": "\"2\""
     },
     {
       "filePath": "\/Users\/user\/Desktop\/WorkSpaces\/3rdparty-login-github\/Projects\/NidThirdPartyLogin\/Sources\/NidCore\/Constant.swift",
       "kind": "StringLiteral",
-      "offset": 324,
+      "offset": 359,
       "length": 56,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Desktop\/WorkSpaces\/3rdparty-login-github\/Projects\/NidThirdPartyLogin\/Sources\/NidCore\/Constant.swift",
       "kind": "StringLiteral",
-      "offset": 361,
+      "offset": 396,
       "length": 1,
       "value": "\":\/\/thirdPartyLogin\""
     },
     {
       "filePath": "\/Users\/user\/Desktop\/WorkSpaces\/3rdparty-login-github\/Projects\/NidThirdPartyLogin\/Sources\/NidCore\/Constant.swift",
       "kind": "StringLiteral",
-      "offset": 429,
+      "offset": 464,
       "length": 23,
       "value": "\"thirdPartyLoginResult\""
     },
     {
       "filePath": "\/Users\/user\/Desktop\/WorkSpaces\/3rdparty-login-github\/Projects\/NidThirdPartyLogin\/Sources\/NidCore\/Constant.swift",
       "kind": "StringLiteral",
-      "offset": 507,
+      "offset": 542,
       "length": 33,
       "value": "\"https:\/\/nid.naver.com\/oauth2.0\/\""
     },
     {
       "filePath": "\/Users\/user\/Desktop\/WorkSpaces\/3rdparty-login-github\/Projects\/NidThirdPartyLogin\/Sources\/NidCore\/Constant.swift",
       "kind": "StringLiteral",
-      "offset": 597,
+      "offset": 632,
       "length": 35,
       "value": "\"https:\/\/openapi.naver.com\/v1\/nid\/\""
     },
     {
       "filePath": "\/Users\/user\/Desktop\/WorkSpaces\/3rdparty-login-github\/Projects\/NidThirdPartyLogin\/Sources\/NidCore\/Constant.swift",
       "kind": "StringLiteral",
-      "offset": 674,
+      "offset": 709,
       "length": 11,
       "value": "\"authorize\""
     },
     {
       "filePath": "\/Users\/user\/Desktop\/WorkSpaces\/3rdparty-login-github\/Projects\/NidThirdPartyLogin\/Sources\/NidCore\/Constant.swift",
       "kind": "StringLiteral",
-      "offset": 730,
+      "offset": 765,
       "length": 88,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/Desktop\/WorkSpaces\/3rdparty-login-github\/Projects\/NidThirdPartyLogin\/Sources\/NidCore\/Constant.swift",
       "kind": "StringLiteral",
-      "offset": 782,
+      "offset": 817,
       "length": 1,
       "value": "\".nidthirdpartylogin.keychainservice\""
     },
     {
       "filePath": "\/Users\/user\/Desktop\/WorkSpaces\/3rdparty-login-github\/Projects\/NidThirdPartyLogin\/Sources\/NidCore\/LoginBehavior.swift",
       "kind": "StringLiteral",
-      "offset": 160,
+      "offset": 194,
       "length": 11,
       "value": "\"Naver App\""
     },
     {
       "filePath": "\/Users\/user\/Desktop\/WorkSpaces\/3rdparty-login-github\/Projects\/NidThirdPartyLogin\/Sources\/NidCore\/LoginBehavior.swift",
       "kind": "StringLiteral",
-      "offset": 196,
+      "offset": 230,
       "length": 16,
       "value": "\"In App Browser\""
     },
     {
       "filePath": "\/Users\/user\/Desktop\/WorkSpaces\/3rdparty-login-github\/Projects\/NidThirdPartyLogin\/Sources\/NidCore\/LoginBehavior.swift",
       "kind": "StringLiteral",
-      "offset": 261,
+      "offset": 295,
       "length": 15,
       "value": "\"App Preferred\""
     },
     {
       "filePath": "\/Users\/user\/Desktop\/WorkSpaces\/3rdparty-login-github\/Projects\/NidThirdPartyLogin\/Sources\/NidCore\/NidLogger.swift",
       "kind": "IntegerLiteral",
-      "offset": 239,
+      "offset": 286,
       "length": 4,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/Desktop\/WorkSpaces\/3rdparty-login-github\/Projects\/NidThirdPartyLogin\/Sources\/NidCore\/NidLogger.swift",
       "kind": "IntegerLiteral",
-      "offset": 245,
+      "offset": 292,
       "length": 5,
       "value": "2"
     },
     {
       "filePath": "\/Users\/user\/Desktop\/WorkSpaces\/3rdparty-login-github\/Projects\/NidThirdPartyLogin\/Sources\/NidCore\/NidLogger.swift",
       "kind": "StringLiteral",
-      "offset": 2007,
+      "offset": 2054,
       "length": 20,
       "value": "\"NidThirdPartyLogin\""
     }

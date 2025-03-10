@@ -99,7 +99,7 @@ public class NidOAuth {
     }
 
     /// NidOAuth를 초기화합니다.
-    /// `NidOAuth`를 사용하기 전에, `SceneDelegate`의 `didfinishlaunchingWithOptions`에서 호출해야 합니다.
+    /// `NidOAuth`를 사용하기 전에, `AppDelegate`의 `didfinishlaunchingWithOptions`에서 호출해야 합니다.
     ///
     public func initialize() {
         performInitialSetUp.prepare()
@@ -115,8 +115,7 @@ public class NidOAuth {
             clientId: config.clientID,
             clientSecret: config.clientSecret,
             urlScheme: config.urlScheme,
-            appName: config.appName,
-            moduleVersion: currentModuleVerison()
+            appName: config.appName
         )
 
         requestLogin(requestValue: requestValue, callback: callback)
@@ -165,8 +164,7 @@ public class NidOAuth {
             clientSecret: config.clientSecret,
             urlScheme: config.urlScheme,
             appName: config.appName,
-            authType: .reprompt,
-            moduleVersion: currentModuleVerison()
+            authType: .reprompt
         )
 
         requestLogin(
@@ -185,8 +183,7 @@ public class NidOAuth {
             clientSecret: config.clientSecret,
             urlScheme: config.urlScheme,
             appName: config.appName,
-            authType: .reauthenticate,
-            moduleVersion: currentModuleVerison()
+            authType: .reauthenticate
         )
 
         requestLogin(
@@ -235,9 +232,5 @@ extension NidOAuth {
 
     private func isNaverAppInstalled() -> Bool {
         UIApplication.shared.canOpenURLScheme("\(Constant.naverAppThirdLoginScheme)://")
-    }
-
-    private func currentModuleVerison() -> String {
-        return Bundle(for: NidOAuth.self).infoDictionary?["CFBundleShortVersionString"] as? String ?? ""
     }
 }

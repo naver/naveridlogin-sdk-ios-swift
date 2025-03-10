@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "NidThirdPartyLogin"
-  spec.version      = "5.0.0"
+  spec.version      = "5.0.1"
   spec.summary      = "Naver Login iOS SDK developed in Swift."
   spec.description  = "An iOS SDK designed to integrate Naver login into third-party apps."
   spec.homepage     = "https://developers.naver.com/docs/login/ios"

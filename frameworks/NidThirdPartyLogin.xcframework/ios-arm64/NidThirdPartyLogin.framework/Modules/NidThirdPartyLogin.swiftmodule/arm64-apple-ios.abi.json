@@ -6,6 +6,598 @@
     "children": [
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NidThirdPartyLogin",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NidThirdPartyLoginResources",
+        "printedName": "NidThirdPartyLoginResources",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "bundle",
+            "printedName": "bundle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bundle",
+                "printedName": "Foundation.Bundle",
+                "usr": "c:objc(cs)NSBundle"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@NidThirdPartyLogin@objc(cs)NidThirdPartyLoginResources(cpy)bundle",
+            "mangledName": "$s18NidThirdPartyLogin0abcD9ResourcesC6bundleSo8NSBundleCvpZ",
+            "moduleName": "NidThirdPartyLogin",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@NidThirdPartyLogin@objc(cs)NidThirdPartyLoginResources(cm)bundle",
+                "mangledName": "$s18NidThirdPartyLogin0abcD9ResourcesC6bundleSo8NSBundleCvgZ",
+                "moduleName": "NidThirdPartyLogin",
+                "static": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NidThirdPartyLoginResources",
+                "printedName": "NidThirdPartyLogin.NidThirdPartyLoginResources",
+                "usr": "c:@M@NidThirdPartyLogin@objc(cs)NidThirdPartyLoginResources"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@NidThirdPartyLogin@objc(cs)NidThirdPartyLoginResources(im)init",
+            "mangledName": "$s18NidThirdPartyLogin0abcD9ResourcesCACycfc",
+            "moduleName": "NidThirdPartyLogin",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@NidThirdPartyLogin@objc(cs)NidThirdPartyLoginResources",
+        "mangledName": "$s18NidThirdPartyLogin0abcD9ResourcesC",
+        "moduleName": "NidThirdPartyLogin",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NidThirdPartyLogin",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NidThirdPartyLoginInfo",
+        "printedName": "NidThirdPartyLoginInfo",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "cfBundleDevelopmentRegion",
+            "printedName": "cfBundleDevelopmentRegion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18NidThirdPartyLogin0abcD4InfoO25cfBundleDevelopmentRegionSSvpZ",
+            "mangledName": "$s18NidThirdPartyLogin0abcD4InfoO25cfBundleDevelopmentRegionSSvpZ",
+            "moduleName": "NidThirdPartyLogin",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18NidThirdPartyLogin0abcD4InfoO25cfBundleDevelopmentRegionSSvgZ",
+                "mangledName": "$s18NidThirdPartyLogin0abcD4InfoO25cfBundleDevelopmentRegionSSvgZ",
+                "moduleName": "NidThirdPartyLogin",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cfBundleExecutable",
+            "printedName": "cfBundleExecutable",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18NidThirdPartyLogin0abcD4InfoO18cfBundleExecutableSSvpZ",
+            "mangledName": "$s18NidThirdPartyLogin0abcD4InfoO18cfBundleExecutableSSvpZ",
+            "moduleName": "NidThirdPartyLogin",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18NidThirdPartyLogin0abcD4InfoO18cfBundleExecutableSSvgZ",
+                "mangledName": "$s18NidThirdPartyLogin0abcD4InfoO18cfBundleExecutableSSvgZ",
+                "moduleName": "NidThirdPartyLogin",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cfBundleIdentifier",
+            "printedName": "cfBundleIdentifier",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18NidThirdPartyLogin0abcD4InfoO18cfBundleIdentifierSSvpZ",
+            "mangledName": "$s18NidThirdPartyLogin0abcD4InfoO18cfBundleIdentifierSSvpZ",
+            "moduleName": "NidThirdPartyLogin",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18NidThirdPartyLogin0abcD4InfoO18cfBundleIdentifierSSvgZ",
+                "mangledName": "$s18NidThirdPartyLogin0abcD4InfoO18cfBundleIdentifierSSvgZ",
+                "moduleName": "NidThirdPartyLogin",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cfBundleInfoDictionaryVersion",
+            "printedName": "cfBundleInfoDictionaryVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18NidThirdPartyLogin0abcD4InfoO08cfBundleE17DictionaryVersionSSvpZ",
+            "mangledName": "$s18NidThirdPartyLogin0abcD4InfoO08cfBundleE17DictionaryVersionSSvpZ",
+            "moduleName": "NidThirdPartyLogin",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18NidThirdPartyLogin0abcD4InfoO08cfBundleE17DictionaryVersionSSvgZ",
+                "mangledName": "$s18NidThirdPartyLogin0abcD4InfoO08cfBundleE17DictionaryVersionSSvgZ",
+                "moduleName": "NidThirdPartyLogin",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cfBundleName",
+            "printedName": "cfBundleName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18NidThirdPartyLogin0abcD4InfoO12cfBundleNameSSvpZ",
+            "mangledName": "$s18NidThirdPartyLogin0abcD4InfoO12cfBundleNameSSvpZ",
+            "moduleName": "NidThirdPartyLogin",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18NidThirdPartyLogin0abcD4InfoO12cfBundleNameSSvgZ",
+                "mangledName": "$s18NidThirdPartyLogin0abcD4InfoO12cfBundleNameSSvgZ",
+                "moduleName": "NidThirdPartyLogin",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cfBundlePackageType",
+            "printedName": "cfBundlePackageType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18NidThirdPartyLogin0abcD4InfoO19cfBundlePackageTypeSSvpZ",
+            "mangledName": "$s18NidThirdPartyLogin0abcD4InfoO19cfBundlePackageTypeSSvpZ",
+            "moduleName": "NidThirdPartyLogin",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18NidThirdPartyLogin0abcD4InfoO19cfBundlePackageTypeSSvgZ",
+                "mangledName": "$s18NidThirdPartyLogin0abcD4InfoO19cfBundlePackageTypeSSvgZ",
+                "moduleName": "NidThirdPartyLogin",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cfBundleShortVersionString",
+            "printedName": "cfBundleShortVersionString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18NidThirdPartyLogin0abcD4InfoO26cfBundleShortVersionStringSSvpZ",
+            "mangledName": "$s18NidThirdPartyLogin0abcD4InfoO26cfBundleShortVersionStringSSvpZ",
+            "moduleName": "NidThirdPartyLogin",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18NidThirdPartyLogin0abcD4InfoO26cfBundleShortVersionStringSSvgZ",
+                "mangledName": "$s18NidThirdPartyLogin0abcD4InfoO26cfBundleShortVersionStringSSvgZ",
+                "moduleName": "NidThirdPartyLogin",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cfBundleVersion",
+            "printedName": "cfBundleVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18NidThirdPartyLogin0abcD4InfoO15cfBundleVersionSSvpZ",
+            "mangledName": "$s18NidThirdPartyLogin0abcD4InfoO15cfBundleVersionSSvpZ",
+            "moduleName": "NidThirdPartyLogin",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18NidThirdPartyLogin0abcD4InfoO15cfBundleVersionSSvgZ",
+                "mangledName": "$s18NidThirdPartyLogin0abcD4InfoO15cfBundleVersionSSvgZ",
+                "moduleName": "NidThirdPartyLogin",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:18NidThirdPartyLogin0abcD4InfoO",
+        "mangledName": "$s18NidThirdPartyLogin0abcD4InfoO",
+        "moduleName": "NidThirdPartyLogin",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -716,9 +1308,65 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/user\/Desktop\/WorkSpaces\/3rdparty-login-github\/Projects\/NidThirdPartyLogin\/Derived\/Sources\/TuistPlists+NidThirdPartyLogin.swift",
+      "kind": "StringLiteral",
+      "offset": 491,
+      "length": 25,
+      "value": "\"$(DEVELOPMENT_LANGUAGE)\""
+    },
+    {
+      "filePath": "\/Users\/user\/Desktop\/WorkSpaces\/3rdparty-login-github\/Projects\/NidThirdPartyLogin\/Derived\/Sources\/TuistPlists+NidThirdPartyLogin.swift",
+      "kind": "StringLiteral",
+      "offset": 568,
+      "length": 20,
+      "value": "\"$(EXECUTABLE_NAME)\""
+    },
+    {
+      "filePath": "\/Users\/user\/Desktop\/WorkSpaces\/3rdparty-login-github\/Projects\/NidThirdPartyLogin\/Derived\/Sources\/TuistPlists+NidThirdPartyLogin.swift",
+      "kind": "StringLiteral",
+      "offset": 640,
+      "length": 30,
+      "value": "\"$(PRODUCT_BUNDLE_IDENTIFIER)\""
+    },
+    {
+      "filePath": "\/Users\/user\/Desktop\/WorkSpaces\/3rdparty-login-github\/Projects\/NidThirdPartyLogin\/Derived\/Sources\/TuistPlists+NidThirdPartyLogin.swift",
+      "kind": "StringLiteral",
+      "offset": 733,
+      "length": 5,
+      "value": "\"6.0\""
+    },
+    {
+      "filePath": "\/Users\/user\/Desktop\/WorkSpaces\/3rdparty-login-github\/Projects\/NidThirdPartyLogin\/Derived\/Sources\/TuistPlists+NidThirdPartyLogin.swift",
+      "kind": "StringLiteral",
+      "offset": 784,
+      "length": 17,
+      "value": "\"$(PRODUCT_NAME)\""
+    },
+    {
+      "filePath": "\/Users\/user\/Desktop\/WorkSpaces\/3rdparty-login-github\/Projects\/NidThirdPartyLogin\/Derived\/Sources\/TuistPlists+NidThirdPartyLogin.swift",
+      "kind": "StringLiteral",
+      "offset": 854,
+      "length": 6,
+      "value": "\"FMWK\""
+    },
+    {
+      "filePath": "\/Users\/user\/Desktop\/WorkSpaces\/3rdparty-login-github\/Projects\/NidThirdPartyLogin\/Derived\/Sources\/TuistPlists+NidThirdPartyLogin.swift",
+      "kind": "StringLiteral",
+      "offset": 920,
+      "length": 7,
+      "value": "\"5.0.1\""
+    },
+    {
+      "filePath": "\/Users\/user\/Desktop\/WorkSpaces\/3rdparty-login-github\/Projects\/NidThirdPartyLogin\/Derived\/Sources\/TuistPlists+NidThirdPartyLogin.swift",
+      "kind": "StringLiteral",
+      "offset": 976,
+      "length": 3,
+      "value": "\"1\""
+    },
+    {
       "filePath": "\/Users\/user\/Desktop\/WorkSpaces\/3rdparty-login-github\/Projects\/NidThirdPartyLogin\/Sources\/NidOAuth\/NidOAuth.swift",
       "kind": "BooleanLiteral",
-      "offset": 1126,
+      "offset": 1161,
       "length": 5,
       "value": "false"
     }

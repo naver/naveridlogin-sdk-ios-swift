@@ -6,27 +6,27 @@
 	<dict>
 		<key>ios-arm64/NidThirdPartyLogin.framework/Headers/NidThirdPartyLogin-Swift.h</key>
 		<data>
-		hXnzFS+gxopUOjgsiVuftzZHaN8=
+		4GQ5Y2JSYZ/YVM1Ai2kaohGr+70=
 		</data>
 		<key>ios-arm64/NidThirdPartyLogin.framework/Info.plist</key>
 		<data>
-		EqKyLhXFYEe5crOegMcgZ9RBqYA=
+		ldPq3ZR5IGCLpIYdnoaTBmSarvM=
 		</data>
 		<key>ios-arm64/NidThirdPartyLogin.framework/Modules/NidThirdPartyLogin.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		aBQORJlgIGyaD0Gw/KzBpkglUS8=
+		L8Lc1NXgbd8JJfI04UNede7/C0A=
 		</data>
 		<key>ios-arm64/NidThirdPartyLogin.framework/Modules/NidThirdPartyLogin.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		LpqrHP6Y93luYkRCFB605BntCtI=
+		wYKfXLplLwLgJNJsxkMN2S4/ylA=
 		</data>
 		<key>ios-arm64/NidThirdPartyLogin.framework/Modules/NidThirdPartyLogin.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		WjjLf3HTfgopLB0kFfPQI6Nkny4=
+		pki1gY0h+J7fDB+zUwyW1TcsiZY=
 		</data>
 		<key>ios-arm64/NidThirdPartyLogin.framework/Modules/NidThirdPartyLogin.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		LpqrHP6Y93luYkRCFB605BntCtI=
+		wYKfXLplLwLgJNJsxkMN2S4/ylA=
 		</data>
 		<key>ios-arm64/NidThirdPartyLogin.framework/Modules/module.modulemap</key>
 		<data>
@@ -34,59 +34,63 @@
 		</data>
 		<key>ios-arm64/NidThirdPartyLogin.framework/NidThirdPartyLogin</key>
 		<data>
-		/iXyAFuVZHhWO6dNUxCdxx1CWkY=
+		Tw45kmMGDQvxicMzod4yQLpMSMk=
+		</data>
+		<key>ios-arm64/NidThirdPartyLogin.framework/NidThirdPartyLogin-Info.plist</key>
+		<data>
+		LRqxwvuZp4SsWq4uwe0X5XNAoU4=
 		</data>
 		<key>ios-arm64/dSYMs/NidThirdPartyLogin.framework.dSYM/Contents/Info.plist</key>
 		<data>
-		js6TdCmlYtxcynbaZa7TlFzm298=
+		gRX5nMJ13hqU9+mDKZM+TWDCjb8=
 		</data>
 		<key>ios-arm64/dSYMs/NidThirdPartyLogin.framework.dSYM/Contents/Resources/DWARF/NidThirdPartyLogin</key>
 		<data>
-		kdgfhOcZskHjvHXjXioSZ1lW7gU=
+		fNFwEUad02V47AsviFkB32HhKGg=
 		</data>
 		<key>ios-arm64/dSYMs/NidThirdPartyLogin.framework.dSYM/Contents/Resources/Relocations/aarch64/NidThirdPartyLogin.yml</key>
 		<data>
-		V19yQ0+VvWnrwtdke0GsSdBuYVE=
+		5XimB0DWD+NrFPbYx03UKpVNOAo=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NidThirdPartyLogin.framework/Headers/NidThirdPartyLogin-Swift.h</key>
 		<data>
-		q9X8EiHoHz3TRIsB+oV5qEzsQig=
+		HId+KtQYXxDLhf6JJqA7a5ODDEE=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NidThirdPartyLogin.framework/Info.plist</key>
 		<data>
-		BIMLXPRwXCz4sCGC7N6kOPjWlYQ=
+		1DiSLr99GpXVNnXz39UGwI9MOhc=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NidThirdPartyLogin.framework/Modules/NidThirdPartyLogin.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		aBQORJlgIGyaD0Gw/KzBpkglUS8=
+		L8Lc1NXgbd8JJfI04UNede7/C0A=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NidThirdPartyLogin.framework/Modules/NidThirdPartyLogin.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		m+KT/eb4IrSc+MoKTPaNYCHyhy0=
+		Xz0i3Q0c0amKv50k5ol89Mm9Kv4=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NidThirdPartyLogin.framework/Modules/NidThirdPartyLogin.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		3WtZQURggMqnMm9TVwuDdrLuZFc=
+		h+TPNY461WNpZUbWdrWU6K4Y+5c=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NidThirdPartyLogin.framework/Modules/NidThirdPartyLogin.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		m+KT/eb4IrSc+MoKTPaNYCHyhy0=
+		Xz0i3Q0c0amKv50k5ol89Mm9Kv4=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NidThirdPartyLogin.framework/Modules/NidThirdPartyLogin.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		aBQORJlgIGyaD0Gw/KzBpkglUS8=
+		L8Lc1NXgbd8JJfI04UNede7/C0A=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NidThirdPartyLogin.framework/Modules/NidThirdPartyLogin.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		dBLDnbIrkr4rbM1jFCRs2txg/5c=
+		p4A3YcizWMHWd8ERaAfY/yD1V74=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NidThirdPartyLogin.framework/Modules/NidThirdPartyLogin.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		mHCeYxxZDGLq2zJpKCldhn0REFQ=
+		TAPmMO7N+GjC9GgsE2q2O5S3Kp8=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NidThirdPartyLogin.framework/Modules/NidThirdPartyLogin.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		dBLDnbIrkr4rbM1jFCRs2txg/5c=
+		p4A3YcizWMHWd8ERaAfY/yD1V74=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NidThirdPartyLogin.framework/Modules/module.modulemap</key>
 		<data>
@@ -94,27 +98,31 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NidThirdPartyLogin.framework/NidThirdPartyLogin</key>
 		<data>
-		+dY13zFzg7xqTJnB1HaytF1Dblk=
+		mwDkayoknSjDwwbvHHJ8zxuPCM4=
+		</data>
+		<key>ios-arm64_x86_64-simulator/NidThirdPartyLogin.framework/NidThirdPartyLogin-Info.plist</key>
+		<data>
+		LRqxwvuZp4SsWq4uwe0X5XNAoU4=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NidThirdPartyLogin.framework/_CodeSignature/CodeResources</key>
 		<data>
-		ISwjh38OippIR15eOcOrC5NAj4w=
+		VUenTnvBX9XTYR2BlEy6BVWn9wE=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/NidThirdPartyLogin.framework.dSYM/Contents/Info.plist</key>
 		<data>
-		js6TdCmlYtxcynbaZa7TlFzm298=
+		gRX5nMJ13hqU9+mDKZM+TWDCjb8=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/NidThirdPartyLogin.framework.dSYM/Contents/Resources/DWARF/NidThirdPartyLogin</key>
 		<data>
-		WPIC+Q/CpjuNAv2KHNG1XVPFggg=
+		1OtyCWMoVjhe4rkoFMqZjsZtCR4=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/NidThirdPartyLogin.framework.dSYM/Contents/Resources/Relocations/aarch64/NidThirdPartyLogin.yml</key>
 		<data>
-		zqvp5s9xmIyvfB+AsmFFUYvd3AE=
+		ydh4lReXutBZDwL5B3And90+6ns=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/NidThirdPartyLogin.framework.dSYM/Contents/Resources/Relocations/x86_64/NidThirdPartyLogin.yml</key>
 		<data>
-		E/PCRUiBqo40N0PczJSjDUcqx3E=
+		uTSW18U2hN5l6X5S5uuVjUQgBjU=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -123,66 +131,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hXnzFS+gxopUOjgsiVuftzZHaN8=
+			4GQ5Y2JSYZ/YVM1Ai2kaohGr+70=
 			</data>
 			<key>hash2</key>
 			<data>
-			v3w4XfKpWNVYrv0YTK7TJVImOd8bxXPvopwtUbIo7nk=
+			ksyeP+ja112KFgXfRipBWPnaFhyAWpwstEZ/4cV34l0=
 			</data>
 		</dict>
 		<key>ios-arm64/NidThirdPartyLogin.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			EqKyLhXFYEe5crOegMcgZ9RBqYA=
+			ldPq3ZR5IGCLpIYdnoaTBmSarvM=
 			</data>
 			<key>hash2</key>
 			<data>
-			Dj97rg1pXsOZfBT9tt8YxSlXn6N6VLnVDuvCX8nWU3U=
+			OsKdDxbF/iAfePkGG+ItQSyiTt7rw6PbiQp4mZmCS1Y=
 			</data>
 		</dict>
 		<key>ios-arm64/NidThirdPartyLogin.framework/Modules/NidThirdPartyLogin.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			aBQORJlgIGyaD0Gw/KzBpkglUS8=
+			L8Lc1NXgbd8JJfI04UNede7/C0A=
 			</data>
 			<key>hash2</key>
 			<data>
-			WF3ga+4t/e7hmILLzMXZy5WAiBmPhOZXic6BONq2npA=
+			GA+4+URoUtIhNINBb1AKRRaTPu10k0mGAZfltRqAknE=
 			</data>
 		</dict>
 		<key>ios-arm64/NidThirdPartyLogin.framework/Modules/NidThirdPartyLogin.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LpqrHP6Y93luYkRCFB605BntCtI=
+			wYKfXLplLwLgJNJsxkMN2S4/ylA=
 			</data>
 			<key>hash2</key>
 			<data>
-			6KahNQxYEXsCOnMuPy8MmDWSHU94WLOnwYKdIZJrw1Y=
+			FWzt7bR37yxQNa5Y/Ha/TnDF//e/KSFE9mPmRV1gzS0=
 			</data>
 		</dict>
 		<key>ios-arm64/NidThirdPartyLogin.framework/Modules/NidThirdPartyLogin.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WjjLf3HTfgopLB0kFfPQI6Nkny4=
+			pki1gY0h+J7fDB+zUwyW1TcsiZY=
 			</data>
 			<key>hash2</key>
 			<data>
-			/9XjBWSc42Wrw8J33Z/a2sqHdkmr6EaIUW5U0A8mZCU=
+			dvaqBArpVGgebujMjEvpVr9qhGVEc4jKH8j8UoGjnJY=
 			</data>
 		</dict>
 		<key>ios-arm64/NidThirdPartyLogin.framework/Modules/NidThirdPartyLogin.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LpqrHP6Y93luYkRCFB605BntCtI=
+			wYKfXLplLwLgJNJsxkMN2S4/ylA=
 			</data>
 			<key>hash2</key>
 			<data>
-			6KahNQxYEXsCOnMuPy8MmDWSHU94WLOnwYKdIZJrw1Y=
+			FWzt7bR37yxQNa5Y/Ha/TnDF//e/KSFE9mPmRV1gzS0=
 			</data>
 		</dict>
 		<key>ios-arm64/NidThirdPartyLogin.framework/Modules/module.modulemap</key>
@@ -200,154 +208,165 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/iXyAFuVZHhWO6dNUxCdxx1CWkY=
+			Tw45kmMGDQvxicMzod4yQLpMSMk=
 			</data>
 			<key>hash2</key>
 			<data>
-			QKK0fhJ8SjdALqJ+7qtpxtIwFdmQky1pn58jrAa9ebE=
+			QksTf6ycMy2+2oI6ZEDfF8Z3pjxm5DRe5kgHOYbGiF4=
+			</data>
+		</dict>
+		<key>ios-arm64/NidThirdPartyLogin.framework/NidThirdPartyLogin-Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LRqxwvuZp4SsWq4uwe0X5XNAoU4=
+			</data>
+			<key>hash2</key>
+			<data>
+			E9zHMFE53z4DDNgK472y0FlxzaqVmOuC2lFZnXu5mcU=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/NidThirdPartyLogin.framework.dSYM/Contents/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			js6TdCmlYtxcynbaZa7TlFzm298=
+			gRX5nMJ13hqU9+mDKZM+TWDCjb8=
 			</data>
 			<key>hash2</key>
 			<data>
-			UmG9R26fn8HLIhwnfag4Ix9YsKyse6o/ACPn05o0I7I=
+			SveYW9UM8Yxs3pCvSJLqyrKbjB2HTb6jKGM3t02yxvs=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/NidThirdPartyLogin.framework.dSYM/Contents/Resources/DWARF/NidThirdPartyLogin</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kdgfhOcZskHjvHXjXioSZ1lW7gU=
+			fNFwEUad02V47AsviFkB32HhKGg=
 			</data>
 			<key>hash2</key>
 			<data>
-			Hvxgj37jHDh0yXDttzw2GzfNlqJoLVz9Kq2YwKahgko=
+			Dao+xCmEeFoKauNfuNR4DjvqmHzFzi7YdcNtYRBjRNY=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/NidThirdPartyLogin.framework.dSYM/Contents/Resources/Relocations/aarch64/NidThirdPartyLogin.yml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			V19yQ0+VvWnrwtdke0GsSdBuYVE=
+			5XimB0DWD+NrFPbYx03UKpVNOAo=
 			</data>
 			<key>hash2</key>
 			<data>
-			2JPIa+FwfnX8efCwk0DOnkpYV9rT7c43z9TXieonmyg=
+			12spVd/PMGWFrbBf6kY7ggPVmXt7Xkgpi9lsqdeDjxM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NidThirdPartyLogin.framework/Headers/NidThirdPartyLogin-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			q9X8EiHoHz3TRIsB+oV5qEzsQig=
+			HId+KtQYXxDLhf6JJqA7a5ODDEE=
 			</data>
 			<key>hash2</key>
 			<data>
-			FvkY05fJK1oTq4AZGfNOGSqFBq6a2zFBNwIUD63/YBI=
+			gjuHQqs2coSqNW8aLmjj8RqGRrC4Itlu29H1/D6gIE0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NidThirdPartyLogin.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			BIMLXPRwXCz4sCGC7N6kOPjWlYQ=
+			1DiSLr99GpXVNnXz39UGwI9MOhc=
 			</data>
 			<key>hash2</key>
 			<data>
-			OXCefe2nLCU8e2tRNGLF1DOWPKHbjqjo6ac7j4AIV10=
+			8oUpsstrtNBH1sgjNOnF8pY73z5Ycs4KRRjdM4MPEYA=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NidThirdPartyLogin.framework/Modules/NidThirdPartyLogin.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			aBQORJlgIGyaD0Gw/KzBpkglUS8=
+			L8Lc1NXgbd8JJfI04UNede7/C0A=
 			</data>
 			<key>hash2</key>
 			<data>
-			WF3ga+4t/e7hmILLzMXZy5WAiBmPhOZXic6BONq2npA=
+			GA+4+URoUtIhNINBb1AKRRaTPu10k0mGAZfltRqAknE=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NidThirdPartyLogin.framework/Modules/NidThirdPartyLogin.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			m+KT/eb4IrSc+MoKTPaNYCHyhy0=
+			Xz0i3Q0c0amKv50k5ol89Mm9Kv4=
 			</data>
 			<key>hash2</key>
 			<data>
-			PWdAB182v4RBzRV6zmaSaPSDPOCyAgxZR/Rv9SFZtDI=
+			n/1hOSB+0uL4ng7KX4IVmnLtsLi6WrA8RV+uoKK4jaY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NidThirdPartyLogin.framework/Modules/NidThirdPartyLogin.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3WtZQURggMqnMm9TVwuDdrLuZFc=
+			h+TPNY461WNpZUbWdrWU6K4Y+5c=
 			</data>
 			<key>hash2</key>
 			<data>
-			uGiw5lsOaRnKPi4Uvdlh5kagrNhlQl5Gk9ELjtLScJI=
+			NyWRaIp6n47I1gKsS14usVy+lOKhpSB5MaJugVTipOM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NidThirdPartyLogin.framework/Modules/NidThirdPartyLogin.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			m+KT/eb4IrSc+MoKTPaNYCHyhy0=
+			Xz0i3Q0c0amKv50k5ol89Mm9Kv4=
 			</data>
 			<key>hash2</key>
 			<data>
-			PWdAB182v4RBzRV6zmaSaPSDPOCyAgxZR/Rv9SFZtDI=
+			n/1hOSB+0uL4ng7KX4IVmnLtsLi6WrA8RV+uoKK4jaY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NidThirdPartyLogin.framework/Modules/NidThirdPartyLogin.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			aBQORJlgIGyaD0Gw/KzBpkglUS8=
+			L8Lc1NXgbd8JJfI04UNede7/C0A=
 			</data>
 			<key>hash2</key>
 			<data>
-			WF3ga+4t/e7hmILLzMXZy5WAiBmPhOZXic6BONq2npA=
+			GA+4+URoUtIhNINBb1AKRRaTPu10k0mGAZfltRqAknE=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NidThirdPartyLogin.framework/Modules/NidThirdPartyLogin.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dBLDnbIrkr4rbM1jFCRs2txg/5c=
+			p4A3YcizWMHWd8ERaAfY/yD1V74=
 			</data>
 			<key>hash2</key>
 			<data>
-			o7y0JzbU1yJdHggEy8ZrXV6Z1gKsO0ZwAUaRv/WLYBU=
+			NZt+YvmO2+CSbcKI2/im/pduzXsepnhH1NJCLQ3i/zI=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NidThirdPartyLogin.framework/Modules/NidThirdPartyLogin.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			mHCeYxxZDGLq2zJpKCldhn0REFQ=
+			TAPmMO7N+GjC9GgsE2q2O5S3Kp8=
 			</data>
 			<key>hash2</key>
 			<data>
-			rzQl8K3UZrmJJhuTtGcxFwXqXAqecKC3mBesRWGhN8E=
+			IOallAPJ2JuJUxVvcEM7n62cwRrS1/gh5ClcvSENixo=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NidThirdPartyLogin.framework/Modules/NidThirdPartyLogin.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dBLDnbIrkr4rbM1jFCRs2txg/5c=
+			p4A3YcizWMHWd8ERaAfY/yD1V74=
 			</data>
 			<key>hash2</key>
 			<data>
-			o7y0JzbU1yJdHggEy8ZrXV6Z1gKsO0ZwAUaRv/WLYBU=
+			NZt+YvmO2+CSbcKI2/im/pduzXsepnhH1NJCLQ3i/zI=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NidThirdPartyLogin.framework/Modules/module.modulemap</key>
@@ -365,66 +384,77 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+dY13zFzg7xqTJnB1HaytF1Dblk=
+			mwDkayoknSjDwwbvHHJ8zxuPCM4=
 			</data>
 			<key>hash2</key>
 			<data>
-			fbUAsJkTUJ2qn/ek1PAMV7A37QL/mo5D8VUnZwg2gHs=
+			/QSDBukH6N+Z2NnocaW1h9Z3317sfGquCnxMwmyVo5g=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/NidThirdPartyLogin.framework/NidThirdPartyLogin-Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LRqxwvuZp4SsWq4uwe0X5XNAoU4=
+			</data>
+			<key>hash2</key>
+			<data>
+			E9zHMFE53z4DDNgK472y0FlxzaqVmOuC2lFZnXu5mcU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NidThirdPartyLogin.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ISwjh38OippIR15eOcOrC5NAj4w=
+			VUenTnvBX9XTYR2BlEy6BVWn9wE=
 			</data>
 			<key>hash2</key>
 			<data>
-			gUkMEzMYs7mVjPHI05OnavSInfOmp3pAh3Wg37cIpzY=
+			NbQoAGTkyWVby0d88pDdM16U6VdJcc+hfc3zlKxfCV0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/NidThirdPartyLogin.framework.dSYM/Contents/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			js6TdCmlYtxcynbaZa7TlFzm298=
+			gRX5nMJ13hqU9+mDKZM+TWDCjb8=
 			</data>
 			<key>hash2</key>
 			<data>
-			UmG9R26fn8HLIhwnfag4Ix9YsKyse6o/ACPn05o0I7I=
+			SveYW9UM8Yxs3pCvSJLqyrKbjB2HTb6jKGM3t02yxvs=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/NidThirdPartyLogin.framework.dSYM/Contents/Resources/DWARF/NidThirdPartyLogin</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WPIC+Q/CpjuNAv2KHNG1XVPFggg=
+			1OtyCWMoVjhe4rkoFMqZjsZtCR4=
 			</data>
 			<key>hash2</key>
 			<data>
-			/fRdGWkxRju0LuqgLx7tWENzN1z8Ht7fywuA5+HhqEs=
+			o6QYhe3y9oHFdcKJSn6x557nhLM5aFzP0jTtiKPmDeg=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/NidThirdPartyLogin.framework.dSYM/Contents/Resources/Relocations/aarch64/NidThirdPartyLogin.yml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zqvp5s9xmIyvfB+AsmFFUYvd3AE=
+			ydh4lReXutBZDwL5B3And90+6ns=
 			</data>
 			<key>hash2</key>
 			<data>
-			BOYW7UFlc6j2tvOyOjKsfD/+8lj/VjiYdXCMmeybTmw=
+			nv47ZpZ0NW2PCRDyUGXH9u4XCubAVVT9bx4zJHfqCkU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/NidThirdPartyLogin.framework.dSYM/Contents/Resources/Relocations/x86_64/NidThirdPartyLogin.yml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			E/PCRUiBqo40N0PczJSjDUcqx3E=
+			uTSW18U2hN5l6X5S5uuVjUQgBjU=
 			</data>
 			<key>hash2</key>
 			<data>
-			q/4jF8Nb6E86hjBiFaNkwA7dsrdC4Qkw4TXddNU+dFE=
+			JQbOgrXoNKZJuO2UNhwX5HqUgBWA2nzShs30d63ejNU=
 			</data>
 		</dict>
 	</dict>

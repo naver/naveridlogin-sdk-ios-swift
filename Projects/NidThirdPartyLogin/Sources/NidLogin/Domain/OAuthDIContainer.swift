@@ -119,7 +119,8 @@ extension OAuthDIContainer {
 
     private func makeAuthCodeRepository() -> WebAuthorizationCodeRepository {
         return DefaultWebAuthorizationCodeRepository(
-            authenticationService: dependencies.authenticationService
+            authenticationService: dependencies.authenticationService,
+            systemInfo: dependencies.systemInfo
         )
     }
 

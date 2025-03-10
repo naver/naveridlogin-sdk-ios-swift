@@ -15,7 +15,6 @@ protocol WebAuthorizationCodeRepository {
         urlScheme: String,
         state: String,
         authType: AuthType,
-        moduleVersion: String,
         callback: @escaping (Result<(authCode: String, state: String), NidError>) -> Void
     )
 }

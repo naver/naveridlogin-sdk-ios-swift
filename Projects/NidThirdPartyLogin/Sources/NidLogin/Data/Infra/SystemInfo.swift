@@ -9,21 +9,34 @@
 import UIKit
 
 public final class SystemInfo {
-    private let currentModuleVersion: String
+    let currentModuleVersion: String
+    let defaultModuleVersion: String = "5.0.1"
+
+    // XCFramework, Cocoapods binary의 경우
     public init(mainEntryModel: AnyClass) {
-        self.currentModuleVersion = Bundle(for: mainEntryModel).infoDictionary?["CFBundleShortVersionString"] as? String ?? ""
+        self.currentModuleVersion = Bundle(for: mainEntryModel).infoDictionary?["CFBundleShortVersionString"] as? String ?? defaultModuleVersion
+    }
+
+    // SPM인 경우
+    public init(bundle: Bundle) {
+        if let plistPath = bundle.path(forResource: "NidThirdPartyLogin-Info", ofType: "plist"),
+           let plistData = FileManager.default.contents(atPath: plistPath),
+           let plist = try? PropertyListSerialization.propertyList(from: plistData, format: nil) as? [String: Any] {
+            self.currentModuleVersion = plist["CFBundleShortVersionString"] as? String ?? defaultModuleVersion
+        } else {
+            self.currentModuleVersion = defaultModuleVersion
+        }
     }
 
     private func deviceModelName() -> String? {
-        var systemInfo = utsname()
-        uname(&systemInfo)
-
-        let model = withUnsafePointer(to: &systemInfo.machine) { (pointer) -> String in
-            let data = Data(bytes: pointer, count: Int(_SYS_NAMELEN))
-            return String(data: data, encoding: .utf8) ?? "Unknown"
+        var sysInfo = utsname()
+        uname(&sysInfo)
+        let mirror = Mirror(reflecting: sysInfo.machine)
+        let identifier = mirror.children.reduce("") { partialResult, element in
+            guard let value = element.value as? Int8, value != 0 else { return partialResult }
+            return partialResult + String(UnicodeScalar(UInt8(value)))
         }
-
-        return model
+        return identifier
     }
 
     public func userAgent() -> String {

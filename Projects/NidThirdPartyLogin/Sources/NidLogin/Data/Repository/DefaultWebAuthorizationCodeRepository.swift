@@ -13,9 +13,11 @@ import NetworkKit
 
 final class DefaultWebAuthorizationCodeRepository: WebAuthorizationCodeRepository {
     private let authenticationService: WebAuthenticationService
+    private let systemInfo: SystemInfo
 
-    init(authenticationService: WebAuthenticationService) {
+    init(authenticationService: WebAuthenticationService, systemInfo: SystemInfo) {
         self.authenticationService = authenticationService
+        self.systemInfo = systemInfo
     }
 
     func requestAuthCode(
@@ -24,7 +26,6 @@ final class DefaultWebAuthorizationCodeRepository: WebAuthorizationCodeRepositor
         urlScheme: String,
         state: String,
         authType: AuthType,
-        moduleVersion: String,
         callback: @escaping (Result<(authCode: String, state: String), NidError>) -> Void
     ) {
         let webAuthCodeRequest = WebAuthCodeRequest(
@@ -35,7 +36,7 @@ final class DefaultWebAuthorizationCodeRepository: WebAuthorizationCodeRepositor
                 locale: Language.current ?? "",
                 oauthOS: UIDevice.currentOS,
                 authType: authType,
-                moduleVersion: moduleVersion
+                moduleVersion: systemInfo.currentModuleVersion
             )
         )
 

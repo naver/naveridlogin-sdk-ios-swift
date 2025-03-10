@@ -57,8 +57,7 @@ final class PerformWebLogin: PerformLoginUseCase {
             clientSecret: requestValue.clientSecret,
             urlScheme: requestValue.urlScheme,
             state: stateGenerator.generate(),
-            authType: requestValue.authType,
-            moduleVersion: requestValue.moduleVersion
+            authType: requestValue.authType
         )
 
         self.process = process
@@ -123,7 +122,6 @@ extension PerformWebLogin {
             urlScheme: process.urlScheme,
             state: process.state,
             authType: process.authType,
-            moduleVersion: process.moduleVersion,
             callback: requestATWithAuthCode
         )
     }
