@@ -14,7 +14,8 @@ public enum NidError: Error, LocalizedError, CustomStringConvertible {
 
     public enum ClientErrorDetail {
         case initalizeNotCalled
-        case missingClientConfiguration(key: String)
+        case multipleInitalizationAttempt
+        case missingClientConfiguration
         case invalidClientConfigurationFormat
         case canceledByUser
         case unsupportedResponseType
@@ -23,7 +24,8 @@ public enum NidError: Error, LocalizedError, CustomStringConvertible {
         public var errorDescription: String? {
             switch self {
             case .initalizeNotCalled: return "NidOAuth.initialize() should be called before using NidOAuth."
-            case .missingClientConfiguration(let key): return "Missing \(key) in Info.plist. \nPlease check your configuration."
+            case .multipleInitalizationAttempt: return "Multiple initialize() calls detected.\nThis method should be invoked only once during app launch."
+            case .missingClientConfiguration: return "Missing client configuration. \nPlease check your configuration."
             case .invalidClientConfigurationFormat: return "Client configuration format is invalid. \nPlease check if your configuration is in correct format."
             case .canceledByUser: return "User canceled the request."
             case .unsupportedResponseType: return "Unsupported response type."

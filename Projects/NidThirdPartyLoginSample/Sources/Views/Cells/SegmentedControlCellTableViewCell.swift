@@ -70,6 +70,7 @@ class SegmentedControlCellTableViewCell: UITableViewCell {
     }
 }
 
+@MainActor
 protocol SegmentedControlDelegate: AnyObject {
     func didSelectSegment(_ index: Int)
 }

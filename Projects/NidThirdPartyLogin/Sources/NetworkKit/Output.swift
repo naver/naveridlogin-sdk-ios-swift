@@ -6,7 +6,7 @@
 //  Apache-2.0
 //
 
-public struct Output<T: Decodable> {
+public struct Output<T: Decodable & Sendable>: Sendable {
     public let response: T
     public let statusCode: Int
 }

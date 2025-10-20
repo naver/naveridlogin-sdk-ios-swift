@@ -19,7 +19,7 @@ public enum NidThirdPartyLoginInfo: Sendable {
     public static let cfBundleInfoDictionaryVersion: String = "6.0"
     public static let cfBundleName: String = "$(PRODUCT_NAME)"
     public static let cfBundlePackageType: String = "FMWK"
-    public static let cfBundleShortVersionString: String = "5.0.1"
+    public static let cfBundleShortVersionString: String = "5.1.0"
     public static let cfBundleVersion: String = "1"
 }
 // swiftlint:enable identifier_name line_length number_separator type_body_length

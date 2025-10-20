@@ -67,8 +67,8 @@ extension OAuthDIContainer {
         )
     }
 
-    public func makeFetchClientInfo() -> FetchClientInfo {
-        return FetchClientInfo(clientInfoRepository: makeClientInfoRepository())
+    public func makeFetchClientInfo() -> ManageClientInfo {
+        return ManageClientInfo(clientInfoRepository: makeClientInfoRepository())
     }
 
     public func makeFetchToken() -> FetchToken {
@@ -106,7 +106,7 @@ extension OAuthDIContainer {
 // MARK: - Repositories
 extension OAuthDIContainer {
     private func makeClientInfoRepository() -> ClientInfoRepository {
-        return DefaultClientInfoRepository(bundleDataSource: dependencies.bundleDataSource)
+        return DefaultClientInfoRepository()
     }
 
     private func makeAppAuthCodeRepository() -> AppAuthorizationCodeRepository {

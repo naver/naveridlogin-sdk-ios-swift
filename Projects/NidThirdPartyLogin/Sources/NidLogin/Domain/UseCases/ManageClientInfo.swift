@@ -8,18 +8,22 @@
 
 import NidCore
 
-public final class FetchClientInfo {
+public final class ManageClientInfo {
     private let clientInfoRepository: ClientInfoRepository
 
     init(clientInfoRepository: ClientInfoRepository) {
         self.clientInfoRepository = clientInfoRepository
     }
 
-    public func execute() -> ClientInfo {
+    public func load() -> ClientInfo {
         do {
             return try clientInfoRepository.load()
         } catch {
             NidLogger.fatalError(error)
         }
+    }
+
+    public func save(clientInfo: ClientInfo) {
+        clientInfoRepository.save(clientInfo)
     }
 }

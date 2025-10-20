@@ -7,13 +7,19 @@
 //
 
 import UIKit
-@testable import NidThirdPartyLogin
-@testable import NidLogin
+import NidThirdPartyLogin
+import NidLogin
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        NidOAuth.shared.initialize()
+        NidOAuth.shared
+            .initialize(
+                appName: ClientConfiguration.appName,
+                clientId: ClientConfiguration.clientID,
+                clientSecret: ClientConfiguration.clientSecret,
+                urlScheme: ClientConfiguration.urlScheme
+            )
         return true
     }
     

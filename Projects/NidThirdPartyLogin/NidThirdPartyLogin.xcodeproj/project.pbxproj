@@ -16,6 +16,7 @@
 		1990E077720BB2000452897E /* PerformLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C890EFD9C82BBF77E5457463 /* PerformLogin.swift */; };
 		1DBCF5C730AD28280BF54110 /* NidCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E1ADBE7ABDD9D9743F0C95E /* NidCore.framework */; };
 		1EFCB4EBD0077DF1AEC70026 /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D50EF2C4A208BC3D427D349 /* String+.swift */; };
+		1FF5361EB0BF0B11672E4E82 /* NidCore.docc in Sources */ = {isa = PBXBuildFile; fileRef = 69A7B3D7EA5AA63AC3552351 /* NidCore.docc */; };
 		20EE1DBAB86FF7AA06EEDBE6 /* DeleteAccessTokenResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACBEEF72C0ACE878DAE8399 /* DeleteAccessTokenResponse.swift */; };
 		239365EDA53C65373CDB2E09 /* ValidateAccessTokenRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AACDB1589CFDFE7D2DA6119 /* ValidateAccessTokenRequest.swift */; };
 		266ECB523AE7E6F3727A09AA /* AppAuthCodeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3C64F62499247FA0C8D44B /* AppAuthCodeRequest.swift */; };
@@ -81,6 +82,7 @@
 		B87E780847DA1B2140801142 /* UpdateAccessTokenRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789ECA9F60BCCABB6AFB2B23 /* UpdateAccessTokenRequest.swift */; };
 		B8BD3F36615119F522254774 /* RequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E3407E0ED40636777234CB /* RequestFactory.swift */; };
 		BB3FC788F3606BCB1375B1B7 /* WebAuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1662ED3ED1E21962C34137C4 /* WebAuthenticationService.swift */; };
+		BE7DAACEDFA2C8BD3D1625D5 /* ManageClientInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6529243455EEBA0AF59496AC /* ManageClientInfo.swift */; };
 		C981AD488F91251D0CF1A1EB /* FetchUserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC95BEDED203D03BDD76A9D /* FetchUserProfile.swift */; };
 		CD45278B4BF82BEB58BA13EF /* URLSessionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BBE8BF299BEEBE653EDAF1 /* URLSessionProtocol.swift */; };
 		CDE2DC4C68536EF324272FEF /* UserDefaultsStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304DB310BC9858320DD1F4AC /* UserDefaultsStorage.swift */; };
@@ -98,9 +100,7 @@
 		F0E4BA6CAAD5082C770F8151 /* LoginProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F312B634C1707DF1495DC9 /* LoginProcess.swift */; };
 		F100E0483A86D9C283619260 /* GrantType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9C7F79285E3D34ACBD997B /* GrantType.swift */; };
 		F1B63D2335A3C49ADAC62835 /* FetchUserProfileRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853CDCA2E13FC0134EEC64F4 /* FetchUserProfileRequest.swift */; };
-		F2683326D8BC1B8A1258A96B /* FetchClientInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D2EDC505F0609A3C11A9B2 /* FetchClientInfo.swift */; };
 		F5AA97F8495C6504CB6418FC /* PerformInitialSetUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960560F437BB4619E4656D72 /* PerformInitialSetUp.swift */; };
-		F7F90020DCA0DD55A027A348 /* ConfigKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877BD14652BE285BC2F18FE8 /* ConfigKeys.swift */; };
 		FC41BB77D6FCF71A043321DE /* LoginBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA870675571508218C25987 /* LoginBehavior.swift */; };
 		FE0789A570810BA155D71062 /* libNetworkKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5173A79896E726C59C048D0 /* libNetworkKit.a */; };
 		FEBE2E564AE248E2BB6931CD /* NidThirdPartyLogin-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C7EDCEEEFE8F603568CD6F98 /* NidThirdPartyLogin-Info.plist */; };
@@ -292,10 +292,12 @@
 		5FC95BEDED203D03BDD76A9D /* FetchUserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchUserProfile.swift; sourceTree = "<group>"; };
 		6229BCE87E4A3981B8828C3E /* StorableItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorableItem.swift; sourceTree = "<group>"; };
 		6519CE3006D46867D7293135 /* TuistBundle+NidThirdPartyLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+NidThirdPartyLogin.swift"; sourceTree = "<group>"; };
+		6529243455EEBA0AF59496AC /* ManageClientInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageClientInfo.swift; sourceTree = "<group>"; };
 		65F312B634C1707DF1495DC9 /* LoginProcess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProcess.swift; sourceTree = "<group>"; };
 		66A19078FF96CE30E448D4BD /* AppLoginProcess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLoginProcess.swift; sourceTree = "<group>"; };
 		67EBC6ADCB25932CD8DFDD6A /* DefaultTokenRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTokenRepository.swift; sourceTree = "<group>"; };
 		6840169DB60DEB59ABB7A948 /* VerifyAccessToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyAccessToken.swift; sourceTree = "<group>"; };
+		69A7B3D7EA5AA63AC3552351 /* NidCore.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = NidCore.docc; sourceTree = "<group>"; };
 		6ACBEEF72C0ACE878DAE8399 /* DeleteAccessTokenResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteAccessTokenResponse.swift; sourceTree = "<group>"; };
 		6BA870675571508218C25987 /* LoginBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginBehavior.swift; sourceTree = "<group>"; };
 		6C0F190ABAD11C885DA11534 /* AccessTokenWithRefreshTokenResponse+Mapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AccessTokenWithRefreshTokenResponse+Mapping.swift"; sourceTree = "<group>"; };
@@ -311,7 +313,6 @@
 		81E25EBEB4996F90D9D61E8F /* TuistPlists+NidThirdPartyLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistPlists+NidThirdPartyLogin.swift"; sourceTree = "<group>"; };
 		853CDCA2E13FC0134EEC64F4 /* FetchUserProfileRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchUserProfileRequest.swift; sourceTree = "<group>"; };
 		86B94654C7EACC42467BC47F /* ResultResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultResponse.swift; sourceTree = "<group>"; };
-		877BD14652BE285BC2F18FE8 /* ConfigKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigKeys.swift; sourceTree = "<group>"; };
 		8B5A024980ACE36119DBB94B /* AccessToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessToken.swift; sourceTree = "<group>"; };
 		8BD99B700D86DDE4AECA55CA /* SDKRootDIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKRootDIContainer.swift; sourceTree = "<group>"; };
 		8DFFAEDF8C6F960EE767F67B /* SystemInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemInfo.swift; sourceTree = "<group>"; };
@@ -331,7 +332,6 @@
 		BE3D91447B5B48073E3619E5 /* ResultCodeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCodeResponse.swift; sourceTree = "<group>"; };
 		C2D3D5E216EDAD505DF9BFBF /* PerformWebLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformWebLogin.swift; sourceTree = "<group>"; };
 		C2E6EE9B8DBE6E7BF23789E9 /* PerformAppLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformAppLogin.swift; sourceTree = "<group>"; };
-		C4D2EDC505F0609A3C11A9B2 /* FetchClientInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchClientInfo.swift; sourceTree = "<group>"; };
 		C7432D7F58BF3510932BE551 /* NidLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NidLogger.swift; sourceTree = "<group>"; };
 		C7EDCEEEFE8F603568CD6F98 /* NidThirdPartyLogin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "NidThirdPartyLogin-Info.plist"; sourceTree = "<group>"; };
 		C890EFD9C82BBF77E5457463 /* PerformLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformLogin.swift; sourceTree = "<group>"; };
@@ -645,9 +645,9 @@
 			children = (
 				FD3B6009B14982F3232A24DB /* Login */,
 				EB8A73F3E7FB0402623BEBC0 /* Logout */,
-				C4D2EDC505F0609A3C11A9B2 /* FetchClientInfo.swift */,
 				CBA1AC6787F0B4D6FC84A9EE /* FetchToken.swift */,
 				5FC95BEDED203D03BDD76A9D /* FetchUserProfile.swift */,
+				6529243455EEBA0AF59496AC /* ManageClientInfo.swift */,
 				960560F437BB4619E4656D72 /* PerformInitialSetUp.swift */,
 				6840169DB60DEB59ABB7A948 /* VerifyAccessToken.swift */,
 			);
@@ -712,10 +712,10 @@
 			children = (
 				546778C4D043B3494694EBCF /* Models */,
 				9E557996C8D09A995032126D /* Resources */,
-				877BD14652BE285BC2F18FE8 /* ConfigKeys.swift */,
 				2A5238EC1C9FA76E792B6C4E /* Constant.swift */,
 				6BA870675571508218C25987 /* LoginBehavior.swift */,
 				65F312B634C1707DF1495DC9 /* LoginProcess.swift */,
+				69A7B3D7EA5AA63AC3552351 /* NidCore.docc */,
 				EE70F4DDDFFA4DC72FFE7C54 /* NidError.swift */,
 				C7432D7F58BF3510932BE551 /* NidLogger.swift */,
 			);
@@ -1006,7 +1006,6 @@
 				3AA05DD31404DB52B0987F74 /* UserProfileRepository.swift in Sources */,
 				620509CF5D8B0978F7FAA05D /* WebAuthorizationCodeRepository.swift in Sources */,
 				4102321A342D78DB817635BB /* OAuthDIContainer.swift in Sources */,
-				F2683326D8BC1B8A1258A96B /* FetchClientInfo.swift in Sources */,
 				17F3A631CEEF6DE75F7C9B04 /* FetchToken.swift in Sources */,
 				C981AD488F91251D0CF1A1EB /* FetchUserProfile.swift in Sources */,
 				E63F92AA51C15037734CB74A /* AppLoginProcess.swift in Sources */,
@@ -1018,6 +1017,7 @@
 				5B95426970C94F12CA03A3F9 /* PerformWebLogin.swift in Sources */,
 				3E752576920C74D83AC16BD8 /* DisconnectAccount.swift in Sources */,
 				4E520B0346A9649AE6C9AF95 /* PerformLogout.swift in Sources */,
+				BE7DAACEDFA2C8BD3D1625D5 /* ManageClientInfo.swift in Sources */,
 				F5AA97F8495C6504CB6418FC /* PerformInitialSetUp.swift in Sources */,
 				8CFCEF291CCFCFD9A26BB265 /* VerifyAccessToken.swift in Sources */,
 				735A9B60BE051632360013B7 /* NaverAlertViewController.swift in Sources */,
@@ -1028,13 +1028,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7F90020DCA0DD55A027A348 /* ConfigKeys.swift in Sources */,
 				06DEAD95F7EDC306E75C5072 /* Constant.swift in Sources */,
 				FC41BB77D6FCF71A043321DE /* LoginBehavior.swift in Sources */,
 				F0E4BA6CAAD5082C770F8151 /* LoginProcess.swift in Sources */,
 				90AFCFC0C772166D7318F1F8 /* AccessToken.swift in Sources */,
 				89AEDF436CF263D03EC87165 /* LoginResult.swift in Sources */,
 				AEBCE76504D0893DC2EF2C98 /* RefreshToken.swift in Sources */,
+				1FF5361EB0BF0B11672E4E82 /* NidCore.docc in Sources */,
 				046D2DB3C99347782F6C15F1 /* NidError.swift in Sources */,
 				A3B9FE9FB5B6F836B7AA94EC /* NidLogger.swift in Sources */,
 			);

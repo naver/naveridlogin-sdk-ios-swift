@@ -42,7 +42,7 @@ public class NidOAuth {
     // MARK: - UseCases
     private let performInitialSetUp: PerformInitialSetUp
     private let performLogin: PerformLogin
-    private let fetchClientInfo: FetchClientInfo
+    private let manageClientInfo: ManageClientInfo
     private let fetchToken: FetchToken
     private let performLogout: PerformLogout
     private let disconnectAccount: DisconnectAccount
@@ -54,7 +54,7 @@ public class NidOAuth {
         let dependencies: OAuthDIContainer
         dependencies = SDKRootDIContainer().makeOAuthDIContainer()
         self.performLogin = dependencies.makePerformLogin()
-        self.fetchClientInfo = dependencies.makeFetchClientInfo()
+        self.manageClientInfo = dependencies.makeFetchClientInfo()
         self.fetchToken = dependencies.makeFetchToken()
         self.performLogout = dependencies.makePerformLogout()
         self.disconnectAccount = dependencies.makeDisconnectAccount()
@@ -68,7 +68,7 @@ public class NidOAuth {
             NidLogger.fatalError(NidError.clientError(.initalizeNotCalled))
         }
 
-        let clientInfo = fetchClientInfo.execute()
+        let clientInfo = manageClientInfo.load()
         return Config(
             clientID: clientInfo.clientId,
             clientSecret: clientInfo.clientSecret,
@@ -101,8 +101,25 @@ public class NidOAuth {
     /// NidOAuth를 초기화합니다.
     /// `NidOAuth`를 사용하기 전에, `AppDelegate`의 `didfinishlaunchingWithOptions`에서 호출해야 합니다.
     ///
-    public func initialize() {
+    public func initialize(
+        appName: String,
+        clientId: String,
+        clientSecret: String,
+        urlScheme: String
+    ) {
+        guard !isReady else {
+            return NidLogger.log(NidError.clientError(.multipleInitalizationAttempt))
+        }
+
         performInitialSetUp.prepare()
+        manageClientInfo.save(
+            clientInfo: .init(
+                clientId: clientId,
+                clientSecret: clientSecret,
+                urlScheme: urlScheme,
+                appName: appName
+            )
+        )
         self.isReady = true
     }
 

@@ -20,27 +20,30 @@ public final class DefaultNetwork: Network {
     }
 
     public func send<T: Request>(_ request: T, completion: @escaping (Result<Output<T.Response>, NetworkError>) -> Void) {
+        let mainThreadCompletion: (Result<Output<T.Response>, NetworkError>) -> Void = { result in
+            DispatchQueue.main.async {
+                completion(result)
+            }
+        }
+        
         var urlRequest: URLRequest!
         do {
             urlRequest = try RequestFactory(request: request).urlRequestRepresentation()
         } catch {
-            completion(.failure(error))
+            return mainThreadCompletion(.failure(error))
         }
 
         session.dataTask(with: urlRequest) { data, response, error in
             if let error {
-                completion(.failure(.urlSessionInternalError(error: error)))
-                return
+                return mainThreadCompletion(.failure(.urlSessionInternalError(error: error)))
             }
 
             guard let data = data else {
-                completion(.failure(.invalidResponse))
-                return
+                return mainThreadCompletion(.failure(.invalidResponse))
             }
 
             guard let decodedData = try? JSONDecoder().decode(T.Response.self, from: data) else {
-                completion(.failure(.decodingFailed(data: data, to: T.Response.self)))
-                return
+                return mainThreadCompletion(.failure(.decodingFailed(data: data, to: T.Response.self)))
             }
 
             let output = Output(
@@ -49,7 +52,7 @@ public final class DefaultNetwork: Network {
                     response as? HTTPURLResponse
                 )?.statusCode ?? 0
             )
-            completion(.success(output))
+            mainThreadCompletion(.success(output))
         }.resume()
     }
 }

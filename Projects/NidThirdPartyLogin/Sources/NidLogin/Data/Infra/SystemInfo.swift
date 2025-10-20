@@ -10,7 +10,7 @@ import UIKit
 
 public final class SystemInfo {
     let currentModuleVersion: String
-    let defaultModuleVersion: String = "5.0.1"
+    let defaultModuleVersion: String = "5.1.0"
 
     // XCFramework, Cocoapods binary의 경우
     public init(mainEntryModel: AnyClass) {

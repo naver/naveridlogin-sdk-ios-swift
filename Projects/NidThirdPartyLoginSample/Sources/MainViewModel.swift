@@ -44,11 +44,13 @@ struct Section {
     let sectionType: SectionType
 }
 
+@MainActor
 protocol ViewModelDelegate: AnyObject {
     func outputDidChange(to: [Section])
     func showMessage(_ message: String)
 }
 
+@MainActor
 final class MainViewModel {
     weak var delegate: ViewModelDelegate? {
         didSet {
@@ -89,9 +91,11 @@ final class MainViewModel {
     }
 
     init() {
-        let clientInfo = ["NidClientID", "NidClientSecret", "NidAppName"].map {
-            return Section.ParamDescription($0, Bundle.main.infoDictionary![$0] as! String)
-        }
+        let clientInfo = [
+            Section.ParamDescription("NidClientID",ClientConfiguration.clientID),
+            Section.ParamDescription("NidClientSecret",ClientConfiguration.clientSecret),
+            Section.ParamDescription("NidAppName",ClientConfiguration.appName)
+        ]
 
         self.parameterSection = [
             Section(title: "Parameters", values: nil, sectionType: .mainSection),

@@ -8,6 +8,7 @@
 
 import UIKit
 
+@MainActor
 protocol MainViewDelegate: AnyObject, NidHeaderViewDelegate {
     var sections: [Section] { get }
     var viewModel: MainViewModel { get }

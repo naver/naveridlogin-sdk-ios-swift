@@ -71,7 +71,7 @@ $ git clone https://github.com/naver/naveridlogin-sdk-ios-swift
 
 2. Xcode에서 `NidThirdPartyLogin.xcworkspace` 파일 열기
 
-3. NidThirdPartyLoginSample` 스킴 선택 및 실행
+3. `NidThirdPartyLoginSample` 스킴 선택 및 실행
 
 
 

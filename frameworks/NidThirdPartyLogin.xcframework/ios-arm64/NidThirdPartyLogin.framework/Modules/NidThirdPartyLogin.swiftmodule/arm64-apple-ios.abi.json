@@ -867,17 +867,41 @@
           {
             "kind": "Function",
             "name": "initialize",
-            "printedName": "initialize()",
+            "printedName": "initialize(appName:clientId:clientSecret:urlScheme:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Func",
-            "usr": "s:18NidThirdPartyLogin0A5OAuthC10initializeyyF",
-            "mangledName": "$s18NidThirdPartyLogin0A5OAuthC10initializeyyF",
+            "usr": "s:18NidThirdPartyLogin0A5OAuthC10initialize7appName8clientId0I6Secret9urlSchemeySS_S3StF",
+            "mangledName": "$s18NidThirdPartyLogin0A5OAuthC10initialize7appName8clientId0I6Secret9urlSchemeySS_S3StF",
             "moduleName": "NidThirdPartyLogin",
             "declAttributes": [
               "AccessControl",
@@ -1354,7 +1378,7 @@
       "kind": "StringLiteral",
       "offset": 920,
       "length": 7,
-      "value": "\"5.0.1\""
+      "value": "\"5.1.0\""
     },
     {
       "filePath": "\/Users\/user\/Desktop\/WorkSpaces\/3rdparty-login-github\/Projects\/NidThirdPartyLogin\/Derived\/Sources\/TuistPlists+NidThirdPartyLogin.swift",

@@ -8,6 +8,7 @@
 
 import UIKit
 
+@MainActor
 @objc protocol NidHeaderViewDelegate {
     func showAccessToken()
     func showRefreshToken()

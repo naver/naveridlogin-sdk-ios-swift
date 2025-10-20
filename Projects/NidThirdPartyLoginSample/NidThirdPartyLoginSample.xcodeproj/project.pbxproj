@@ -30,6 +30,7 @@
 		79C5EBAFCBF0491C35835B59 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48AA664285737A03E08D4BE /* HeaderView.swift */; };
 		80BCF847CE43B2D069062185 /* HTTPHeadersTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327B69971955DC870AC5F9F7 /* HTTPHeadersTest.swift */; };
 		86DFCE04CB8B0DFCD1E3B20F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F5B4CE42406F7998CA4767B /* Assets.xcassets */; };
+		890DCEC3C528A2D7D7A4A2B9 /* ClientConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5912D7BA412742C6E0D5B967 /* ClientConfiguration.swift */; };
 		95881707DA1ED150541A71FF /* AccessTokenTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD51A2A73746471B9AD859A6 /* AccessTokenTest.swift */; };
 		A02F91DD5837479D54B38355 /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF090A11DFE39AB748045EF2 /* TitleTableViewCell.swift */; };
 		A7C213900D89033B0B732276 /* NidThirdPartyLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A98E250188940E00A2571C /* NidThirdPartyLogin.framework */; };
@@ -39,7 +40,6 @@
 		BD20DEA000A67A6371D4EECF /* RequestFactoryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E44730736B313D4028C421D /* RequestFactoryTest.swift */; };
 		BE51C23434F3BAC2DA7732C0 /* TuistAssets+NidThirdPartyLoginSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9336418852D2F27B7A805330 /* TuistAssets+NidThirdPartyLoginSample.swift */; };
 		C161B880DF6420B21F8AF96E /* MockURLSessionDataTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBF8458E0E78E190BE27637 /* MockURLSessionDataTask.swift */; };
-		C4F79E3F23196E9F68D614F3 /* ConfigTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1C9DA6E99324D80F6F8A33 /* ConfigTest.swift */; };
 		C7C942B9943C2D3E8F697D4E /* NidThirdPartyLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A98E250188940E00A2571C /* NidThirdPartyLogin.framework */; };
 		D0D674C4E738AE611232CB61 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD5B42ED695D85FE1C75207 /* MainViewController.swift */; };
 		D2437C4B5106EE3E0D45CF89 /* TuistAssets+NidThirdPartyLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3383A9C3A1E4E0C418863C7C /* TuistAssets+NidThirdPartyLoginTests.swift */; };
@@ -123,6 +123,7 @@
 		44C128A47B3EC766958CCC51 /* LoginRepositoryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRepositoryTest.swift; sourceTree = "<group>"; };
 		53A98E250188940E00A2571C /* NidThirdPartyLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NidThirdPartyLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5622E9C93B7D397AE42453C4 /* TuistBundle+NidThirdPartyLoginSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+NidThirdPartyLoginSample.swift"; sourceTree = "<group>"; };
+		5912D7BA412742C6E0D5B967 /* ClientConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientConfiguration.swift; sourceTree = "<group>"; };
 		62ED880BF863AC1DA599A7D1 /* DetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
 		6BB33600EB97EBCCF7E1DE11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C3964539DC31B3A2E5E41CD /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -139,7 +140,6 @@
 		B3F09EADDFF559A643B14FD9 /* NidLoggerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NidLoggerTest.swift; sourceTree = "<group>"; };
 		B4559E2AAB2B9D902CD11A15 /* KeychainServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainServiceTest.swift; sourceTree = "<group>"; };
 		B74FF2968AAB6C6B9155E84F /* DefaultButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultButton.swift; sourceTree = "<group>"; };
-		BB1C9DA6E99324D80F6F8A33 /* ConfigTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigTest.swift; sourceTree = "<group>"; };
 		BCC95F373C38C6563444FFD3 /* TestApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "TestApp-Info.plist"; sourceTree = "<group>"; };
 		BD950A08721F66B29DECA910 /* NidThirdPartyLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NidThirdPartyLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C66005E8DDE86CCA94779F38 /* TokenRepositoryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenRepositoryTest.swift; sourceTree = "<group>"; };
@@ -214,7 +214,6 @@
 				4C58805E3CACE79606DA3CA9 /* NetworkKit */,
 				7BABF0E586CE9773C3D8A9A4 /* NidCore */,
 				F41B1396EC0C6955512F117C /* Repositories */,
-				BB1C9DA6E99324D80F6F8A33 /* ConfigTest.swift */,
 				B4559E2AAB2B9D902CD11A15 /* KeychainServiceTest.swift */,
 				DCD2614B962A459DF277F28F /* PercentEncodingTest.swift */,
 				92B724A61F5A5DEF436F47F2 /* StateVerificationTest.swift */,
@@ -229,6 +228,7 @@
 				E36260A0436B5D70C726A4DF /* Toast */,
 				1B96C0DE958BA43CD2FCC60C /* Views */,
 				6BB33600EB97EBCCF7E1DE11 /* AppDelegate.swift */,
+				5912D7BA412742C6E0D5B967 /* ClientConfiguration.swift */,
 				6CD5B42ED695D85FE1C75207 /* MainViewController.swift */,
 				9ABFA9EFE4F2521D43911B87 /* MainViewModel.swift */,
 				CDAE42A06E279F06ED46D9AE /* SceneDelegate.swift */,
@@ -510,6 +510,7 @@
 				BE51C23434F3BAC2DA7732C0 /* TuistAssets+NidThirdPartyLoginSample.swift in Sources */,
 				B26536A1FB0466EB690B1B20 /* TuistBundle+NidThirdPartyLoginSample.swift in Sources */,
 				D91C5D3FC2C8FC4552BC58A3 /* AppDelegate.swift in Sources */,
+				890DCEC3C528A2D7D7A4A2B9 /* ClientConfiguration.swift in Sources */,
 				D0D674C4E738AE611232CB61 /* MainViewController.swift in Sources */,
 				671375378F0341C73C6E25A0 /* MainViewModel.swift in Sources */,
 				FD43D536C0101C742CDC2AAB /* SceneDelegate.swift in Sources */,
@@ -530,7 +531,6 @@
 			files = (
 				D2437C4B5106EE3E0D45CF89 /* TuistAssets+NidThirdPartyLoginTests.swift in Sources */,
 				FCD91659D676BD0C0058F69D /* TuistBundle+NidThirdPartyLoginTests.swift in Sources */,
-				C4F79E3F23196E9F68D614F3 /* ConfigTest.swift in Sources */,
 				E54FC4077616BB72D92D9B3F /* MockClasses.swift in Sources */,
 				3018F36B26DF7DF6FCDD0D5D /* NidError+.swift in Sources */,
 				79308AFC4B455147241AA571 /* TestHelper.swift in Sources */,
