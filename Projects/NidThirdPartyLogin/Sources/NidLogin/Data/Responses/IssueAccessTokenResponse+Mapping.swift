@@ -1,5 +1,5 @@
 //
-//  IssueAccessTokenResponse.swift
+//  IssueAccessTokenResponse+Mapping.swift
 //
 //  Naver ID Login SDK for iOS Swift
 //  Copyright (c) 2025-present NAVER Corp.

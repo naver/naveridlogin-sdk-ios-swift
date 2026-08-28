@@ -1,64 +1,72 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
-// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name NidCore
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1
+// swift-compiler-version: Apple Swift version 6.4 effective-5.10 (swiftlang-6.4.0.27.1 clang-2100.3.27.1)
+// swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -language-mode 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name NidCore -package-name NidThirdPartyLogin
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.4
 import Foundation
 import OSLog
 import Swift
+import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public struct Constant {
-  public static let naverAppThirdLoginScheme: Swift.String
-  public static let naverAppLoginVersion: Swift.String
-  public static var naverAppAuthCodeRequestURLString: Swift.String
-  public static let naverAppIncomingURLPage: Swift.String
-  public static let nidOAuth20BaseURL: Foundation.URL
-  public static let nidOpenAPIBaseURL: Foundation.URL
-  public static let nidOAuth20Path: Swift.String
-  public static let keychainServiceName: Swift.String
+@_inheritsConvenienceInitializers @objc public class NidCoreResources : ObjectiveC::NSObject {
+  @objc public class var bundle: Foundation::Bundle {
+    @objc get
+  }
+  @objc override dynamic public init()
+  @objc deinit
 }
-public enum LoginBehavior : Swift.String, Swift.CaseIterable {
+public struct Constant {
+  public static let naverAppThirdLoginScheme: Swift::String
+  public static let naverAppLoginVersion: Swift::String
+  public static var naverAppAuthCodeRequestURLString: Swift::String
+  public static let naverAppIncomingURLPage: Swift::String
+  public static let nidOAuth20BaseURL: Foundation::URL
+  public static let nidOpenAPIBaseURL: Foundation::URL
+  public static let nidOAuth20Path: Swift::String
+  public static let keychainServiceName: Swift::String
+}
+public enum LoginBehavior : Swift::String, Swift::CaseIterable {
   case app
   case inAppBrowser
   case appPreferredWithInAppBrowserFallback
-  public init?(rawValue: Swift.String)
-  public typealias AllCases = [NidCore.LoginBehavior]
-  public typealias RawValue = Swift.String
-  nonisolated public static var allCases: [NidCore.LoginBehavior] {
+  public init?(rawValue: Swift::String)
+  public typealias AllCases = [NidCore::LoginBehavior]
+  public typealias RawValue = Swift::String
+  nonisolated public static var allCases: [NidCore::LoginBehavior] {
     get
   }
-  public var rawValue: Swift.String {
+  public var rawValue: Swift::String {
     get
   }
 }
 public protocol LoginProcess {
 }
-public struct AccessToken : Swift.Codable {
-  public let tokenString: Swift.String
-  public let expiresAt: Foundation.Date
-  public var isExpired: Swift.Bool {
+public struct AccessToken : Swift::Codable {
+  public let tokenString: Swift::String
+  public let expiresAt: Foundation::Date
+  public var isExpired: Swift::Bool {
     get
   }
-  public init(expiresIn: Swift.Int, tokenString: Swift.String)
-  public init(expiresAt: Foundation.Date, tokenString: Swift.String)
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
+  public init(expiresIn: Swift::Int, tokenString: Swift::String)
+  public init(expiresAt: Foundation::Date, tokenString: Swift::String)
+  public func encode(to encoder: any Swift::Encoder) throws
+  public init(from decoder: any Swift::Decoder) throws
 }
 public struct LoginResult {
-  public let accessToken: NidCore.AccessToken
-  public let refreshToken: NidCore.RefreshToken
-  public init(accessToken: NidCore.AccessToken, refreshToken: NidCore.RefreshToken)
+  public let accessToken: NidCore::AccessToken
+  public let refreshToken: NidCore::RefreshToken
+  public init(accessToken: NidCore::AccessToken, refreshToken: NidCore::RefreshToken)
 }
-public struct RefreshToken : Swift.Codable {
-  public let tokenString: Swift.String
-  public init(tokenString: Swift.String)
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
+public struct RefreshToken : Swift::Codable {
+  public let tokenString: Swift::String
+  public init(tokenString: Swift::String)
+  public func encode(to encoder: any Swift::Encoder) throws
+  public init(from decoder: any Swift::Decoder) throws
 }
-public enum NidError : Swift.Error, Foundation.LocalizedError, Swift.CustomStringConvertible {
-  case clientError(NidCore.NidError.ClientErrorDetail)
-  case serverError(NidCore.NidError.ServerErrorDetail)
+public enum NidError : Swift::Error, Foundation::LocalizedError, Swift::CustomStringConvertible {
+  case clientError(NidCore::NidError.NidCore::ClientErrorDetail)
+  case serverError(NidCore::NidError.NidCore::ServerErrorDetail)
   public enum ClientErrorDetail {
     case initalizeNotCalled
     case multipleInitalizationAttempt
@@ -67,56 +75,60 @@ public enum NidError : Swift.Error, Foundation.LocalizedError, Swift.CustomStrin
     case canceledByUser
     case unsupportedResponseType
     case naverAppNotInstalled
-    public var errorDescription: Swift.String? {
+    case presentationAnchorNotFound
+    public var errorDescription: Swift::String? {
       get
     }
-    public static func == (a: NidCore.NidError.ClientErrorDetail, b: NidCore.NidError.ClientErrorDetail) -> Swift.Bool
-    public func hash(into hasher: inout Swift.Hasher)
-    public var hashValue: Swift.Int {
+    public static func == (a: NidCore::NidError.NidCore::ClientErrorDetail, b: NidCore::NidError.NidCore::ClientErrorDetail) -> Swift::Bool
+    public func hash(into hasher: inout Swift::Hasher)
+    public var hashValue: Swift::Int {
       get
     }
   }
   public enum ServerErrorDetail {
-    case invalidState(expected: Swift.String, actual: Swift.String?)
-    case invalidURLResponse(Foundation.URL)
+    case invalidState(expected: Swift::String, actual: Swift::String?)
+    case invalidURLResponse(Foundation::URL)
     case invalidResponseFormat
-    case networkError((any Swift.Error)?)
-    case webAuthenticationInternalError((any Swift.Error)?)
-    case authError(errorCode: Swift.String, errorDescription: Swift.String?)
-    public var errorDescription: Swift.String? {
+    case networkError((any Swift::Error)?)
+    case webAuthenticationInternalError((any Swift::Error)?)
+    case authError(errorCode: Swift::String, errorDescription: Swift::String?)
+    public var errorDescription: Swift::String? {
       get
     }
   }
-  public var description: Swift.String {
+  public var description: Swift::String {
     get
   }
-  public var errorDescription: Swift.String? {
+  public var errorDescription: Swift::String? {
     get
   }
 }
-public enum LogLevel : Swift.Int, Swift.CustomStringConvertible {
+public enum LogLevel : Swift::Int, Swift::CustomStringConvertible {
   case debug, info, error
-  public var description: Swift.String {
+  public var description: Swift::String {
     get
   }
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
+  public init?(rawValue: Swift::Int)
+  public typealias RawValue = Swift::Int
+  public var rawValue: Swift::Int {
     get
   }
 }
 @_hasMissingDesignatedInitializers final public class NidLogger {
-  public static func log(_ message: Swift.String, level: NidCore.LogLevel = .debug)
-  public static func log(_ error: any Swift.Error, level: NidCore.LogLevel = .debug)
-  public static func fatalError(_ message: Swift.String, file: Swift.StaticString = #file, line: Swift.UInt = #line) -> Swift.Never
-  public static func fatalError(_ error: any Swift.Error, file: Swift.StaticString = #file, line: Swift.UInt = #line) -> Swift.Never
+  public static func log(_ message: Swift::String, level: NidCore::LogLevel = .debug)
+  public static func log(_ error: any Swift::Error, level: NidCore::LogLevel = .debug)
+  public static func fatalError(_ message: Swift::String, file: Swift::StaticString = #file, line: Swift::UInt = #line) -> Swift::Never
+  public static func fatalError(_ error: any Swift::Error, file: Swift::StaticString = #file, line: Swift::UInt = #line) -> Swift::Never
   @objc deinit
 }
-extension NidCore.LoginBehavior : Swift.Equatable {}
-extension NidCore.LoginBehavior : Swift.Hashable {}
-extension NidCore.LoginBehavior : Swift.RawRepresentable {}
-extension NidCore.NidError.ClientErrorDetail : Swift.Equatable {}
-extension NidCore.NidError.ClientErrorDetail : Swift.Hashable {}
-extension NidCore.LogLevel : Swift.Equatable {}
-extension NidCore.LogLevel : Swift.Hashable {}
-extension NidCore.LogLevel : Swift.RawRepresentable {}
+public enum NidSDKVersion {
+  public static let current: Swift::String
+}
+extension NidCore::LoginBehavior : Swift::Equatable {}
+extension NidCore::LoginBehavior : Swift::Hashable {}
+extension NidCore::LoginBehavior : Swift::RawRepresentable {}
+extension NidCore::NidError.NidCore::ClientErrorDetail : Swift::Equatable {}
+extension NidCore::NidError.NidCore::ClientErrorDetail : Swift::Hashable {}
+extension NidCore::LogLevel : Swift::Equatable {}
+extension NidCore::LogLevel : Swift::Hashable {}
+extension NidCore::LogLevel : Swift::RawRepresentable {}

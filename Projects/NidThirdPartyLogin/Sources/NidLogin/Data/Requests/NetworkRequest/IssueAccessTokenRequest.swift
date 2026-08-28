@@ -1,5 +1,5 @@
 //
-//  AccessTokenWithAuthCodeRequest.swift
+//  IssueAccessTokenRequest.swift
 //
 //  Naver ID Login SDK for iOS Swift
 //  Copyright (c) 2025-present NAVER Corp.
@@ -8,7 +8,6 @@
 
 import Foundation
 import NetworkKit
-import Utils
 import NidCore
 
 struct IssueAccessTokenRequest: Request {

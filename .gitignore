@@ -25,4 +25,5 @@ Tuist/*
 **/.tuist-generated
 Project.swift
 Workspace.swift
+.mise.toml
 

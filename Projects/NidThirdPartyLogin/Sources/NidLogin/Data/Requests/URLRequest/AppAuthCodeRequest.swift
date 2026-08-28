@@ -1,12 +1,11 @@
 //
-//  AppAuthRequest.swift
+//  AppAuthCodeRequest.swift
 //
 //  Naver ID Login SDK for iOS Swift
 //  Copyright (c) 2025-present NAVER Corp.
 //  Apache-2.0
 //
 
-import Utils
 import NidCore
 import NetworkKit
 
@@ -18,17 +17,20 @@ struct AppAuthCodeRequest: URLConvertible {
         let responseType: String = "code"
         let extAppName: String
         let authType: String?
+        let extSdkVersion: String
 
         init(
             callbackScheme: String,
             extOauthConsumerKey: String,
             extAppName: String,
-            authType: AuthType
+            authType: AuthType,
+            extSdkVersion: String
         ) {
             self.callbackScheme = callbackScheme
             self.extOauthConsumerKey = extOauthConsumerKey
             self.extAppName = extAppName
             self.authType = authType.value
+            self.extSdkVersion = extSdkVersion
         }
 
         func params() -> [String: Any] {
@@ -37,7 +39,8 @@ struct AppAuthCodeRequest: URLConvertible {
                 "callbackScheme": callbackScheme,
                 "extOauthConsumerKey": extOauthConsumerKey,
                 "response_type": responseType,
-                "extAppName": extAppName
+                "extAppName": extAppName,
+                "extSdkVersion": extSdkVersion
             ]
 
             if let authType {

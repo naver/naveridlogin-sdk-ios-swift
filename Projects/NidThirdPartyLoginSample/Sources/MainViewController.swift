@@ -56,7 +56,7 @@ extension MainViewController: NidHeaderViewDelegate {
     }
 
     func requestLogin() {
-        viewModel.requestLogin()
+        viewModel.requestLogin(from: self)
     }
 
     func requestLogout() {
@@ -72,11 +72,11 @@ extension MainViewController: NidHeaderViewDelegate {
     }
     
     func requestReprompt() {
-        viewModel.requestReprompt()
+        viewModel.requestReprompt(from: self)
     }
     
     func requestReauthenticate() {
-        viewModel.requestReauthenticate()
+        viewModel.requestReauthenticate(from: self)
     }
     
     func requestUserProfile() {

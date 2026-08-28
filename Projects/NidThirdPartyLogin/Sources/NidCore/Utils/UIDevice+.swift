@@ -8,7 +8,7 @@
 
 import UIKit
 
-public extension UIDevice {
+package extension UIDevice {
     static var currentOS: String {
         return "IOS\(UIDevice.current.systemVersion)".replacingOccurrences(of: " ", with: "")
     }

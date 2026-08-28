@@ -83,7 +83,7 @@ struct LoginRepositoryTest {
             network: DefaultNetwork(
                 session: urlSession
             ),
-            systemInfo: SystemInfo(mainEntryModel: DefaultLoginResultRepository.self)
+            systemInfo: SystemInfo()
         )
 
         await withCheckedContinuation { continuation in
@@ -108,7 +108,7 @@ struct LoginRepositoryTest {
             network: DefaultNetwork(
                 session: urlSession
             ),
-            systemInfo: SystemInfo(mainEntryModel: DefaultLoginResultRepository.self)
+            systemInfo: SystemInfo()
         )
 
         await withCheckedContinuation { continuation in
@@ -136,7 +136,7 @@ struct LoginRepositoryTest {
             network: DefaultNetwork(
                 session: urlSession
             ),
-            systemInfo: SystemInfo(mainEntryModel: DefaultLoginResultRepository.self)
+            systemInfo: SystemInfo()
         )
 
         await withCheckedContinuation { continuation in

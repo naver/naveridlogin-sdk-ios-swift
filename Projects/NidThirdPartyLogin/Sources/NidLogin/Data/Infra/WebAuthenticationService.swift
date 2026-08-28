@@ -1,5 +1,5 @@
 //
-//  DefaultWebAuthenticationPresentationProvider.swift
+//  WebAuthenticationService.swift
 //
 //  Naver ID Login SDK for iOS Swift
 //  Copyright (c) 2025-present NAVER Corp.
@@ -15,17 +15,21 @@ public protocol WebAuthenticationService {
         url: URL,
         callbackURLScheme: String,
         withEphemeralSession: Bool,
+        anchor: ASPresentationAnchor?,
         callback: @escaping (Result<URL, WebAuthenticationError>) -> Void)
 }
 
 public enum WebAuthenticationError: Error, CustomStringConvertible {
     case userCancelled
+    case presentationAnchorNotFound
     case undefined(Error?)
 
     public var description: String {
         switch self {
         case .userCancelled:
             return "User cancelled the authentication process."
+        case .presentationAnchorNotFound:
+            return "No active window scene to present the authentication session on."
         case .undefined(let error):
             return "\(String(describing: error))"
         }
@@ -34,17 +38,22 @@ public enum WebAuthenticationError: Error, CustomStringConvertible {
 
 public final class ASAuthenticationService: WebAuthenticationService {
     private var currentSession: ASWebAuthenticationSession?
-    private let presentationContextProvider: ASWebAuthenticationPresentationContextProviding
+    private var presentationContextProvider: ASWebAuthenticationPresentationContextProviding?
 
-    public init() {
-        self.presentationContextProvider = DefaultWebAuthenticationPresentationProvider()
-    }
+    public init() { }
 
     public func authenticate(
         url: URL,
         callbackURLScheme: String,
         withEphemeralSession: Bool,
+        anchor: ASPresentationAnchor?,
         callback: @escaping (Result<URL, WebAuthenticationError>) -> Void) {
+
+        guard let anchor = anchor ?? UIApplication.keyWindow() else {
+            return callback(.failure(WebAuthenticationError.presentationAnchorNotFound))
+        }
+
+        self.presentationContextProvider = DefaultWebAuthenticationPresentationProvider(anchor: anchor)
 
         self.currentSession = ASWebAuthenticationSession(
             url: url,
@@ -74,7 +83,20 @@ public final class ASAuthenticationService: WebAuthenticationService {
 }
 
 final class DefaultWebAuthenticationPresentationProvider: NSObject, ASWebAuthenticationPresentationContextProviding {
+
+    // MARK: - Properties
+
+    private let anchor: ASPresentationAnchor
+
+    // MARK: - Initialization
+
+    init(anchor: ASPresentationAnchor) {
+        self.anchor = anchor
+    }
+
+    // MARK: - ASWebAuthenticationPresentationContextProviding
+
     func presentationAnchor(for session: ASWebAuthenticationSession) -> ASPresentationAnchor {
-        return UIApplication.keyWindow() ?? ASPresentationAnchor()
+        return anchor
     }
 }

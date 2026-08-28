@@ -9,14 +9,17 @@
 import UIKit
 
 extension UIApplication {
-    public static func keyWindow() -> UIWindow? {
+    package static func activeWindowScene() -> UIWindowScene? {
         return UIApplication.shared.connectedScenes
             .compactMap { $0 as? UIWindowScene }
-            .flatMap { $0.windows }
-            .first { $0.isKeyWindow }
+            .first { $0.activationState == .foregroundActive }
     }
 
-    public func canOpenURLScheme(_ urlScheme: String) -> Bool {
+    package static func keyWindow() -> UIWindow? {
+        return activeWindowScene()?.keyWindow
+    }
+
+    package func canOpenURLScheme(_ urlScheme: String) -> Bool {
         guard let url = URL(string: urlScheme) else { return false }
         return self.canOpenURL(url)
     }

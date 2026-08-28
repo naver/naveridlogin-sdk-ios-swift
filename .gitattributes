@@ -1,0 +1,3 @@
+# 리뷰 시 바이너리 diff 가 소스 변경을 덮지 않게 한다.
+frameworks/** binary -diff
+*.xcframework/** binary -diff

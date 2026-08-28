@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
-// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name NidThirdPartyLogin
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1
+// swift-compiler-version: Apple Swift version 6.4 effective-5.10 (swiftlang-6.4.0.27.1 clang-2100.3.27.1)
+// swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -language-mode 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name NidThirdPartyLogin -package-name NidThirdPartyLogin
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.4
 import Foundation
 @_exported import NidCore
 import Swift
@@ -9,41 +9,31 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@_inheritsConvenienceInitializers @objc public class NidThirdPartyLoginResources : ObjectiveC.NSObject {
-  @objc public class var bundle: Foundation.Bundle {
+@_inheritsConvenienceInitializers @objc public class NidThirdPartyLoginResources : ObjectiveC::NSObject {
+  @objc public class var bundle: Foundation::Bundle {
     @objc get
   }
   @objc override dynamic public init()
   @objc deinit
 }
-public enum NidThirdPartyLoginInfo : Swift.Sendable {
-  public static let cfBundleDevelopmentRegion: Swift.String
-  public static let cfBundleExecutable: Swift.String
-  public static let cfBundleIdentifier: Swift.String
-  public static let cfBundleInfoDictionaryVersion: Swift.String
-  public static let cfBundleName: Swift.String
-  public static let cfBundlePackageType: Swift.String
-  public static let cfBundleShortVersionString: Swift.String
-  public static let cfBundleVersion: Swift.String
-}
 @_hasMissingDesignatedInitializers public class NidOAuth {
-  public typealias LoginResultCompletion = (Swift.Result<NidCore.LoginResult, NidCore.NidError>) -> Swift.Void
-  public static let shared: NidThirdPartyLogin.NidOAuth
-  public var accessToken: NidCore.AccessToken? {
+  public typealias LoginResultCompletion = (Swift::Result<NidCore::LoginResult, NidCore::NidError>) -> Swift::Void
+  public static let shared: NidThirdPartyLogin::NidOAuth
+  public var accessToken: NidCore::AccessToken? {
     get
   }
-  public var refreshToken: NidCore.RefreshToken? {
+  public var refreshToken: NidCore::RefreshToken? {
     get
   }
-  public func setLoginBehavior(_ behavior: NidCore.LoginBehavior)
-  public func initialize(appName: Swift.String, clientId: Swift.String, clientSecret: Swift.String, urlScheme: Swift.String)
-  public func requestLogin(callback: @escaping NidThirdPartyLogin.NidOAuth.LoginResultCompletion)
-  public func handleURL(_ url: Foundation.URL) -> Swift.Bool
+  public func setLoginBehavior(_ behavior: NidCore::LoginBehavior)
+  public func initialize(appName: Swift::String, clientId: Swift::String, clientSecret: Swift::String, urlScheme: Swift::String)
+  public func requestLogin(from viewController: UIKit::UIViewController? = nil, callback: @escaping NidThirdPartyLogin::NidOAuth.NidThirdPartyLogin::LoginResultCompletion)
+  public func handleURL(_ url: Foundation::URL) -> Swift::Bool
   public func logout()
-  public func disconnect(callback: @escaping (Swift.Result<Swift.Void, NidCore.NidError>) -> Swift.Void)
-  public func repromptPermissions(callback: @escaping NidThirdPartyLogin.NidOAuth.LoginResultCompletion)
-  public func reauthenticate(callback: @escaping NidThirdPartyLogin.NidOAuth.LoginResultCompletion)
-  public func verifyAccessToken(_ accessToken: Swift.String, callback: @escaping (Swift.Result<Swift.Bool, NidCore.NidError>) -> Swift.Void)
-  public func getUserProfile(accessToken: Swift.String, callback: @escaping (Swift.Result<[Swift.String : Swift.String], NidCore.NidError>) -> Swift.Void)
+  public func disconnect(callback: @escaping (Swift::Result<Swift::Void, NidCore::NidError>) -> Swift::Void)
+  public func repromptPermissions(from viewController: UIKit::UIViewController? = nil, callback: @escaping NidThirdPartyLogin::NidOAuth.NidThirdPartyLogin::LoginResultCompletion)
+  public func reauthenticate(from viewController: UIKit::UIViewController? = nil, callback: @escaping NidThirdPartyLogin::NidOAuth.NidThirdPartyLogin::LoginResultCompletion)
+  public func verifyAccessToken(_ accessToken: Swift::String, callback: @escaping (Swift::Result<Swift::Bool, NidCore::NidError>) -> Swift::Void)
+  public func getUserProfile(accessToken: Swift::String, callback: @escaping (Swift::Result<[Swift::String : Swift::String], NidCore::NidError>) -> Swift::Void)
   @objc deinit
 }

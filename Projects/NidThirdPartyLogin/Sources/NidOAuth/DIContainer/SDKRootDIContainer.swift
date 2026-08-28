@@ -31,11 +31,7 @@ final class SDKRootDIContainer {
     }()
 
     lazy var systemInfo: SystemInfo = {
-        #if SWIFT_PACKAGE
-        return SystemInfo(bundle: Bundle.module)
-        #else
-        return SystemInfo(mainEntryModel: NidOAuth.self)
-        #endif
+        return SystemInfo()
     }()
 
     func makeOAuthDIContainer() -> OAuthDIContainer {

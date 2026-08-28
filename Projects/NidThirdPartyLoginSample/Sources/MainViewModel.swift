@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 import NidThirdPartyLogin
 
 enum SectionType {
@@ -159,8 +160,8 @@ final class MainViewModel {
         ]
     }
 
-    func requestLogin() {
-        NidOAuth.shared.requestLogin { [weak self] result in
+    func requestLogin(from viewController: UIViewController) {
+        NidOAuth.shared.requestLogin(from: viewController) { [weak self] result in
             switch result {
             case .success(let output):
                 self?.updateLoginResult(output)
@@ -200,8 +201,8 @@ final class MainViewModel {
         }
     }
 
-    func requestReprompt() {
-        NidOAuth.shared.repromptPermissions(callback: { [weak self] result in
+    func requestReprompt(from viewController: UIViewController) {
+        NidOAuth.shared.repromptPermissions(from: viewController, callback: { [weak self] result in
             switch result {
             case .success(let result): self?.updateLoginResult(result)
             case .failure(let error): self?.updateError(error)
@@ -209,8 +210,8 @@ final class MainViewModel {
         })
     }
 
-    func requestReauthenticate() {
-        NidOAuth.shared.reauthenticate(callback: { [weak self] result in
+    func requestReauthenticate(from viewController: UIViewController) {
+        NidOAuth.shared.reauthenticate(from: viewController, callback: { [weak self] result in
             switch result {
             case .success(let result): self?.updateLoginResult(result)
             case .failure(let error): self?.updateError(error)

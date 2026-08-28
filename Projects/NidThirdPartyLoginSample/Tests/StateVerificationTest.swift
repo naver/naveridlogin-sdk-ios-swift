@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 import Testing
 @testable import NidLogin
 @testable import NidThirdPartyLogin
@@ -17,7 +18,7 @@ final class MockAuthorizationCodeRepo: WebAuthorizationCodeRepository {
 
     init() {}
 
-    func requestAuthCode(clientId: String, clientSecret: String, urlScheme: String, state: String, authType: NidLogin.AuthType, callback: @escaping (Result<(authCode: String, state: String), NidCore.NidError>) -> Void) {
+    func requestAuthCode(clientId: String, clientSecret: String, urlScheme: String, state: String, authType: NidLogin.AuthType, presentingViewController: UIViewController?, callback: @escaping (Result<(authCode: String, state: String), NidCore.NidError>) -> Void) {
         // 최초 process에 대해서만 저장
         if (self.state == nil) && (self.callback == nil) {
             self.callback = callback

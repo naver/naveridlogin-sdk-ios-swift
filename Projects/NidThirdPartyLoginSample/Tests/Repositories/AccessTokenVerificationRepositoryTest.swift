@@ -44,7 +44,7 @@ struct AccessTokenVerificationRepositoryTest {
             network: DefaultNetwork(
                 session: MockURLSession(response: response)
             ),
-            systemInfo: SystemInfo(mainEntryModel: DefaultOpenAPIRepository.self)
+            systemInfo: SystemInfo()
         )
 
         repo.verify(accessToken, callback: { result in
@@ -64,7 +64,7 @@ struct AccessTokenVerificationRepositoryTest {
             network: DefaultNetwork(
                 session: MockURLSession(response: response)
             ),
-            systemInfo: SystemInfo(mainEntryModel: DefaultOpenAPIRepository.self)
+            systemInfo: SystemInfo()
         )
 
         repo.verify(accessToken, callback: { result in
@@ -84,7 +84,7 @@ struct AccessTokenVerificationRepositoryTest {
             network: DefaultNetwork(
                 session: MockURLSession(response: response)
             ),
-            systemInfo: SystemInfo(mainEntryModel: DefaultOpenAPIRepository.self)
+            systemInfo: SystemInfo()
         )
 
         repo.verify(accessToken, callback: { result in

@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "NidThirdPartyLogin",
     defaultLocalization: "ko",
-    platforms: [.iOS(.v13)],
+    platforms: [.iOS(.v15)],
     products: [
         .library(
             name: "NidThirdPartyLogin",
@@ -18,34 +18,24 @@ let package = Package(
                 "NidLogin"
             ],
             path: "Projects/NidThirdPartyLogin/Sources/NidOAuth",
-            resources: [.process("Resources")]
+            resources: [.copy("Resources/PrivacyInfo.xcprivacy")]
         ),
         .target(
             name: "NidLogin",
             dependencies: [
-                "NidCore"
+                "NidCore",
+                "NetworkKit"
             ],
             path: "Projects/NidThirdPartyLogin/Sources/NidLogin"
         ),
         .target(
             name: "NetworkKit",
-            dependencies: [
-                "Utils"
-            ],
             path: "Projects/NidThirdPartyLogin/Sources/NetworkKit"
         ),
         .target(
-            name: "Utils",
-            dependencies: [
-            ],
-            path: "Projects/NidThirdPartyLogin/Sources/Utils"
-        ),
-        .target(
             name: "NidCore",
-            dependencies: [
-                "Utils", "NetworkKit"
-            ],
-            path: "Projects/NidThirdPartyLogin/Sources/NidCore"
+            path: "Projects/NidThirdPartyLogin/Sources/NidCore",
+            resources: [.copy("Resources/PrivacyInfo.xcprivacy")]
         )
     ],
     swiftLanguageVersions: [.v5]

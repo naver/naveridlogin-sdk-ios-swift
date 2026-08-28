@@ -7,6 +7,7 @@
 //
 
 import NidCore
+import UIKit
 
 protocol AppAuthorizationCodeRepository {
     func requestAuthCode(
@@ -15,6 +16,7 @@ protocol AppAuthorizationCodeRepository {
         urlScheme: String,
         appName: String,
         authType: AuthType,
+        presentingViewController: UIViewController?,
         callback: @escaping (NidError) -> Void
     )
 }
