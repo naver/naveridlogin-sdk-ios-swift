@@ -8,7 +8,6 @@
 
 import Foundation
 import NetworkKit
-import Utils
 import NidCore
 
 struct UpdateAccessTokenRequest: Request {

@@ -20,6 +20,7 @@ public enum NidError: Error, LocalizedError, CustomStringConvertible {
         case canceledByUser
         case unsupportedResponseType
         case naverAppNotInstalled
+        case presentationAnchorNotFound
 
         public var errorDescription: String? {
             switch self {
@@ -30,6 +31,7 @@ public enum NidError: Error, LocalizedError, CustomStringConvertible {
             case .canceledByUser: return "User canceled the request."
             case .unsupportedResponseType: return "Unsupported response type."
             case .naverAppNotInstalled: return "Naver app is not installed. \nPlease install Naver App to authenticate using Naver App."
+            case .presentationAnchorNotFound: return "No active window scene to present the login screen on. \nPlease request login while your app is in the foreground."
             }
         }
     }

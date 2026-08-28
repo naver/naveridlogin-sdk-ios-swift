@@ -28,11 +28,7 @@ public enum LogLevel: Int, CustomStringConvertible {
 public final class NidLogger {
     static var platform: LogPlatform = {
     #if canImport(OSLog)
-    if #available(iOS 14.0, *) {
-        return OSLogger()
-    } else {
-        return DefaultLogger()
-    }
+    return OSLogger()
     #else
     return DefaultLogger()
     #endif
@@ -78,7 +74,6 @@ struct DefaultLogger: LogPlatform {
     }
 }
 
-@available(iOS 14.0, *)
 struct OSLogger: LogPlatform {
     private var subsystem: String = {
         return "NidThirdPartyLogin"

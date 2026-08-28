@@ -9,7 +9,7 @@
 import Foundation
 
 extension URL {
-    public func extract(_ target: String) -> String? {
+    package func extract(_ target: String) -> String? {
         return URLComponents(url: self, resolvingAgainstBaseURL: true)?
             .queryItems?
             .first(where: { $0.name == target })?

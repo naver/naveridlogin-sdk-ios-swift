@@ -7,36 +7,26 @@
 //
 
 import UIKit
+import NidCore
 
 public final class SystemInfo {
     let currentModuleVersion: String
-    let defaultModuleVersion: String = "5.1.0"
 
-    // XCFramework, Cocoapods binary의 경우
-    public init(mainEntryModel: AnyClass) {
-        self.currentModuleVersion = Bundle(for: mainEntryModel).infoDictionary?["CFBundleShortVersionString"] as? String ?? defaultModuleVersion
-    }
-
-    // SPM인 경우
-    public init(bundle: Bundle) {
-        if let plistPath = bundle.path(forResource: "NidThirdPartyLogin-Info", ofType: "plist"),
-           let plistData = FileManager.default.contents(atPath: plistPath),
-           let plist = try? PropertyListSerialization.propertyList(from: plistData, format: nil) as? [String: Any] {
-            self.currentModuleVersion = plist["CFBundleShortVersionString"] as? String ?? defaultModuleVersion
-        } else {
-            self.currentModuleVersion = defaultModuleVersion
-        }
+    public init() {
+        self.currentModuleVersion = NidSDKVersion.current
     }
 
     private func deviceModelName() -> String? {
         var sysInfo = utsname()
         uname(&sysInfo)
-        let mirror = Mirror(reflecting: sysInfo.machine)
-        let identifier = mirror.children.reduce("") { partialResult, element in
-            guard let value = element.value as? Int8, value != 0 else { return partialResult }
-            return partialResult + String(UnicodeScalar(UInt8(value)))
+
+        let model = withUnsafePointer(to: &sysInfo.machine) { pointer in
+            pointer.withMemoryRebound(to: CChar.self, capacity: Int(_SYS_NAMELEN)) {
+                String(validatingCString: $0)
+            }
         }
-        return identifier
+        guard let model, !model.isEmpty else { return nil }
+        return model
     }
 
     public func userAgent() -> String {

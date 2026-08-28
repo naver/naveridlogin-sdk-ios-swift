@@ -7,8 +7,8 @@
 //
 
 import Foundation
+import NetworkKit
 import NidCore
-import Utils
 
 public struct PerformAppLoginRequestValue {
     let clientId: String
@@ -76,6 +76,11 @@ final class PerformAppLogin: PerformLoginUseCase {
     private let tokenRepository: TokenRepository
 
     // MARK: - Properties
+
+    /// 네이버앱에서 돌아온 직후 토큰 요청을 바로 쏘면 `-1005`로 실패한다. 서스펜드 중 끊긴 커넥션을 재사용하기 때문이다.
+    /// 이만큼 미루고, 그래도 실패하면 같은 간격으로 1회 재시도한다. (GitHub 이슈 #6)
+    private static let connectionLostAvoidanceDelay: TimeInterval = 0.3
+
     private var process: AppLoginProcess?
     private var callback: ((Result<LoginResult, NidError>) -> Void)?
     private lazy var saveTokenWithLoginResult: (Result<LoginResult, NidError>, String) -> Void = { [weak self] (result, clientId) in
@@ -111,7 +116,8 @@ final class PerformAppLogin: PerformLoginUseCase {
             clientSecret: requestValue.clientSecret,
             urlScheme: requestValue.urlScheme,
             appName: requestValue.appName,
-            authType: requestValue.authType
+            authType: requestValue.authType,
+            presentingViewController: requestValue.presentingViewController
         )
 
         self.process = process
@@ -135,16 +141,44 @@ final class PerformAppLogin: PerformLoginUseCase {
             return true
         }
 
-        self.loginResultRepository.requestAccessToken(
-            clientId: process.clientID,
-            clientSecret: process.clientSecret,
-            authCode: authCode,
-            callback: { [weak self] result in
-                self?.saveTokenWithLoginResult(result, process.clientID)
-                self?.callback?(result)
-            })
+        requestAccessToken(authCode: authCode, process: process, canRetryOnConnectionLost: true)
 
         return true
+    }
+
+    private func requestAccessToken(
+        authCode: String,
+        process: AppLoginProcess,
+        canRetryOnConnectionLost: Bool
+    ) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + Self.connectionLostAvoidanceDelay) { [weak self] in
+            guard let self else { return }
+            self.loginResultRepository.requestAccessToken(
+                clientId: process.clientID,
+                clientSecret: process.clientSecret,
+                authCode: authCode,
+                callback: { [weak self] result in
+                    guard let self else { return }
+
+                    if canRetryOnConnectionLost, case .failure(let error) = result, Self.isConnectionLost(error) {
+                        self.requestAccessToken(authCode: authCode, process: process, canRetryOnConnectionLost: false)
+                        return
+                    }
+
+                    self.saveTokenWithLoginResult(result, process.clientID)
+                    self.callback?(result)
+                })
+        }
+    }
+
+    private static func isConnectionLost(_ error: NidError) -> Bool {
+        guard case .serverError(.networkError(let underlying)) = error,
+              let networkError = underlying as? NetworkError,
+              case .urlSessionInternalError(let sessionError) = networkError else {
+            return false
+        }
+        let nsError = sessionError as NSError
+        return nsError.domain == NSURLErrorDomain && nsError.code == NSURLErrorNetworkConnectionLost
     }
 }
 
@@ -188,6 +222,7 @@ extension PerformAppLogin {
                 urlScheme: process.urlScheme,
                 appName: process.appName,
                 authType: process.authType,
+                presentingViewController: process.presentingViewController,
                 callback: { callback(.failure($0)) })
     }
 

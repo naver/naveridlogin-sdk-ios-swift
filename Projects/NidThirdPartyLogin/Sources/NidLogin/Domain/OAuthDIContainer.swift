@@ -110,7 +110,7 @@ extension OAuthDIContainer {
     }
 
     private func makeAppAuthCodeRepository() -> AppAuthorizationCodeRepository {
-        return DefaultAppAuthorizationCodeRepository()
+        return DefaultAppAuthorizationCodeRepository(systemInfo: dependencies.systemInfo)
     }
 
     private func makeUserStateRepository() -> UserStateRepository {

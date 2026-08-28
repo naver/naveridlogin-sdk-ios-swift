@@ -6,6 +6,8 @@
 //  Apache-2.0
 //
 
+import UIKit
+
 public enum AuthType {
     case `default`
     case reauthenticate
@@ -26,18 +28,21 @@ public struct LoginRequestValue {
     let urlScheme: String
     let appName: String
     let authType: AuthType
+    weak var presentingViewController: UIViewController?
 
     public init(
         clientId: String,
         clientSecret: String,
         urlScheme: String,
         appName: String,
-        authType: AuthType = .default
+        authType: AuthType = .default,
+        presentingViewController: UIViewController? = nil
     ) {
         self.clientId = clientId
         self.clientSecret = clientSecret
         self.urlScheme = urlScheme
         self.appName = appName
         self.authType = authType
+        self.presentingViewController = presentingViewController
     }
 }

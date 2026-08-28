@@ -8,7 +8,6 @@
 
 import UIKit
 import NidCore
-import Utils
 import NetworkKit
 
 final class DefaultAppAuthorizationCodeRepository: AppAuthorizationCodeRepository {
@@ -19,19 +18,27 @@ final class DefaultAppAuthorizationCodeRepository: AppAuthorizationCodeRepositor
         static let urlForNaverAppStore = "itms-apps://itunes.apple.com/app/id393499958"
     }
 
+    private let systemInfo: SystemInfo
+
+    init(systemInfo: SystemInfo) {
+        self.systemInfo = systemInfo
+    }
+
     func requestAuthCode(
         clientId: String,
         clientSecret: String,
         urlScheme: String,
         appName: String,
         authType: AuthType,
+        presentingViewController: UIViewController?,
         callback: @escaping (NidError) -> Void) {
         let authCodeRequest = AppAuthCodeRequest(
             parameters: .init(
                 callbackScheme: urlScheme,
                 extOauthConsumerKey: clientId,
                 extAppName: appName,
-                authType: authType
+                authType: authType,
+                extSdkVersion: systemInfo.currentModuleVersion
             )
         )
 
@@ -53,7 +60,7 @@ final class DefaultAppAuthorizationCodeRepository: AppAuthorizationCodeRepositor
                     },
                     cancelAction: {}
                 )
-                alertVC.show()
+                alertVC.show(on: presentingViewController)
                 callback(NidError.clientError(.naverAppNotInstalled))
             }
         }

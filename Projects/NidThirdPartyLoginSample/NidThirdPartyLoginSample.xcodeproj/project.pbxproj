@@ -13,9 +13,11 @@
 		1C23D1B576E89184C4FDBB15 /* AccessTokenVerificationRepositoryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8AF5C1876A69C0238319AD /* AccessTokenVerificationRepositoryTest.swift */; };
 		1FF3B6929F06C3AF638F6022 /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62ED880BF863AC1DA599A7D1 /* DetailTableViewCell.swift */; };
 		24FAD54E8C22989102B3FF26 /* NidThirdPartyLogin.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 53A98E250188940E00A2571C /* NidThirdPartyLogin.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		29D0BF85B2FBD33701E11FAB /* SystemInfoTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F1DEBD056FDF3193E3A6B1 /* SystemInfoTest.swift */; };
 		2AC5EFCB67F0A849FC5DDB60 /* NidLoggerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F09EADDFF559A643B14FD9 /* NidLoggerTest.swift */; };
 		3018F36B26DF7DF6FCDD0D5D /* NidError+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F7F569BB528D3E9BA2E6D0 /* NidError+.swift */; };
 		38BFBBC9A381524427ECE678 /* NidCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0BF378006C834AAE647FB646 /* NidCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		40B0C752DA0FC7D3070AD6A1 /* AppLoginConnectionLostTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E848A2D6C92FEBCFCC31A19C /* AppLoginConnectionLostTest.swift */; };
 		436438F92A72D0D124BCBEFB /* SegmentedControlCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395403AD1BC24DDE283D9049 /* SegmentedControlCellTableViewCell.swift */; };
 		489DD308A67E866A2DE551FB /* PercentEncodingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD2614B962A459DF277F28F /* PercentEncodingTest.swift */; };
 		531A3102CD4620D6D3AC30D9 /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DEACE798CD7D06CACDA2F5 /* SectionHeaderView.swift */; };
@@ -25,6 +27,7 @@
 		699E51698FDB9D37E719B7D0 /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB64D599CBFA25481EC4E7FA /* UIViewController+.swift */; };
 		6A189AE8E502C2EF2D1D9A0A /* TokenRepositoryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66005E8DDE86CCA94779F38 /* TokenRepositoryTest.swift */; };
 		703FCCCF97CFB9B2CDD157D2 /* NidCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0BF378006C834AAE647FB646 /* NidCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		71EAE71E7370C91F9DA872A9 /* AppAuthCodeRequestTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FACE0B24E899E2316A99A07 /* AppAuthCodeRequestTest.swift */; };
 		73A786BACA0D880FD2577018 /* StateVerificationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B724A61F5A5DEF436F47F2 /* StateVerificationTest.swift */; };
 		79308AFC4B455147241AA571 /* TestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991EDFA2CCF6D3A2F15A963D /* TestHelper.swift */; };
 		79C5EBAFCBF0491C35835B59 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48AA664285737A03E08D4BE /* HeaderView.swift */; };
@@ -37,6 +40,7 @@
 		B177558F9AF9D0539747DE24 /* LoginRepositoryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C128A47B3EC766958CCC51 /* LoginRepositoryTest.swift */; };
 		B26536A1FB0466EB690B1B20 /* TuistBundle+NidThirdPartyLoginSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5622E9C93B7D397AE42453C4 /* TuistBundle+NidThirdPartyLoginSample.swift */; };
 		BA177EF5F461C95E4EA35917 /* TokenRepositoryKeychainErrorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801C7A0CED58989BB3C3E685 /* TokenRepositoryKeychainErrorTest.swift */; };
+		BCA8DF33E9690AD7E84F9607 /* NidSDKVersionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F52364ACA2FF3BC57716B25 /* NidSDKVersionTest.swift */; };
 		BD20DEA000A67A6371D4EECF /* RequestFactoryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E44730736B313D4028C421D /* RequestFactoryTest.swift */; };
 		BE51C23434F3BAC2DA7732C0 /* TuistAssets+NidThirdPartyLoginSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9336418852D2F27B7A805330 /* TuistAssets+NidThirdPartyLoginSample.swift */; };
 		C161B880DF6420B21F8AF96E /* MockURLSessionDataTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBF8458E0E78E190BE27637 /* MockURLSessionDataTask.swift */; };
@@ -125,11 +129,14 @@
 		5622E9C93B7D397AE42453C4 /* TuistBundle+NidThirdPartyLoginSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+NidThirdPartyLoginSample.swift"; sourceTree = "<group>"; };
 		5912D7BA412742C6E0D5B967 /* ClientConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientConfiguration.swift; sourceTree = "<group>"; };
 		62ED880BF863AC1DA599A7D1 /* DetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
+		65F1DEBD056FDF3193E3A6B1 /* SystemInfoTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemInfoTest.swift; sourceTree = "<group>"; };
 		6BB33600EB97EBCCF7E1DE11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C3964539DC31B3A2E5E41CD /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		6CD5B42ED695D85FE1C75207 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		6E8AF5C1876A69C0238319AD /* AccessTokenVerificationRepositoryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessTokenVerificationRepositoryTest.swift; sourceTree = "<group>"; };
+		6FACE0B24E899E2316A99A07 /* AppAuthCodeRequestTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAuthCodeRequestTest.swift; sourceTree = "<group>"; };
 		801C7A0CED58989BB3C3E685 /* TokenRepositoryKeychainErrorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenRepositoryKeychainErrorTest.swift; sourceTree = "<group>"; };
+		8F52364ACA2FF3BC57716B25 /* NidSDKVersionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NidSDKVersionTest.swift; sourceTree = "<group>"; };
 		91CBB0A0EBF458964426B460 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		92B724A61F5A5DEF436F47F2 /* StateVerificationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateVerificationTest.swift; sourceTree = "<group>"; };
 		9336418852D2F27B7A805330 /* TuistAssets+NidThirdPartyLoginSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+NidThirdPartyLoginSample.swift"; sourceTree = "<group>"; };
@@ -152,6 +159,7 @@
 		DBBF8458E0E78E190BE27637 /* MockURLSessionDataTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLSessionDataTask.swift; sourceTree = "<group>"; };
 		DCD2614B962A459DF277F28F /* PercentEncodingTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentEncodingTest.swift; sourceTree = "<group>"; };
 		DF7D170B097DA5BE5A680D48 /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E848A2D6C92FEBCFCC31A19C /* AppLoginConnectionLostTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLoginConnectionLostTest.swift; sourceTree = "<group>"; };
 		EB64D599CBFA25481EC4E7FA /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
 		FB3B9FF545BE0718C39ADCAA /* DefaultNetworkTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultNetworkTest.swift; sourceTree = "<group>"; };
 		FD51A2A73746471B9AD859A6 /* AccessTokenTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessTokenTest.swift; sourceTree = "<group>"; };
@@ -214,9 +222,11 @@
 				4C58805E3CACE79606DA3CA9 /* NetworkKit */,
 				7BABF0E586CE9773C3D8A9A4 /* NidCore */,
 				F41B1396EC0C6955512F117C /* Repositories */,
+				6FACE0B24E899E2316A99A07 /* AppAuthCodeRequestTest.swift */,
 				B4559E2AAB2B9D902CD11A15 /* KeychainServiceTest.swift */,
 				DCD2614B962A459DF277F28F /* PercentEncodingTest.swift */,
 				92B724A61F5A5DEF436F47F2 /* StateVerificationTest.swift */,
+				65F1DEBD056FDF3193E3A6B1 /* SystemInfoTest.swift */,
 				801C7A0CED58989BB3C3E685 /* TokenRepositoryKeychainErrorTest.swift */,
 			);
 			path = Tests;
@@ -271,6 +281,7 @@
 			children = (
 				FD51A2A73746471B9AD859A6 /* AccessTokenTest.swift */,
 				B3F09EADDFF559A643B14FD9 /* NidLoggerTest.swift */,
+				8F52364ACA2FF3BC57716B25 /* NidSDKVersionTest.swift */,
 			);
 			path = NidCore;
 			sourceTree = "<group>";
@@ -358,6 +369,7 @@
 			children = (
 				6E8AF5C1876A69C0238319AD /* AccessTokenVerificationRepositoryTest.swift */,
 				3A0C811A2DF6B95CA02C786B /* AppAuthCodeRepositoryTest.swift */,
+				E848A2D6C92FEBCFCC31A19C /* AppLoginConnectionLostTest.swift */,
 				44C128A47B3EC766958CCC51 /* LoginRepositoryTest.swift */,
 				C66005E8DDE86CCA94779F38 /* TokenRepositoryTest.swift */,
 				1ADF3D2F56B75112E7FF48B2 /* WebAuthCodeRepositoryTest.swift */,
@@ -531,6 +543,7 @@
 			files = (
 				D2437C4B5106EE3E0D45CF89 /* TuistAssets+NidThirdPartyLoginTests.swift in Sources */,
 				FCD91659D676BD0C0058F69D /* TuistBundle+NidThirdPartyLoginTests.swift in Sources */,
+				71EAE71E7370C91F9DA872A9 /* AppAuthCodeRequestTest.swift in Sources */,
 				E54FC4077616BB72D92D9B3F /* MockClasses.swift in Sources */,
 				3018F36B26DF7DF6FCDD0D5D /* NidError+.swift in Sources */,
 				79308AFC4B455147241AA571 /* TestHelper.swift in Sources */,
@@ -541,13 +554,16 @@
 				BD20DEA000A67A6371D4EECF /* RequestFactoryTest.swift in Sources */,
 				95881707DA1ED150541A71FF /* AccessTokenTest.swift in Sources */,
 				2AC5EFCB67F0A849FC5DDB60 /* NidLoggerTest.swift in Sources */,
+				BCA8DF33E9690AD7E84F9607 /* NidSDKVersionTest.swift in Sources */,
 				489DD308A67E866A2DE551FB /* PercentEncodingTest.swift in Sources */,
 				1C23D1B576E89184C4FDBB15 /* AccessTokenVerificationRepositoryTest.swift in Sources */,
 				E818E82CFC2A7132C572ED14 /* AppAuthCodeRepositoryTest.swift in Sources */,
+				40B0C752DA0FC7D3070AD6A1 /* AppLoginConnectionLostTest.swift in Sources */,
 				B177558F9AF9D0539747DE24 /* LoginRepositoryTest.swift in Sources */,
 				6A189AE8E502C2EF2D1D9A0A /* TokenRepositoryTest.swift in Sources */,
 				D8BA08D9B8AA21E894A6214D /* WebAuthCodeRepositoryTest.swift in Sources */,
 				73A786BACA0D880FD2577018 /* StateVerificationTest.swift in Sources */,
+				29D0BF85B2FBD33701E11FAB /* SystemInfoTest.swift in Sources */,
 				BA177EF5F461C95E4EA35917 /* TokenRepositoryKeychainErrorTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -584,7 +600,7 @@
 				DEVELOPMENT_TEAM = U6VV7FMD97;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Derived/InfoPlists/TestApp-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -675,7 +691,7 @@
 				DEVELOPMENT_TEAM = U6VV7FMD97;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Derived/InfoPlists/NidThirdPartyLoginSample-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -706,7 +722,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U6VV7FMD97;
 				INFOPLIST_FILE = "Derived/InfoPlists/NidThirdPartyLoginTests-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -793,7 +809,7 @@
 				DEVELOPMENT_TEAM = U6VV7FMD97;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Derived/InfoPlists/TestApp-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -821,7 +837,7 @@
 				DEVELOPMENT_TEAM = U6VV7FMD97;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Derived/InfoPlists/NidThirdPartyLoginSample-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -848,7 +864,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U6VV7FMD97;
 				INFOPLIST_FILE = "Derived/InfoPlists/NidThirdPartyLoginTests-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

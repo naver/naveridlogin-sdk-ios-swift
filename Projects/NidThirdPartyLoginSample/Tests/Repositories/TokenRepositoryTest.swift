@@ -10,6 +10,7 @@ import Testing
 @testable import NidLogin
 import NidCore
 import Foundation
+import UIKit
 
 @Suite(.serialized)
 class TokenRepositoryTest {
@@ -102,6 +103,7 @@ struct MockAppAuthCodeRepo: AppAuthorizationCodeRepository {
         urlScheme: String,
         appName: String,
         authType: AuthType,
+        presentingViewController: UIViewController?,
         callback: @escaping (NidError) -> Void
     ) {
         return
@@ -115,6 +117,7 @@ struct MockWebAuthCodeRepo: WebAuthorizationCodeRepository {
         urlScheme: String,
         state: String,
         authType: AuthType,
+        presentingViewController: UIViewController?,
         callback: @escaping (Result<(authCode: String, state: String), NidError>) -> Void
     ) {
         return

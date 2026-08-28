@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import NidCore
 
 public final class NaverAlertViewController: UIAlertController {
     public static func alertView(message: String, okTitle: String, cancelTitle: String, okAction: @escaping () -> Void, cancelAction: @escaping () -> Void) -> NaverAlertViewController {
@@ -32,22 +33,21 @@ public final class NaverAlertViewController: UIAlertController {
 
     private var alertWindow: UIWindow?
 
-    public func show() {
-        let windowScene = UIApplication.shared
-            .connectedScenes
-            .filter { $0.activationState == .foregroundActive }
-            .first
-
-        if let windowScene = windowScene as? UIWindowScene {
-            self.alertWindow = UIWindow(windowScene: windowScene)
+    public func show(on presentingViewController: UIViewController? = nil) {
+        let anchorScene = presentingViewController?.view.window?.windowScene
+        guard let windowScene = anchorScene ?? UIApplication.activeWindowScene() else {
+            NidLogger.log(NidError.clientError(.presentationAnchorNotFound), level: .error)
+            return
         }
 
-        self.alertWindow?.frame = UIScreen.main.bounds
-        alertWindow?.rootViewController = UIViewController()
-        alertWindow?.rootViewController?.view.backgroundColor = .clear
-        alertWindow?.windowLevel = UIWindow.Level.alert + 1
-        alertWindow?.makeKeyAndVisible()
-        alertWindow?.rootViewController?.present(self, animated: true, completion: nil)
+        let alertWindow = UIWindow(windowScene: windowScene)
+        alertWindow.frame = windowScene.coordinateSpace.bounds
+        alertWindow.rootViewController = UIViewController()
+        alertWindow.rootViewController?.view.backgroundColor = .clear
+        alertWindow.windowLevel = UIWindow.Level.alert + 1
+        alertWindow.makeKeyAndVisible()
+        alertWindow.rootViewController?.present(self, animated: true, completion: nil)
+        self.alertWindow = alertWindow
     }
 
     public override func viewWillDisappear(_ animated: Bool) {

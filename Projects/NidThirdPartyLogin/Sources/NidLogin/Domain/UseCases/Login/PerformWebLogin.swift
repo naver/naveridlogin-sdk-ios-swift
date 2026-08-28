@@ -57,7 +57,8 @@ final class PerformWebLogin: PerformLoginUseCase {
             clientSecret: requestValue.clientSecret,
             urlScheme: requestValue.urlScheme,
             state: stateGenerator.generate(),
-            authType: requestValue.authType
+            authType: requestValue.authType,
+            presentingViewController: requestValue.presentingViewController
         )
 
         self.process = process
@@ -122,6 +123,7 @@ extension PerformWebLogin {
             urlScheme: process.urlScheme,
             state: process.state,
             authType: process.authType,
+            presentingViewController: process.presentingViewController,
             callback: requestATWithAuthCode
         )
     }

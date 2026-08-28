@@ -7,6 +7,7 @@
 //
 
 import NidCore
+import UIKit
 
 struct WebLoginProcess: LoginProcess {
     let clientID: String
@@ -14,4 +15,5 @@ struct WebLoginProcess: LoginProcess {
     let urlScheme: String
     let state: String
     let authType: AuthType
+    weak var presentingViewController: UIViewController?
 }

@@ -6,7 +6,6 @@
 //  Apache-2.0
 //
 
-import Utils
 import NidCore
 import AuthenticationServices
 import NetworkKit
@@ -26,8 +25,17 @@ final class DefaultWebAuthorizationCodeRepository: WebAuthorizationCodeRepositor
         urlScheme: String,
         state: String,
         authType: AuthType,
+        presentingViewController: UIViewController?,
         callback: @escaping (Result<(authCode: String, state: String), NidError>) -> Void
     ) {
+        var anchor: ASPresentationAnchor?
+        if let presentingViewController {
+            guard let window = presentingViewController.view.window else {
+                return callback(.failure(.clientError(.presentationAnchorNotFound)))
+            }
+            anchor = window
+        }
+
         let webAuthCodeRequest = WebAuthCodeRequest(
             parameters: .init(
                 clientId: clientId,
@@ -50,6 +58,7 @@ final class DefaultWebAuthorizationCodeRepository: WebAuthorizationCodeRepositor
             case .failure(let error):
                 switch error {
                 case .userCancelled: callback(.failure(.clientError(.canceledByUser)))
+                case .presentationAnchorNotFound: callback(.failure(.clientError(.presentationAnchorNotFound)))
                 case .undefined(let error): callback(.failure(.serverError(.webAuthenticationInternalError(error))))
                 }
             case .success(let url):
@@ -88,6 +97,7 @@ final class DefaultWebAuthorizationCodeRepository: WebAuthorizationCodeRepositor
                 url: authCodeRequestURL,
                 callbackURLScheme: urlScheme,
                 withEphemeralSession: false,
+                anchor: anchor,
                 callback: openWebCompletion
             )
     }

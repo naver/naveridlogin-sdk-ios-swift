@@ -7,7 +7,6 @@
 //
 
 import UIKit
-internal import Utils
 internal import NidLogin
 @_exported import NidCore
 
@@ -125,17 +124,14 @@ public class NidOAuth {
 
     /// 네이버로 로그인 요청을 수행합니다.
     /// - Parameters:
+    ///     - viewController: 로그인 화면을 표시할 뷰컨트롤러. 넘기지 않으면 앱의 활성 윈도우에 표시
     ///     - callback: 로그인 결과를 반환하는 콜백
     ///
-    public func requestLogin(callback: @escaping LoginResultCompletion) {
-        let requestValue = LoginRequestValue(
-            clientId: config.clientID,
-            clientSecret: config.clientSecret,
-            urlScheme: config.urlScheme,
-            appName: config.appName
+    public func requestLogin(from viewController: UIViewController? = nil, callback: @escaping LoginResultCompletion) {
+        requestLogin(
+            requestValue: makeRequestValue(authType: .default, presentingViewController: viewController),
+            callback: callback
         )
-
-        requestLogin(requestValue: requestValue, callback: callback)
     }
 
     /// 네이버앱에서 들어온 콜백 URL을 처리합니다.
@@ -173,38 +169,24 @@ public class NidOAuth {
 
     /// 사용자에게 프로필 항목 접근 권한 동의를 재요청합니다.
     /// - Parameters:
+    ///   - viewController: 권한 재요청 화면을 표시할 뷰컨트롤러. 넘기지 않으면 앱의 활성 윈도우에 표시
     ///   - callback: 권한 재요청 결과를 반환하는 콜백
     ///
-    public func repromptPermissions(callback: @escaping LoginResultCompletion) {
-        let requestValue = LoginRequestValue(
-            clientId: config.clientID,
-            clientSecret: config.clientSecret,
-            urlScheme: config.urlScheme,
-            appName: config.appName,
-            authType: .reprompt
-        )
-
+    public func repromptPermissions(from viewController: UIViewController? = nil, callback: @escaping LoginResultCompletion) {
         requestLogin(
-            requestValue: requestValue,
+            requestValue: makeRequestValue(authType: .reprompt, presentingViewController: viewController),
             callback: callback
         )
     }
 
     /// 사용자에게 다시 한번 인증을 수행하게끔합니다.
     /// - Parameters:
+    ///     - viewController: 재인증 화면을 표시할 뷰컨트롤러. 넘기지 않으면 앱의 활성 윈도우에 표시
     ///     - callback: 재인증 결과를 반환하는 콜백
     ///
-    public func reauthenticate(callback: @escaping LoginResultCompletion) {
-        let requestValue = LoginRequestValue(
-            clientId: config.clientID,
-            clientSecret: config.clientSecret,
-            urlScheme: config.urlScheme,
-            appName: config.appName,
-            authType: .reauthenticate
-        )
-
+    public func reauthenticate(from viewController: UIViewController? = nil, callback: @escaping LoginResultCompletion) {
         requestLogin(
-            requestValue: requestValue,
+            requestValue: makeRequestValue(authType: .reauthenticate, presentingViewController: viewController),
             callback: callback
         )
     }
@@ -234,6 +216,20 @@ public class NidOAuth {
 
 // MARK: - Private Methods
 extension NidOAuth {
+    private func makeRequestValue(
+        authType: AuthType,
+        presentingViewController: UIViewController?
+    ) -> LoginRequestValue {
+        LoginRequestValue(
+            clientId: config.clientID,
+            clientSecret: config.clientSecret,
+            urlScheme: config.urlScheme,
+            appName: config.appName,
+            authType: authType,
+            presentingViewController: presentingViewController
+        )
+    }
+
     private func requestLogin(requestValue: LoginRequestValue, callback: @escaping LoginResultCompletion) {
         performLogin.execute(
             using: shouldUseApp() ? .naverApp : .inAppBrowser,

@@ -15,10 +15,6 @@ struct NidLoggerTest {
     
     @Test
     func checkLogPlatform() {
-        if #available(iOS 14.0, *) {
-            #expect(NidLogger.platform is OSLogger)
-        } else {
-            #expect(NidLogger.platform is DefaultLogger)
-        }
+        #expect(NidLogger.platform is OSLogger)
     }
 }
