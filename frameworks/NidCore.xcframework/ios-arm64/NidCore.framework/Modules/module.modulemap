@@ -1,3 +1,4 @@
 framework module NidCore {
   header "NidCore-Swift.h"
+  requires objc
 }

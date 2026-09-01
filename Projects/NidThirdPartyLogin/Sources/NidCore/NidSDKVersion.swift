@@ -7,5 +7,5 @@
 //
 
 public enum NidSDKVersion {
-    public static let current = "5.2.0"
+    public static let current = "5.2.1"
 }
