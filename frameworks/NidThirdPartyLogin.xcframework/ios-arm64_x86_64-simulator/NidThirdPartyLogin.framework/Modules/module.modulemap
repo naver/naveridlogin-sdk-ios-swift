@@ -1,3 +1,4 @@
 framework module NidThirdPartyLogin {
   header "NidThirdPartyLogin-Swift.h"
+  requires objc
 }

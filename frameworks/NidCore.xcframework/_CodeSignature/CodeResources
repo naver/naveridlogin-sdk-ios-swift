@@ -6,39 +6,39 @@
 	<dict>
 		<key>ios-arm64/NidCore.framework/Headers/NidCore-Swift.h</key>
 		<data>
-		SkU+hUCNpUyf7KwFFHwNELW/aQM=
+		2evmoDzt8xvmkJVQ/cTWgAVdUkE=
 		</data>
 		<key>ios-arm64/NidCore.framework/Info.plist</key>
 		<data>
-		B1iablXcvcrDfzTnLpyLK5G1PXk=
+		1T5KGlnAva+VZEvbtC7cDVeMQUM=
 		</data>
 		<key>ios-arm64/NidCore.framework/Modules/NidCore.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		S8FrDV5ggSt3CbD+cnA8IRjqd6E=
+		zff7WPjXG8celgnOHHTo8UJatPs=
 		</data>
 		<key>ios-arm64/NidCore.framework/Modules/NidCore.swiftmodule/arm64-apple-ios.package.swiftinterface</key>
 		<data>
-		CSaV0DBBnf/lFt/1oiLYR/zVUko=
+		0yUEVRfaup40M21dJk8sB2BEYSA=
 		</data>
 		<key>ios-arm64/NidCore.framework/Modules/NidCore.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		9DHu9L26Ic7UCRCZqFQUBoyk/7M=
+		DZujcCkBp4EEqFCvM8eeMpu+UfQ=
 		</data>
 		<key>ios-arm64/NidCore.framework/Modules/NidCore.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		A6/O62cBij9bwVdZxm5R3fgvSnU=
+		nA8gEnWnAie1jSi07n144I7QQKo=
 		</data>
 		<key>ios-arm64/NidCore.framework/Modules/NidCore.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		9DHu9L26Ic7UCRCZqFQUBoyk/7M=
+		DZujcCkBp4EEqFCvM8eeMpu+UfQ=
 		</data>
 		<key>ios-arm64/NidCore.framework/Modules/module.modulemap</key>
 		<data>
-		Ft4WOaflGEDgHnb8nZjVTL42WJM=
+		9YUg7b2is62J80sgVug6i07iRQk=
 		</data>
 		<key>ios-arm64/NidCore.framework/NidCore</key>
 		<data>
-		vftNYefooO2Eq0Coaa1i+bQAdDM=
+		NXDTFu3M0/7K6HwtblJUGjMGxng=
 		</data>
 		<key>ios-arm64/NidCore.framework/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -46,71 +46,71 @@
 		</data>
 		<key>ios-arm64/dSYMs/NidCore.framework.dSYM/Contents/Info.plist</key>
 		<data>
-		KQnzJULUIOaMzCuK8o292AzBSs8=
+		5JUDK2zvnx8p6qNJ+2RFKMR4mDg=
 		</data>
 		<key>ios-arm64/dSYMs/NidCore.framework.dSYM/Contents/Resources/DWARF/NidCore</key>
 		<data>
-		xg9ENDGjuvilyZR1arJZ+RTSv+4=
+		xDo8H/IOCojYjHLjqbnWrZjtWwg=
 		</data>
 		<key>ios-arm64/dSYMs/NidCore.framework.dSYM/Contents/Resources/Relocations/aarch64/NidCore.yml</key>
 		<data>
-		FjHkuWw3u3DLUlWlzf42rejn5Zk=
+		UzEXErTDxmx5qvJcOtnYYs6l3j0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NidCore.framework/Headers/NidCore-Swift.h</key>
 		<data>
-		GR+4vxNXR4ov18s+63dkv2ebVQQ=
+		Hg6/BGzBP7yjG5uCaEMoSef//uA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NidCore.framework/Info.plist</key>
 		<data>
-		5ZcKeFdItJP9toQ2guGn8pf5vMw=
+		otQeArd3A5wz+C2mlRQjZM8729w=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NidCore.framework/Modules/NidCore.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		S8FrDV5ggSt3CbD+cnA8IRjqd6E=
+		zff7WPjXG8celgnOHHTo8UJatPs=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NidCore.framework/Modules/NidCore.swiftmodule/arm64-apple-ios-simulator.package.swiftinterface</key>
 		<data>
-		RB5QMEMm8ZM2Pw/qdmTYKcoztbU=
+		f6adfZMm5o40agdZBGtTRjICzb0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NidCore.framework/Modules/NidCore.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		BQUfqsAvX/mxEnpJgGLu+8sqdxA=
+		u4KHRvnMp3JmvZIutdMLs550hac=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NidCore.framework/Modules/NidCore.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		dmXEsQ6jWw42yzSOXluy4KE1jhY=
+		BhdjL7YuK4oiMgo3iK0oQoMW4SU=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NidCore.framework/Modules/NidCore.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		BQUfqsAvX/mxEnpJgGLu+8sqdxA=
+		u4KHRvnMp3JmvZIutdMLs550hac=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NidCore.framework/Modules/NidCore.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		S8FrDV5ggSt3CbD+cnA8IRjqd6E=
+		zff7WPjXG8celgnOHHTo8UJatPs=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NidCore.framework/Modules/NidCore.swiftmodule/x86_64-apple-ios-simulator.package.swiftinterface</key>
 		<data>
-		dlYxN33A7Dwbbpqu/ZSTvr+Wye4=
+		1F5Wl+ZYMlehSgkrNSX0YEibWeY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NidCore.framework/Modules/NidCore.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		LdN9bP/j+y4EhXfQjR0OkNA0m7w=
+		41tyhUFohRuFc5ENHPFcwrZkg1o=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NidCore.framework/Modules/NidCore.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		HiPXbe+jgv2Q0uxRb8CyzyIQuTA=
+		DQUKMvQa6d9Xt0rWK/Q7OUCzdwY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NidCore.framework/Modules/NidCore.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		LdN9bP/j+y4EhXfQjR0OkNA0m7w=
+		41tyhUFohRuFc5ENHPFcwrZkg1o=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NidCore.framework/Modules/module.modulemap</key>
 		<data>
-		Ft4WOaflGEDgHnb8nZjVTL42WJM=
+		9YUg7b2is62J80sgVug6i07iRQk=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NidCore.framework/NidCore</key>
 		<data>
-		r/955BSFTSrTiC0sGOAcdR3qBIc=
+		qljB/K9rU4WDz1FwrWzVqewthyU=
 		</data>
 		<key>ios-arm64_x86_64-simulator/NidCore.framework/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -118,23 +118,23 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/NidCore.framework/_CodeSignature/CodeResources</key>
 		<data>
-		Ng7Y6iAxzAP4Ixd8973mXxc//d0=
+		lmodN4abhlmHC7VEghuCLcX7yKU=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/NidCore.framework.dSYM/Contents/Info.plist</key>
 		<data>
-		KQnzJULUIOaMzCuK8o292AzBSs8=
+		5JUDK2zvnx8p6qNJ+2RFKMR4mDg=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/NidCore.framework.dSYM/Contents/Resources/DWARF/NidCore</key>
 		<data>
-		MuQdSn0MTS1a9EZ4tTTxEfF+wJ8=
+		1cyB/WHTi367261y63qKiOdRzLY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/NidCore.framework.dSYM/Contents/Resources/Relocations/aarch64/NidCore.yml</key>
 		<data>
-		/wy1nA6jf9D4OOp6u6QcXn3+vC8=
+		S7qhuHOLgO4lTmSfzEnlcbSZA/U=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/NidCore.framework.dSYM/Contents/Resources/Relocations/x86_64/NidCore.yml</key>
 		<data>
-		FUG+n82HfMoMPJzKCXrkDBXzkyo=
+		R9iFdipJMmminvwAiKXkwHVA5cM=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -143,63 +143,63 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uLsn3Qxv0siPpIvszPlZds1KT6289hVo9nlKPsur7Vs=
+			f/xjkB1hInRi3FRGZqargfsl4mcUq/2lbKwYgDqQGAc=
 			</data>
 		</dict>
 		<key>ios-arm64/NidCore.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			U1MFyvRPvOrEennHrqS3CH53cdfxDHfK6aRv6P4eXuM=
+			YPcnfBNofdWlLFOXx3bKhqxI8cSwD0uYsPq3d2XY41Q=
 			</data>
 		</dict>
 		<key>ios-arm64/NidCore.framework/Modules/NidCore.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QqwiA+3Rg1USqduz+M9woavQJz4cegrSuDRJNdtMZi0=
+			g/CMredJvja4QZuOmRNxBQP9oSNcFXJv7RMvnWeeNwo=
 			</data>
 		</dict>
 		<key>ios-arm64/NidCore.framework/Modules/NidCore.swiftmodule/arm64-apple-ios.package.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Kh8ScqnAv5067rs+lE83KfsNY0AwrSQOfkaH/HAdzhs=
+			IgCFNwaJhjYrTMinPfZsY/UKzouWlhP5dC19PMD+Sak=
 			</data>
 		</dict>
 		<key>ios-arm64/NidCore.framework/Modules/NidCore.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lxs6NnUDOrpTFJ21XE3tH11lczHlySw6DnbHAMVa05g=
+			hGoAtqfyzcPzLuvgPRe8VzQ4irxYERwSCh5TO9Si5c0=
 			</data>
 		</dict>
 		<key>ios-arm64/NidCore.framework/Modules/NidCore.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			S961cG0+lAmmPinzCg2hVcFuWfugMxyRUmnjboWO2zo=
+			RIw9aZBUGzt7/tjSC3vKsKk5kYmK4dTkVd/mtLnuWp0=
 			</data>
 		</dict>
 		<key>ios-arm64/NidCore.framework/Modules/NidCore.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lxs6NnUDOrpTFJ21XE3tH11lczHlySw6DnbHAMVa05g=
+			hGoAtqfyzcPzLuvgPRe8VzQ4irxYERwSCh5TO9Si5c0=
 			</data>
 		</dict>
 		<key>ios-arm64/NidCore.framework/Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			B5GZEBob0x7WcGRAdfaVeBypyXlO7Vfp3sg4J1U8LOI=
+			cMHNio3wGrcNL8sX+IvD2Y1ipHhwLtZg/6e6bB8mYfc=
 			</data>
 		</dict>
 		<key>ios-arm64/NidCore.framework/NidCore</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Uft47xwvBbn1IW8e5qnpagwXrSlkltnBDa+iD+FfTu4=
+			2CIE+k68N90bEMK9y7seTJp4P4LW5roBi25GojnCK3U=
 			</data>
 		</dict>
 		<key>ios-arm64/NidCore.framework/PrivacyInfo.xcprivacy</key>
@@ -213,119 +213,119 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jjN+RBh2F1PPZ3GWlGA9W3vDVrmMepB1hzTk0ej6PYw=
+			oKmfDZv7K5ko84cxd5N88S+2gQau7YnZzGOCX5rYpcc=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/NidCore.framework.dSYM/Contents/Resources/DWARF/NidCore</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uBEBuj0t8619TDHTxPXbTJFeBPnrkPTEcnkYD2Bkv7I=
+			FpWjrwZVNw/7bSRJ5wovLVJJYe+e9XImRgyNJZkDL8s=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/NidCore.framework.dSYM/Contents/Resources/Relocations/aarch64/NidCore.yml</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jWVNPXNprMbVI0Wc99aa3Hqc1tIRo6L5Bg8rZlPKfFg=
+			qJB/HwSyDa97VLEljjL6MOP/wiIGVt6CZntFuOkTuKg=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NidCore.framework/Headers/NidCore-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JbFAvDICJtYlG4v6309j1cxiQx1PFaq6DInbYPc6sr0=
+			ioe44hT/MgKD+/2HS9oBTcbDM5JUMFIrQ6FBQlZ1Z74=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NidCore.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cqgRc8IWDNlVoaHRUNbLwTXXUnFrWZtXFA4ZjKtDWCU=
+			ZX6MoY/164kxXy5l4Y5Px1opvxqR+ycQPQZQB6hXbcM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NidCore.framework/Modules/NidCore.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QqwiA+3Rg1USqduz+M9woavQJz4cegrSuDRJNdtMZi0=
+			g/CMredJvja4QZuOmRNxBQP9oSNcFXJv7RMvnWeeNwo=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NidCore.framework/Modules/NidCore.swiftmodule/arm64-apple-ios-simulator.package.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			i3xooqrBnVEcmg2yDI9d6EJv6/4wR8lKlo36RvdnC60=
+			/alWdEtuHiJ9Cbr+sgkUvQrOAlVjOxU0r9GIvv0FnF8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NidCore.framework/Modules/NidCore.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TSetFxpT75kMUjAHqV2DtThQNCzv7nHDkcM/EN9fOC8=
+			oeTBgIk5kSVv37LIiBPechrbfTm2yxt74+wg7zwF8IQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NidCore.framework/Modules/NidCore.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hklDtGwAPzKWHbWoN9f5NYCzAwnp72Jm8A8rK5XYYjQ=
+			5XPEmOUTmJiMxj4jSHKoXUpTJAFblJRBhIi5QViLwD8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NidCore.framework/Modules/NidCore.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TSetFxpT75kMUjAHqV2DtThQNCzv7nHDkcM/EN9fOC8=
+			oeTBgIk5kSVv37LIiBPechrbfTm2yxt74+wg7zwF8IQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NidCore.framework/Modules/NidCore.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QqwiA+3Rg1USqduz+M9woavQJz4cegrSuDRJNdtMZi0=
+			g/CMredJvja4QZuOmRNxBQP9oSNcFXJv7RMvnWeeNwo=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NidCore.framework/Modules/NidCore.swiftmodule/x86_64-apple-ios-simulator.package.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uv+Vpe0e0ACvl3+hIU3/9WGGLBlqK+92TkoCgNHOsJE=
+			a3BIP97gei2Qn7oNwQDfhN5G7edWzVEHIdl+W8o6+II=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NidCore.framework/Modules/NidCore.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5VtZhywTjUk8vjESdSSDUMQxaz9zpjB0JfQVlIJ/JGM=
+			RmLpGs1yUVp05YSVS1BxC68qRO1FDZS5T5l6EqIUvCQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NidCore.framework/Modules/NidCore.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yBdtLQY/pXuOh/STeFeTrU+d43raWYbsqZCx/uTzF1Q=
+			HC6I9fPCkB4JNCmq7N7to1HyzJB5C3CBixXEZBNmJWs=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NidCore.framework/Modules/NidCore.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5VtZhywTjUk8vjESdSSDUMQxaz9zpjB0JfQVlIJ/JGM=
+			RmLpGs1yUVp05YSVS1BxC68qRO1FDZS5T5l6EqIUvCQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NidCore.framework/Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			B5GZEBob0x7WcGRAdfaVeBypyXlO7Vfp3sg4J1U8LOI=
+			cMHNio3wGrcNL8sX+IvD2Y1ipHhwLtZg/6e6bB8mYfc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NidCore.framework/NidCore</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UuWFF7SD0v8UJ3hh3nV1j/WFypfGJ1rbrUoRvGTg7f4=
+			jbPvh+w17ih5s9KhjwdiWxZHKvxSQthP4hiYx7eqFA8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/NidCore.framework/PrivacyInfo.xcprivacy</key>
@@ -339,35 +339,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MhuRzSbOwq7UTbQKkNJmEWFkLrstTzTWZWXMz7w4WZg=
+			qWNWE94bhXGaey3BD+dweLKcVO86M3iv4Qld7L4RNjM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/NidCore.framework.dSYM/Contents/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jjN+RBh2F1PPZ3GWlGA9W3vDVrmMepB1hzTk0ej6PYw=
+			oKmfDZv7K5ko84cxd5N88S+2gQau7YnZzGOCX5rYpcc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/NidCore.framework.dSYM/Contents/Resources/DWARF/NidCore</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TBoIuPysS57AyfAJsQYUoUI8jWdzAUNWwyfMLwgkrzI=
+			ckh4ElA01tyoF1o08v3ibIpVSZToTeZp0vTzAfQL9iY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/NidCore.framework.dSYM/Contents/Resources/Relocations/aarch64/NidCore.yml</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5JL+HOe/Zm9XkMW4tuWSNFWenBffooC//r+KIUQFNW0=
+			1SKiprHRSuo2ZUM73YatqOQk5Vs0Ek1aNMHH1/BCMtk=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/NidCore.framework.dSYM/Contents/Resources/Relocations/x86_64/NidCore.yml</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ryiPZMaoa8d+K+HDFDSMiVXXsVIrc1mTZb+7wlBiGhY=
+			NlGeSMHuvsVEVUy41mN8tiM11bNOCmgnXFYfEC+SBAk=
 			</data>
 		</dict>
 	</dict>
